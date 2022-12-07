@@ -74,3 +74,6 @@ class Nhits_model(Basic_model):
         return pred
 
 
+if __name__ == "__main__":
+    m = Nhits_model()
+    m.demo()
