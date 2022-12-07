@@ -4,6 +4,7 @@ from sklearn.preprocessing import StandardScaler
 import time
 import math
 from metrics import get_metric_dict
+from pyplotter.plot import Plotter
 
 class Basic_model:
     def __init__(self, name="Basic_model", scaler=StandardScaler()):
@@ -143,19 +144,32 @@ class Basic_model:
 
     # 一个预测的实例
     def demo(self):
-        x_list = np.arange(0,100,1200)
+        x_list = np.linspace(0,100,1200)
         y_list = np.sin(x_list)
 
         train_data = y_list[0:1000]
         test_data = y_list[1000:1200]
 
-        print(f"开始训练")
-        self.train(history=train_data)
+        print(f"len(train_data):{len(train_data)}")
+
+        self.ordinary_param_dict = {
+            "seq_len": 20,
+            "pred_len": 10,
+
+        }
+
         print(f"开始评估")
         log_dict, predict_result = self.evaluate(train=train_data, test=test_data)
 
         print(f"log_dict:{log_dict}")
         print(f"predict_result:{predict_result}")
+
+        my_plotter = Plotter()
+
+        my_plotter.plot_lines(
+            y_list=[predict_result, test_data],
+            legend_label_list=["Predict", "Real"],
+        )
 
 
 
