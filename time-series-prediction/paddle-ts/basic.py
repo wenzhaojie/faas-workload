@@ -28,8 +28,14 @@ class Basic_model:
         }
         pass
 
-    def set_model_class(self, model_class):
-        self.model_class = model_class
+    def set_model(self):
+        # 初始化模型
+        seq_len = self.ordinary_param_dict.get("seq_len")
+        pred_len = self.ordinary_param_dict.get("pred_len")
+        self.model = self.model_class(
+            in_chunk_len=seq_len,
+            out_chunk_len=pred_len,
+        )
 
     def get_scaler(self):
         return self.scaler
@@ -38,13 +44,12 @@ class Basic_model:
         return self.name
 
     def train(self, history):
-        # 初始化模型
+        # 初始化model
+        self.set_model()
+        # 拿到模型训练参数
         seq_len = self.ordinary_param_dict.get("seq_len")
         pred_len = self.ordinary_param_dict.get("pred_len")
-        self.model = self.model_class(
-            in_chunk_len=seq_len,
-            out_chunk_len=pred_len,
-        )
+        
         # 转换np数据格式
         history = np.array(history)
         # 先初始化 dataframe
@@ -205,6 +210,7 @@ class Basic_model:
             "pred_len": 10,
 
         }
+        self.set_model()
 
         print(f"开始评估")
         log_dict, predict_result = self.evaluate(train=train_data, test=test_data)
