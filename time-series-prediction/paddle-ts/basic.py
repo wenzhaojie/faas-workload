@@ -1,10 +1,13 @@
 # models 都需继承以下方法
 import numpy as np
+import pandas as np
 from sklearn.preprocessing import StandardScaler
 import time
 import math
 from metrics import get_metric_dict
 from pyplotter.plot import Plotter
+from paddlets import TSDataset
+
 
 class Basic_model:
     def __init__(self, name="Basic_model", scaler=StandardScaler()):
@@ -25,21 +28,65 @@ class Basic_model:
         }
         pass
 
+    def set_model(self, model):
+        self.model = model
+
     def get_scaler(self):
         return self.scaler
 
-
     def get_name(self) -> str:
         return self.name
-    
 
     def train(self, history):
-        # 训练
+        # 转换np数据格式
+        history = np.array(history)
+        # 先初始化 dataframe
+        freq = self.ordinary_param_dict.get("freq", "1min")
+        train_df = pd.DataFrame(
+            {
+                'time_col': pd.date_range('2022-01-01', periods=len(history), freq=freq),
+                'value': history
+            }
+        )
+        train_dataset = TSDataset.load_from_dataframe(
+            train_df,  # Also can be path to the CSV file
+            time_col='time_col',
+            target_cols='value',
+            freq=freq
+        )
+
+        # 初始化模型
+        seq_len = self.ordinary_param_dict.get("seq_len")
+        pred_len = self.ordinary_param_dict.get("pred_len")
+
+
+        # 开始训练
+        self.model.fit(train_dataset)
         pass
 
     def predict(self, history, predict_window) -> list:
-        # 使用一段历史序列来预测未来的值
-        return []
+        # 转换np数据格式
+        history = np.array(history)
+        freq = self.ordinary_param_dict.get("freq", "1min")
+        # 先初始化 dataframe
+        history_df = pd.DataFrame(
+            {
+                'time_col': pd.date_range('2022-01-01', periods=len(history), freq=freq),
+                'value': history
+            }
+        )
+        history_dataset = TSDataset.load_from_dataframe(
+            history_df,  # Also can be path to the CSV file
+            time_col='time_col',
+            target_cols='value',
+            freq=freq
+        )
+        predicted_dataset = self.model.predict(history_dataset, )
+        pred = predicted_dataset.to_numpy().reshape(-1, ).tolist()
+        assert predict_window <= len(pred)
+        pred = pred[0:predict_window]
+
+        return pred
 
     def rolling_predict(self, history, predict_window, test=None):
         # 滚动预测
@@ -86,7 +133,6 @@ class Basic_model:
         # 有可能预测超出了我们所需要的
         rolling_predict= predict_list[:predict_window]
         return np.array(rolling_predict)
-
 
     def evaluate(self, train, test):
         '''
