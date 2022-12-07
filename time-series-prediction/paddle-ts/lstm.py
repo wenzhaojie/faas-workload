@@ -13,8 +13,10 @@ class LSTM_model(Basic_model):
         if unique_param_dict != None:
             self.unique_param_dict.update(unique_param_dict)
 
-        self.set_model(LSTNetRegressor)
+        self.set_model_class(LSTNetRegressor)
         pass
+
+    
 
 
 

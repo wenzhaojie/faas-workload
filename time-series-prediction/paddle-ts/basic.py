@@ -1,6 +1,6 @@
 # models 都需继承以下方法
 import numpy as np
-import pandas as np
+import pandas as pd
 from sklearn.preprocessing import StandardScaler
 import time
 import math
@@ -28,8 +28,8 @@ class Basic_model:
         }
         pass
 
-    def set_model(self, model):
-        self.model = model
+    def set_model_class(self, model_class):
+        self.model_class = model_class
 
     def get_scaler(self):
         return self.scaler
@@ -38,6 +38,13 @@ class Basic_model:
         return self.name
 
     def train(self, history):
+        # 初始化模型
+        seq_len = self.ordinary_param_dict.get("seq_len")
+        pred_len = self.ordinary_param_dict.get("pred_len")
+        self.model = self.model_class(
+            in_chunk_len=seq_len,
+            out_chunk_len=pred_len,
+        )
         # 转换np数据格式
         history = np.array(history)
         # 先初始化 dataframe
@@ -54,11 +61,6 @@ class Basic_model:
             target_cols='value',
             freq=freq
         )
-
-        # 初始化模型
-        seq_len = self.ordinary_param_dict.get("seq_len")
-        pred_len = self.ordinary_param_dict.get("pred_len")
-
 
         # 开始训练
         self.model.fit(train_dataset)
