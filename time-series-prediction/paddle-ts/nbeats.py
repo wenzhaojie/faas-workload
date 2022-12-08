@@ -3,21 +3,17 @@ from sklearn.preprocessing import StandardScaler
 from paddlets.models.forecasting import RNNBlockRegressor, LSTNetRegressor, MLPRegressor, NBEATSModel, TCNRegressor, NHiTSModel, TransformerModel, InformerModel, DeepARModel
 
 
-class TCN_model(Basic_model):
-    def __init__(self, name="TCN_model", scaler=StandardScaler(), model_class=TCNRegressor, ordinary_param_dict=None, unique_param_dict=None):
+class Nbeats_model(Basic_model):
+    def __init__(self, name="Nbeats_model", scaler=StandardScaler(), model_class=NBEATSModel, ordinary_param_dict=None, unique_param_dict=None):
         super().__init__()
         self.name = name
         self.scaler = scaler
         self.model_class = model_class
-        if ordinary_param_dict != None:
-            self.ordinary_param_dict.update(ordinary_param_dict)
-        if unique_param_dict != None:
-            self.unique_param_dict.update(unique_param_dict)
-
+        self.update_param_dict(ordinary_param_dict=ordinary_param_dict, unique_param_dict=unique_param_dict)
         pass
 
 
 
 if __name__ == "__main__":
-    m = TCN_model()
+    m = Nbeats_model()
     m.demo()

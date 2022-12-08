@@ -9,11 +9,7 @@ class MLP_model(Basic_model):
         self.name = name
         self.scaler = scaler
         self.model_class = model_class
-        if ordinary_param_dict != None:
-            self.ordinary_param_dict.update(ordinary_param_dict)
-        if unique_param_dict != None:
-            self.unique_param_dict.update(unique_param_dict)
-
+        self.update_param_dict(ordinary_param_dict=ordinary_param_dict, unique_param_dict=unique_param_dict)
         pass
 
 

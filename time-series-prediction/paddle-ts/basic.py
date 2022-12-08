@@ -28,6 +28,14 @@ class Basic_model:
         }
         pass
 
+
+    def update_param_dict(self, ordinary_param_dict=None, unique_param_dict=None):
+        if ordinary_param_dict != None:
+            self.ordinary_param_dict.update(ordinary_param_dict)
+        if unique_param_dict != None:
+            self.unique_param_dict.update(unique_param_dict)
+        
+
     def set_model(self):
         # 初始化模型
         seq_len = self.ordinary_param_dict.get("seq_len")
@@ -101,6 +109,7 @@ class Basic_model:
         # predict_window: 预测目标长度
         # test: 用于回测预测效果
 
+
         seq_len = self.ordinary_param_dict.get("seq_len", None)
         pred_len = self.ordinary_param_dict.get("pred_len", None)
         is_use_future = self.ordinary_param_dict.get("is_use_future", None)
@@ -112,6 +121,7 @@ class Basic_model:
         predict_list = []
         compute_t_list = []
         pointer = 0
+
 
         # 是否使用test数据?
         if is_use_future == True:
@@ -130,10 +140,11 @@ class Basic_model:
                 train = history_base + history_add[pointer-seq_len:pointer]
 
             assert len(train) == seq_len
+
             predict_res = self.predict(history=train, predict_window=pred_len)
             assert len(predict_res) == pred_len
             predict_list.extend(predict_res)
-            # print(f"len(predict_list):{len(predict_list)}")
+            
             pointer += pred_len
 
         # 最后收尾阶段
@@ -208,7 +219,8 @@ class Basic_model:
         self.ordinary_param_dict = {
             "seq_len": 20,
             "pred_len": 10,
-
+            "is_scaler": True,
+            "is_use_future": True,
         }
         self.set_model()
 
@@ -223,6 +235,9 @@ class Basic_model:
         my_plotter.plot_lines(
             y_list=[predict_result, test_data],
             legend_label_list=["Predict", "Real"],
+            title=f"{self.name}",
+            save_root="./results",
+            filename=f"{self.name}"
         )
 
 
