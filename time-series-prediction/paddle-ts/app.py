@@ -14,6 +14,35 @@ my_io_helper = io_helper.Redis()
 end_init_t = time.time()
 
 
+def handle(input_data, ordinary_param_dict=None, unique_param_dict=None, handler="lstm"):
+    class_name_dict = {
+        "deepar": "DeepAR_model",
+        "informer": "Informer_model",
+        "lstm": "LSTM_model",
+        "mlp": "MLP_model",
+        "nbeats": "Nbeats_model",
+        "nhits": "Nhits_model",
+        "rnn": "RNN_model",
+        "tcn": "TCN_model",
+        "transformer": "Transformer_model"
+    }
+    class_name = class_name_dict.get(handler)
+    model_class = getattr(import_module(f"models.{handler}"), class_name)
+    model = model_class()
+    model.update_param_dict(ordinary_param_dict=ordinary_param_dict, unique_param_dict=unique_param_dict)
+    # 获得train和test
+    train = input_data.get("train")
+    test = input_data.get("test")
+    log_dict, predict = model.evaluate(train, test)
+
+    output_data = {
+        "log_dict": log_dict,
+        "predict": predict
+    }
+    return output_data
+
+
+
 @app.route('/')
 def hello_world():
     target = os.environ.get('TARGET', 'World')
@@ -52,12 +81,12 @@ def lambda_handler():
         input_obj = json.loads(_str)
 
         # 获取调用的信息
-        invoke_t = input_obj["invoke_t"]
-        input_data_key = input_obj["input_data_key"]
-        output_data_key = input_obj["output_data_key"]
-        handler = input_obj["handler"]
-        ordinary_param_dict = input_obj["ordinary_param_dict"]
-        unique_param_dict = input_obj["unique_param_dict"]
+        invoke_t = input_obj.get("invoke_t")
+        input_data_key = input_obj.get("input_data_key")
+        output_data_key = input_obj.get("output_data_key")
+        handler = input_obj.get("handler")
+        ordinary_param_dict = input_obj.get("ordinary_param_dict")
+        unique_param_dict = input_obj.get("unique_param_dict")
 
         # 下载input_data
         input_data, download_t, download_pickle_t = my_io_helper.get_obj(
@@ -66,7 +95,7 @@ def lambda_handler():
 
         # 调用函数
         start_exec_t = time.time()
-        handle = getattr(import_module(f"functions.{handler}"), 'handle')
+
         try:
             output_data = handle(input_data, ordinary_param_dict, unique_param_dict)
         except Exception as output_data:
