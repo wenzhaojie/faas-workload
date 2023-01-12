@@ -1,0 +1,36 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: test-intra-parallelism1
+  namespace: faas-scale
+spec:
+  template:
+    metadata:
+      annotations:
+        autoscaling.knative.dev/class: kpa.autoscaling.knative.dev
+        autoscaling.knative.dev/max-scale: '21'
+        autoscaling.knative.dev/min-scale: '1'
+        autoscaling.knative.dev/panic-threshold-percentage: '200.1'
+        autoscaling.knative.dev/panic-window-percentage: '10.1'
+        autoscaling.knative.dev/window: 61s
+    spec:
+      containerConcurrency: 2
+      containers:
+      - env:
+        - name: MY_NODE_NAME
+          value: test-intra-parallelism1
+          valueFrom:
+            fieldRef:
+              fieldPath: spec.nodeName
+        - name: FUNCTION_NAME
+          value: test-intra-parallelism
+        - name: MAX_INFLIGHT
+          value: '2'
+        image: 192.168.122.12:5001/test-intra-parallelism1:latest
+        resources:
+          limits:
+            cpu: 4000m
+            memory: 20480Mi
+          requests:
+            cpu: 4000m
+            memory: 20480Mi
