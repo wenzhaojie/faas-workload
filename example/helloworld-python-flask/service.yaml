@@ -1,0 +1,22 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: helloworld-python-flask
+  namespace: default
+spec:
+  template:
+    metadata:
+      annotations:
+        # Target 10 in-flight-requests per pod.
+        autoscaling.knative.dev/target: "10"
+    spec:
+      containers:
+      - image: 192.168.122.11:5000/helloworld-python-flask:latest
+        env:
+        - name: TARGET
+          value: "Python Sample v1"
+
+
+
+
+    
