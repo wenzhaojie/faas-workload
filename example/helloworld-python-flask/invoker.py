@@ -31,6 +31,6 @@ class KnativeInvoker:
 
 if __name__ == "__main__":
     my_invoker = KnativeInvoker()
-    response = my_invoker.invoke_sync_function("helloworld-python", "123")
+    response = my_invoker.invoke_sync_function("helloworld-python-flask", "123")
     print(response)
     

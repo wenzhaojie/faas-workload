@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     target = os.environ.get('TARGET', 'World')
-    return 'Hello WZJ {}!\n'.format(target)
+    return 'Hello WZJ {}! From Flask!\n'.format(target)
 
 @app.route('/function', methods=['POST']) 
 def foo():
