@@ -19,6 +19,20 @@ def hello_world():
     target = os.environ.get('TARGET', 'World')
     return 'Hello WZJ {}!\n'.format(target)
 
+@app.route('/cold_start_flag')
+def cold_start_flag():
+    cold_start_flag = os.path.exists("/tmp/COLD_START")
+    return str(cold_start_flag)
+
+@app.route('/init')
+def init():
+    if not os.path.exists("/tmp/COLD_START"):
+        os.mknod("/tmp/COLD_START")
+        COLD_START_FLAG = True
+    else:
+        COLD_START_FLAG = False
+    return str(COLD_START_FLAG)
+
 @app.route('/function', methods=['POST']) 
 def lambda_handler():
     '''
@@ -32,11 +46,21 @@ def lambda_handler():
     try:
         start_handler_t = time.time()
         # 判断是否冷启动
+        # 法1: 估算时间法
         delta_time = start_handler_t - end_init_t
         if delta_time < 0.5:
             COLD_START = True
         else:
             COLD_START = False
+        # 法2: 保存文件法
+        if not os.path.exists("/tmp/COLD_START"):
+            os.mknod("/tmp/COLD_START")
+            COLD_START_FLAG = True
+        else:
+            COLD_START_FLAG = False
+
+
+        # 得到请求调用输入
         data = request.get_data()
         _str = data.decode('utf-8')
         input_obj = json.loads(_str)
@@ -84,7 +108,11 @@ def lambda_handler():
             "output_data_key": output_data_key
         }
         # 生成 resource_dict
-        resource_dict = rs_monitor.get_function_resource()
+        try:
+            resource_dict = rs_monitor.get_function_resource()
+        except Exception:
+            resource_dict = {"Exception": "Happened!"}
+
         # 生成 response
         response = {
             "input_obj": input_obj,
