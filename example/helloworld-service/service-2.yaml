@@ -1,7 +1,7 @@
 apiVersion: serving.knative.dev/v1
 kind: Service
 metadata:
-  name: helloworld-service-1
+  name: helloworld-service-2
   namespace: faas-scaler
 spec:
   template:
@@ -14,7 +14,7 @@ spec:
       - image: 192.168.122.11:5000/helloworld-service:latest
         env:
         - name: TARGET
-          value: "This is from helloworld-service-1"
+          value: "This is from helloworld-service-2"
 
 
 
