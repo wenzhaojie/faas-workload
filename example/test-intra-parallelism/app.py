@@ -88,7 +88,8 @@ def lambda_handler():
             obj_key=output_data_key,
             obj=output_data
         )
-
+        # finish_t
+        finish_t = time.time()
         # 生成 log_dict
         log_dict = {
             "init_t": end_init_t - start_init_t,
@@ -99,8 +100,10 @@ def lambda_handler():
             "upload_t": upload_t,
             "upload_pickle_t": upload_pickle_t,
             "compute_t": compute_t,
-            "finish_t": time.time(),
+            "finish_t": finish_t,
+            "response_t": finish_t - invoke_t,
             "COLD_START": COLD_START,
+            "COLD_START_FLAG": COLD_START_FLAG,
         }
         # 生成 result_dict
         result_dict = {
