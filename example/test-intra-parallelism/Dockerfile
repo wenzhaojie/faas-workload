@@ -7,6 +7,9 @@ ENV PYTHONUNBUFFERED True
 
 # Install production dependencies.
 RUN pip install Flask gunicorn
+# 安装 requirements
+COPY requirements.txt ./
+RUN pip install -r requirements.txt
 
 # Copy local code to the container image.
 ENV APP_HOME /app
