@@ -10,7 +10,7 @@ def hello_world():
     return 'Hello WZJ {}! From Flask!\n'.format(target)
 
 @app.route('/ping', methods=['POST'])
-def foo():
+def ping():
     data = request.get_data()
     _str = data.decode('utf-8')
     print(f"str:{_str}")
