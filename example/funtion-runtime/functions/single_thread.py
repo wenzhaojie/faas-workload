@@ -2,11 +2,11 @@ import time
 import numpy as np
 
 def handle(input_data):
-    n_time = input_data
+    n_time = 2
     # 单线程计算
     start_t = time.time()
     for i in range(n_time):
-        output_data = fib(n=int(10000000))
+        fib(n=int(10000000))
     compute_t = time.time() - start_t
     output_data = []
     print(f"compute_t:{compute_t}")
