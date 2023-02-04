@@ -53,8 +53,12 @@ def lambda_handler():
             COLD_START = False
         # 法2: 保存文件法
         if not os.path.exists("/tmp/COLD_START"):
-            os.mknod("/tmp/COLD_START")
             COLD_START_FLAG = True
+            try:
+                os.mknod("/tmp/COLD_START")
+            except:
+                pass
+
         else:
             COLD_START_FLAG = False
 
