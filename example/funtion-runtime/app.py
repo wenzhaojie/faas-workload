@@ -1,3 +1,4 @@
+import multiprocessing
 import time
 start_init_t = time.time()
 import os
@@ -136,4 +137,6 @@ def lambda_handler():
 
 
 if __name__ == "__main__":
-    app.run(debug=True,host='0.0.0.0',port=int(os.environ.get('PORT', 8080)))
+    # 获取CPU核心数
+    cpu_count = multiprocessing.cpu_count()
+    app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 8080)), threaded=False, processes=cpu_count)
