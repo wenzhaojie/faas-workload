@@ -24,14 +24,14 @@ def get_function_resource() -> dict:
 
     if cfs_quota_us != -1: # 说明在容器里
         res = {
-            "vcpus": cfs_quota_us / cfs_period_us, 
+            "cpu": cfs_quota_us / cfs_period_us,
             "memory": min(int(psutil.virtual_memory().total / (1024.0 * 1024.0)), int(memory)), # MB
             "host_name": host_name,
             "node_name": os.environ.get("MY_NODE_NAME")
         }
     else: # 不在容器里
         res = {
-            "vcpus": psutil.cpu_count(),
+            "cpu": psutil.cpu_count(),
             "memory": int(psutil.virtual_memory().total / (1024.0 * 1024.0)),
             "host_name": host_name,
             "node_name": host_name
