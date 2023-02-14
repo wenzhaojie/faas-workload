@@ -20,21 +20,21 @@ def get_function_resource() -> dict:
     memory = int(subprocess.getoutput(show_memory_cmd)) / 1024 / 1024 # MB
     cfs_quota_us = int(subprocess.getoutput(show_cfs_quota_us_cmd)) 
     cfs_period_us = int(subprocess.getoutput(show_cfs_period_us_cmd)) 
-    hostname = str(subprocess.getoutput(show_hostname_cmd))
+    host_name = str(subprocess.getoutput(show_hostname_cmd))
 
     if cfs_quota_us != -1: # 说明在容器里
         res = {
             "vcpus": cfs_quota_us / cfs_period_us, 
             "memory": min(int(psutil.virtual_memory().total / (1024.0 * 1024.0)), int(memory)), # MB
-            "hostname": hostname,
-            "nodename": os.environ.get("MY_NODE_NAME")
+            "host_name": host_name,
+            "node_name": os.environ.get("MY_NODE_NAME")
         }
     else: # 不在容器里
         res = {
             "vcpus": psutil.cpu_count(),
             "memory": int(psutil.virtual_memory().total / (1024.0 * 1024.0)),
-            "hostname": hostname,
-            "nodename": hostname
+            "host_name": host_name,
+            "node_name": host_name
         }
     return res
 
