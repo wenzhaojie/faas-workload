@@ -2,7 +2,7 @@ import time
 import numpy as np
 
 def handle(input_data):
-    n_time = 2
+    n_time = 1
     # 单线程计算
     start_t = time.time()
     for i in range(n_time):
