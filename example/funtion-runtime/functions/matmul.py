@@ -15,4 +15,5 @@ def handle(input_data):
 
 
 if __name__ == "__main__":
-    handle("123")
+    while True:
+        handle("123")
