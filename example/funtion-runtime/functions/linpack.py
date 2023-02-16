@@ -3,7 +3,7 @@ from time import time
 
 
 def handle(input):
-    linpack(5000)
+    linpack(2000)
     return input
 
 
@@ -35,4 +35,5 @@ def linpack(n=5000):
 
 
 if __name__ == '__main__':
-    print(linpack(5000))
+    while True:
+        print(linpack(2000))
