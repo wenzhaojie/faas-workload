@@ -12,8 +12,6 @@ spec:
     spec:
       containers:
       - image: 192.168.122.11:5000/helloworld-python:latest
-        terminationMessagePolicy: "FallbackToLogsOnError"
-        terminationGracePeriodSeconds: 0
         env:
         - name: TARGET
           value: "Python Sample v1"
