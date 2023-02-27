@@ -3,7 +3,7 @@ from time import time
 
 
 def handle(input):
-    linpack(2000)
+    linpack(5000)
     return input
 
 
