@@ -36,4 +36,4 @@ def linpack(n=5000):
 
 if __name__ == '__main__':
     while True:
-        print(linpack(2000))
+        print(linpack(5000))
