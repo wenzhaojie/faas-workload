@@ -59,7 +59,6 @@ def lambda_handler():
                 os.mknod("/tmp/COLD_START")
             except:
                 pass
-
         else:
             COLD_START_FLAG = False
 
