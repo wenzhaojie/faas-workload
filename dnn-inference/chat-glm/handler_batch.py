@@ -40,7 +40,7 @@ def handle_batch(obj):
                   (True, 64, 1),
                   (True, 2048, 4)]
 
-    outputs = []
+    output_result = []
 
     for (do_sample, max_length, num_beams) in parameters:
 
@@ -56,9 +56,9 @@ def handle_batch(obj):
 
         batch_out_sentence = tokenizer.batch_decode(outputs, skip_special_tokens=True)
         print(batch_out_sentence)
-        outputs.append(batch_out_sentence)
+        output_result.append(batch_out_sentence)
 
-    return outputs
+    return output_result
 
 
 if __name__ == "__main__":
