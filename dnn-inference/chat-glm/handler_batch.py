@@ -42,7 +42,7 @@ def handle_batch(obj):
 
     outputs = []
 
-    for (do_sample, max_length, num_beams) in zip(parameters):
+    for (do_sample, max_length, num_beams) in parameters:
 
         inputs = tokenizer(sentences, return_tensors="pt", padding=True)
         inputs = inputs.to(torch_device)
