@@ -5,9 +5,9 @@ tokenizer = AutoTokenizer.from_pretrained("THUDM/chatglm2-6b", trust_remote_code
 
 # 判断是否GPU可用，否则使用cpu
 if torch.cuda.is_available():
-    model = AutoModel.from_pretrained("THUDM/chatglm2-6b-int4", trust_remote_code=True).cuda()
+    model = AutoModel.from_pretrained("THUDM/chatglm2-6b", trust_remote_code=True).cuda()
 else:
-    model = AutoModel.from_pretrained("THUDM/chatglm2-6b-int4", trust_remote_code=True).float()
+    model = AutoModel.from_pretrained("THUDM/chatglm2-6b", trust_remote_code=True).float()
 model = model.eval()
 
 
