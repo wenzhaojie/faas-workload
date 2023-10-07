@@ -1,0 +1,22 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: chat-glm
+  namespace: default
+spec:
+  template:
+    metadata:
+      annotations:
+        # Target 10 in-flight-requests per pod.
+        autoscaling.knative.dev/target: "10"
+    spec:
+      containers:
+      - image: 192.168.122.1:5000/chat-glm:latest
+        env:
+        - name: TARGET
+          value: "Python Sample v1"
+
+
+
+
+    
