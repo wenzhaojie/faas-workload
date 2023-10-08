@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e5aadb8-17db-4d2e-9df8-e99d6a3776bd" name="Changes" comment="Success to handler batch for THUDM/chatglm2-6b">
-      <change afterPath="$PROJECT_DIR$/dnn-inference/llama/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dnn-inference/llama/custom_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dnn-inference/llama/model-config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dnn-inference/llama/package_model.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dnn-inference/llama/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dnn-inference/llama/sample_text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/llama/start_serve.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dnn-inference/llama/model-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/dnn-inference/llama/model-config.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,21 +51,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "true",
-    "last_opened_file_path": "/Users/wzj/GitHubProjects/faas-workload/dnn-inference/llama",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/wzj/GitHubProjects/faas-workload/dnn-inference/llama&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dnn-inference/llama" />
@@ -80,11 +75,11 @@
       <recent name="$PROJECT_DIR$/time-series-prediction/base" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dnn-inference/llama/model_store" />
       <recent name="$PROJECT_DIR$/dnn-inference/llama" />
       <recent name="$PROJECT_DIR$/time-series-prediction/paddle-ts" />
       <recent name="$PROJECT_DIR$/time-series-prediction/paddle-ts/models" />
       <recent name="$PROJECT_DIR$/time-series-prediction" />
-      <recent name="$PROJECT_DIR$/time-series-prediction/base" />
     </key>
   </component>
   <component name="RunManager" selected="Python.handler_batch">
@@ -230,7 +225,8 @@
       <workItem from="1678331737629" duration="5110000" />
       <workItem from="1694152800036" duration="4386000" />
       <workItem from="1696644339869" duration="2744000" />
-      <workItem from="1696742636477" duration="2034000" />
+      <workItem from="1696742636477" duration="3242000" />
+      <workItem from="1696747033977" duration="230000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1670405183604</created>
@@ -331,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696742641650</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Success to handler batch for THUDM/chatglm2-6b">
+      <option name="closed" value="true" />
+      <created>1696745436489</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1696745436489</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
