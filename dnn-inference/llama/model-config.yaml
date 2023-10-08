@@ -6,7 +6,7 @@ responseTimeout: 1200
 deviceType: "gpu"
 
 handler:
-    model_name: "llama-2-7b-chat-hf"
+    model_name: "meta-llama/Llama-2-7b-chat-hf"
     model_path: "/home/wzj/GitHubProjects/Llama-2-7b-chat-hf"
     max_length: 50
     max_new_tokens: 50

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e5aadb8-17db-4d2e-9df8-e99d6a3776bd" name="Changes" comment="Success to handler batch for THUDM/chatglm2-6b">
-      <change afterPath="$PROJECT_DIR$/dnn-inference/llama/start_serve.sh" afterDir="false" />
+    <list default="true" id="2e5aadb8-17db-4d2e-9df8-e99d6a3776bd" name="Changes" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dnn-inference/llama/model-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/dnn-inference/llama/model-config.yaml" afterDir="false" />
     </list>
@@ -226,7 +225,7 @@
       <workItem from="1694152800036" duration="4386000" />
       <workItem from="1696644339869" duration="2744000" />
       <workItem from="1696742636477" duration="3242000" />
-      <workItem from="1696747033977" duration="230000" />
+      <workItem from="1696747033977" duration="1345000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1670405183604</created>
@@ -335,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696745436489</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Update">
+      <option name="closed" value="true" />
+      <created>1696747273373</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1696747273373</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,9 +364,9 @@
     <MESSAGE value="Update different model" />
     <MESSAGE value="Update handle" />
     <MESSAGE value="Update test-intra-parallelism" />
-    <MESSAGE value="Update" />
     <MESSAGE value="Success to handler batch for THUDM/chatglm2-6b" />
-    <option name="LAST_COMMIT_MESSAGE" value="Success to handler batch for THUDM/chatglm2-6b" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/faas_workload$invoker.coverage" NAME="invoker Coverage Results" MODIFIED="1694155207725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dnn-inference/chat-glm" />
