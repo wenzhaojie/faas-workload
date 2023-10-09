@@ -1,0 +1,12 @@
+{
+  "createdOn": "09/10/2023 10:19:51",
+  "runtime": "python",
+  "model": {
+    "modelName": "llama2-7b-chat",
+    "handler": "custom_handler.py",
+    "modelVersion": "1.0",
+    "requirementsFile": "requirements.txt",
+    "configFile": "model-config.yaml"
+  },
+  "archiverVersion": "0.8.2"
+}

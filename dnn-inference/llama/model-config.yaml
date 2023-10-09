@@ -7,7 +7,7 @@ deviceType: "gpu"
 
 handler:
     model_name: "meta-llama/Llama-2-7b-chat-hf"
-    model_path: "/home/wzj/GitHubProjects/Llama-2-7b-chat-hf"
+    model_path: "model/models--meta-llama--Llama-2-7b-chat-hf/snapshots/08751db2aca9bf2f7f80d2e516117a53d7450235"
     max_length: 50
     max_new_tokens: 50
     manual_seed: 40

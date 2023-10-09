@@ -1,1 +1,1 @@
-torchserve --start --ncs --ts-config config.properties --model-store model_store --models llama-2-7b-chat-hf
+torchserve --start --ncs --ts-config config.properties --model-store model_store --models llama2-7b-chat
