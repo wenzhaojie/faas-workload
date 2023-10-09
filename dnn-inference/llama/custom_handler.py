@@ -60,7 +60,7 @@ class LlamaHandler(BaseHandler, ABC):
         self.tokenizer = AutoTokenizer.from_pretrained(model_path, local_files_only=True)
         self.tokenizer.add_special_tokens(
             {
-         
+
             "pad_token": "<PAD>",
             }
         )

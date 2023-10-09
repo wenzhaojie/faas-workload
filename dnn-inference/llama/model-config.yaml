@@ -1,8 +1,9 @@
 # TorchServe frontend parameters
 minWorkers: 1
 maxWorkers: 1
-maxBatchDelay: 100
+maxBatchDelay: 1000
 responseTimeout: 1200
+batchSize: 4
 deviceType: "gpu"
 
 handler:

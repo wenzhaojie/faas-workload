@@ -1,0 +1,1 @@
+curl -v "http://localhost:8080/predictions/llama2-7b-chat" -T sample_text.txt
