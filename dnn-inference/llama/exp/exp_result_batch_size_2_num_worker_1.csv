@@ -1,0 +1,361 @@
+start_t,end_t,latency,status_code,input_text,output_text,input_len,output_len,output_speed,model_name,batch_size,num_worker
+1696868809.7982662,1696868815.0795717,5.281305551528931,200,What's your favorite board game or card game?,"What's your favorite board game or card game?
+
+I'm a big fan of Monopoly, but I'm always looking for new games to try. Do you have any recommendations?",45,151,28.59141523373623,llama2-7b-chat,2,1
+1696868809.7984014,1696868815.0796318,5.281230449676514,200,What's your favorite board game or card game?,"What's your favorite board game or card game?
+
+I'm a big fan of Monopoly, but I'm always looking for new games to try. Do you have any recommendations?",45,151,28.591821818578104,llama2-7b-chat,2,1
+1696868815.0934672,1696868818.6993375,3.605870246887207,200,Have you ever been to a music festival?,"Have you ever been to a music festival? If so, what was your favorite part? If not, would you like to go to one someday?
+
+",39,122,33.83371881040849,llama2-7b-chat,2,1
+1696868815.0936017,1696868818.6979165,3.6043148040771484,200,Have you ever been to a music festival?,"Have you ever been to a music festival? If so, what was your favorite part? If not, would you like to go to one someday?
+
+",39,122,33.84831975886107,llama2-7b-chat,2,1
+1696868818.7128108,1696868823.4949543,4.782143592834473,200,What's the most exotic food you've ever tried?,"What's the most exotic food you've ever tried?
+
+I've tried a lot of different foods, but one of the most exotic I've ever had is fried tarantulas. I was in",46,155,32.412242959883265,llama2-7b-chat,2,1
+1696868818.7129188,1696868823.4928198,4.779901027679443,200,What's the most exotic food you've ever tried?,"What's the most exotic food you've ever tried?
+
+I've tried a lot of different foods, but one of the most exotic I've ever had is fried tarantulas. I was in",46,155,32.42744966944425,llama2-7b-chat,2,1
+1696868823.5085049,1696868828.054111,4.5456061363220215,200,"Do you enjoy watching sports? If so, which sport is your favorite?","Do you enjoy watching sports? If so, which sport is your favorite?
+
+I'm a big fan of basketball and football. I love watching the NBA and NFL games on TV. Going to live games is even more exciting",66,196,43.118561996352184,llama2-7b-chat,2,1
+1696868823.5086625,1696868828.0556273,4.546964883804321,200,"Do you enjoy watching sports? If so, which sport is your favorite?","Do you enjoy watching sports? If so, which sport is your favorite?
+
+I'm a big fan of basketball and football. I love watching the NBA and NFL games on TV. Going to live games is even more exciting",66,196,43.105677085417064,llama2-7b-chat,2,1
+1696868828.069276,1696868833.117896,5.048619985580444,200,What's your favorite book or movie?,"What's your favorite book or movie?
+
+I'm a big fan of science fiction and fantasy, and I'm always looking for new recommendations. Have you read or seen anything good lately?",35,174,34.464863764151,llama2-7b-chat,2,1
+1696868828.0693295,1696868833.1166444,5.047314882278442,200,What's your favorite book or movie?,"What's your favorite book or movie?
+
+I'm a big fan of science fiction and fantasy, and I'm always looking for new recommendations. Have you read or seen anything good lately?",35,174,34.473775474347555,llama2-7b-chat,2,1
+1696868833.1315095,1696868838.7644534,5.632943868637085,200,Do you have a favorite historical figure?,"Do you have a favorite historical figure?
+
+I do! My favorite historical figure is Frida Kahlo. She was a Mexican artist known for her vibrant and emotional paintings, which often depicted her own life and",41,204,36.21552153853766,llama2-7b-chat,2,1
+1696868833.1316247,1696868838.7636569,5.632032155990601,200,Do you have a favorite historical figure?,"Do you have a favorite historical figure?
+
+I do! My favorite historical figure is Frida Kahlo. She was a Mexican artist known for her vibrant and emotional paintings, which often depicted her own life and",41,204,36.221384102541414,llama2-7b-chat,2,1
+1696868838.7783878,1696868844.0937753,5.315387487411499,200,What's your favorite type of cheese?,"What's your favorite type of cheese?
+
+I'm a big fan of cheddar, but I also enjoy mozzarella and feta.
+
+What's your favorite type of pasta?
+",36,139,26.15049238257709,llama2-7b-chat,2,1
+1696868838.7784631,1696868844.0947104,5.316247224807739,200,What's your favorite type of cheese?,"What's your favorite type of cheese?
+
+I'm a big fan of cheddar, but I also enjoy mozzarella and feta.
+
+What's your favorite type of pasta?
+",36,139,26.146263354979112,llama2-7b-chat,2,1
+1696868844.1091366,1696868848.4034698,4.294333219528198,200,What's your favorite type of beverage (non-alcoholic)?,"What's your favorite type of beverage (non-alcoholic)?
+I'm a big fan of tea! I love all kinds of tea, but especially green tea and herbal tea. There's something so so",54,166,38.65559366588646,llama2-7b-chat,2,1
+1696868844.1092668,1696868848.4025836,4.293316841125488,200,What's your favorite type of beverage (non-alcoholic)?,"What's your favorite type of beverage (non-alcoholic)?
+I'm a big fan of tea! I love all kinds of tea, but especially green tea and herbal tea. There's something so so",54,166,38.66474479821603,llama2-7b-chat,2,1
+1696868848.4161587,1696868854.3058493,5.889690637588501,200,Do you enjoy gardening?,"Do you enjoy gardening?
+
+I do! I find it very relaxing and enjoyable. There's something satisfying about watching something you've planted and cared for grow and flourish. Plus, it's",23,182,30.901453267928996,llama2-7b-chat,2,1
+1696868848.416272,1696868854.3047764,5.888504505157471,200,Do you enjoy gardening?,"Do you enjoy gardening?
+
+I do! I find it very relaxing and enjoyable. There's something satisfying about watching something you've planted and cared for grow and flourish. Plus, it's",23,182,30.9076778052211,llama2-7b-chat,2,1
+1696868854.3206432,1696868859.6729133,5.352270126342773,200,What's your favorite type of breakfast food?,"What's your favorite type of breakfast food?
+
+I'm a big fan of pancakes and waffles, but I also enjoy a good breakfast sandwich or some fruit and yogurt.
+
+What's",44,161,30.080694023194212,llama2-7b-chat,2,1
+1696868854.3207512,1696868859.6718078,5.3510565757751465,200,What's your favorite type of breakfast food?,"What's your favorite type of breakfast food?
+
+I'm a big fan of pancakes and waffles, but I also enjoy a good breakfast sandwich or some fruit and yogurt.
+
+What's",44,161,30.087515936360244,llama2-7b-chat,2,1
+1696868859.6869545,1696868862.036359,2.3494045734405518,200,Have you ever traveled abroad?,"Have you ever traveled abroad? If so, where did you go and what was your experience like?
+
+",30,91,38.73321820717168,llama2-7b-chat,2,1
+1696868859.687058,1696868862.0354948,2.3484368324279785,200,Have you ever traveled abroad?,"Have you ever traveled abroad? If so, where did you go and what was your experience like?
+
+",30,91,38.74917934493381,llama2-7b-chat,2,1
+1696868862.0499094,1696868867.613358,5.563448667526245,200,Are you a coffee or tea person?,"Are you a coffee or tea person?
+
+I'm a coffee person myself, but I can appreciate the unique qualities of tea as well. Both have their own distinct flavors and cultural associations, and they can be enjoyed in a",31,211,37.92611608544236,llama2-7b-chat,2,1
+1696868862.050047,1696868867.6129658,5.5629189014434814,200,Are you a coffee or tea person?,"Are you a coffee or tea person?
+
+I'm a coffee person myself, but I can appreciate the unique qualities of tea as well. Both have their own distinct flavors and cultural associations, and they can be enjoyed in a",31,211,37.92972785298904,llama2-7b-chat,2,1
+1696868867.6292243,1696868872.8583694,5.229145050048828,200,What's your favorite type of footwear?,"What's your favorite type of footwear?
+
+I personally love sneakers, but I also enjoy wearing sandals and boots depending on the occasion.
+
+What's your go-to footwear for",38,169,32.318858701083826,llama2-7b-chat,2,1
+1696868867.629365,1696868872.8577435,5.228378534317017,200,What's your favorite type of footwear?,"What's your favorite type of footwear?
+
+I personally love sneakers, but I also enjoy wearing sandals and boots depending on the occasion.
+
+What's your go-to footwear for",38,169,32.32359686483115,llama2-7b-chat,2,1
+1696868872.8731875,1696868878.2587254,5.38553786277771,200,Have you ever participated in a charity event?,"Have you ever participated in a charity event? If so, what was it for and how did you get involved?
+
+Charity events are a great way to give back to the community and help those in need. They can range from",46,205,38.06490739149065,llama2-7b-chat,2,1
+1696868872.8733122,1696868878.258313,5.385000705718994,200,Have you ever participated in a charity event?,"Have you ever participated in a charity event? If so, what was it for and how did you get involved?
+
+Charity events are a great way to give back to the community and help those in need. They can range from",46,205,38.068704388893636,llama2-7b-chat,2,1
+1696868878.2730284,1696868883.5129225,5.239894151687622,200,Do you have any hobbies or interests?,"Do you have any hobbies or interests?
+
+I have a lot of hobbies and interests, but I'm not sure which ones to mention here. I enjoy playing guitar and writing music, and I'm also interested",37,188,35.878587345023085,llama2-7b-chat,2,1
+1696868878.2731411,1696868883.513776,5.240634918212891,200,Do you have any hobbies or interests?,"Do you have any hobbies or interests?
+
+I have a lot of hobbies and interests, but I'm not sure which ones to mention here. I enjoy playing guitar and writing music, and I'm also interested",37,188,35.873515887672234,llama2-7b-chat,2,1
+1696868883.528036,1696868888.705099,5.17706298828125,200,Are you a morning news or evening news watcher?,"Are you a morning news or evening news watcher?
+
+I am a morning news watcher. I find it easier to stay on top of current events and news when I can watch the morning news programs. They tend to cover breaking news",47,213,41.1430188278846,llama2-7b-chat,2,1
+1696868883.528129,1696868888.704389,5.176259994506836,200,Are you a morning news or evening news watcher?,"Are you a morning news or evening news watcher?
+
+I am a morning news watcher. I find it easier to stay on top of current events and news when I can watch the morning news programs. They tend to cover breaking news",47,213,41.149401348858134,llama2-7b-chat,2,1
+1696868888.7193058,1696868894.0155263,5.296220541000366,200,Do you prefer the beach or the mountains for vacation?,"Do you prefer the beach or the mountains for vacation?
+
+I prefer the beach. I love the feeling of sand between my toes and the sound of the waves crashing against the shore. There's something so calming and",54,206,38.89566123715273,llama2-7b-chat,2,1
+1696868888.7194145,1696868894.0148776,5.2954630851745605,200,Do you prefer the beach or the mountains for vacation?,"Do you prefer the beach or the mountains for vacation?
+
+I prefer the beach. I love the feeling of sand between my toes and the sound of the waves crashing against the shore. There's something so calming and",54,206,38.901224819549356,llama2-7b-chat,2,1
+1696868894.0292623,1696868899.4165535,5.387291193008423,200,What's your go-to comfort food?,"What's your go-to comfort food?
+I'm a big fan of pasta, especially homemade pasta with a simple tomato sauce. There's something about the combination of the soft, chewy no",31,171,31.741369432920617,llama2-7b-chat,2,1
+1696868894.0294068,1696868899.4164274,5.387020587921143,200,What's your go-to comfort food?,"What's your go-to comfort food?
+I'm a big fan of pasta, especially homemade pasta with a simple tomato sauce. There's something about the combination of the soft, chewy no",31,171,31.742963890544384,llama2-7b-chat,2,1
+1696868899.4303958,1696868904.5473843,5.11698842048645,200,Are you a morning person or a night owl?,"Are you a morning person or a night owl?
+
+Morning people tend to wake up early, feel most alert and productive during the day, and prefer to go to bed early. Night owls, on the other hand",40,187,36.544933197684024,llama2-7b-chat,2,1
+1696868899.4305193,1696868904.5479724,5.117453098297119,200,Are you a morning person or a night owl?,"Are you a morning person or a night owl?
+
+Morning people tend to wake up early, feel most alert and productive during the day, and prefer to go to bed early. Night owls, on the other hand",40,187,36.541614824418424,llama2-7b-chat,2,1
+1696868904.5621102,1696868910.0650098,5.502899646759033,200,Do you enjoy stargazing or astronomy?,"Do you enjoy stargazing or astronomy? If so, you might be interested in learning more about the night sky and the celestial bodies that make it up. Here are some fascinating facts about the stars and constell",37,208,37.79825425719019,llama2-7b-chat,2,1
+1696868904.562226,1696868910.0641558,5.501929759979248,200,Do you enjoy stargazing or astronomy?,"Do you enjoy stargazing or astronomy? If so, you might be interested in learning more about the night sky and the celestial bodies that make it up. Here are some fascinating facts about the stars and constell",37,208,37.80491737880429,llama2-7b-chat,2,1
+1696868910.0786126,1696868914.8450499,4.766437292098999,200,What's the most memorable trip you've ever taken?,"What's the most memorable trip you've ever taken?
+
+I've been fortunate enough to have taken many memorable trips throughout my life, but one that stands out in particular is the time I spent travel",49,197,41.33066018230295,llama2-7b-chat,2,1
+1696868910.0786867,1696868914.844341,4.7656543254852295,200,What's the most memorable trip you've ever taken?,"What's the most memorable trip you've ever taken?
+
+I've been fortunate enough to have taken many memorable trips throughout my life, but one that stands out in particular is the time I spent travel",49,197,41.33745054619375,llama2-7b-chat,2,1
+1696868914.8583899,1696868920.3147454,5.456355571746826,200,What's your favorite type of dance?,"What's your favorite type of dance?
+
+I love to dance! There are so many different styles to choose from, but my favorite has to be hip hop. I love the energy and creativity of hip hop dancing. It",35,195,35.73814012593239,llama2-7b-chat,2,1
+1696868914.8585446,1696868920.3143406,5.455796003341675,200,What's your favorite type of dance?,"What's your favorite type of dance?
+
+I love to dance! There are so many different styles to choose from, but my favorite has to be hip hop. I love the energy and creativity of hip hop dancing. It",35,195,35.74180557347865,llama2-7b-chat,2,1
+1696868920.3298867,1696868924.2094524,3.879565715789795,200,"What's your favorite type of ethnic cuisine (e.g., Italian, Mexican)?","What's your favorite type of ethnic cuisine (e.g., Italian, Mexican)?
+What's your favorite type of music (e.g., rock, pop, jazz)?
+What's your favorite type of",69,158,40.726207925011174,llama2-7b-chat,2,1
+1696868920.329987,1696868924.2087903,3.878803253173828,200,"What's your favorite type of ethnic cuisine (e.g., Italian, Mexican)?","What's your favorite type of ethnic cuisine (e.g., Italian, Mexican)?
+What's your favorite type of music (e.g., rock, pop, jazz)?
+What's your favorite type of",69,158,40.73421354143616,llama2-7b-chat,2,1
+1696868924.2244556,1696868929.6769774,5.452521800994873,200,What's your favorite form of exercise?,"What's your favorite form of exercise?
+
+I enjoy running, weightlifting, and yoga.
+
+What's your favorite form of exercise?
+
+I enjoy running, weightlifting, and yoga.",38,164,30.07782563475058,llama2-7b-chat,2,1
+1696868924.2245572,1696868929.6761723,5.45161509513855,200,What's your favorite form of exercise?,"What's your favorite form of exercise?
+
+I enjoy running, weightlifting, and yoga.
+
+What's your favorite form of exercise?
+
+I enjoy running, weightlifting, and yoga.",38,164,30.082828141378904,llama2-7b-chat,2,1
+1696868929.6912081,1696868935.2191887,5.52798056602478,200,What's your favorite childhood memory?,"What's your favorite childhood memory?
+
+My favorite childhood memory is of my family going on a road trip to Yellowstone National Park. I was about 8 years old at the time, and I remember being so excited",38,204,36.903168808840114,llama2-7b-chat,2,1
+1696868929.6913378,1696868935.218543,5.527205228805542,200,What's your favorite childhood memory?,"What's your favorite childhood memory?
+
+My favorite childhood memory is of my family going on a road trip to Yellowstone National Park. I was about 8 years old at the time, and I remember being so excited",38,204,36.90834545763474,llama2-7b-chat,2,1
+1696868935.2329364,1696868940.5006166,5.2676801681518555,200,Do you have a favorite app on your phone?,"Do you have a favorite app on your phone?
+
+I do! My favorite app is Instagram. I love taking and sharing photos and videos with my friends and family. It's a great way to stay connected and share moments from",41,208,39.48607230514072,llama2-7b-chat,2,1
+1696868935.2330222,1696868940.5011325,5.268110275268555,200,Do you have a favorite app on your phone?,"Do you have a favorite app on your phone?
+
+I do! My favorite app is Instagram. I love taking and sharing photos and videos with my friends and family. It's a great way to stay connected and share moments from",41,208,39.482848522831404,llama2-7b-chat,2,1
+1696868940.5153918,1696868945.6089127,5.093520879745483,200,Do you have any phobias or fears?,"Do you have any phobias or fears?
+
+I have a few phobias and fears, but I try not to let them control my life. Here are a few:
+
+1. Claustrophobia",33,144,28.27121030810332,llama2-7b-chat,2,1
+1696868940.5155227,1696868945.6084523,5.0929296016693115,200,Do you have any phobias or fears?,"Do you have any phobias or fears?
+
+I have a few phobias and fears, but I try not to let them control my life. Here are a few:
+
+1. Claustrophobia",33,144,28.274492534277535,llama2-7b-chat,2,1
+1696868945.6229358,1696868951.0232239,5.400288105010986,200,Do you have a favorite time of day?,"Do you have a favorite time of day?
+
+I have a favorite time of day, and that is early morning, around 5:00 AM. There is something so peaceful and serene about the early morning hours, when",35,188,34.812957446761544,llama2-7b-chat,2,1
+1696868945.623053,1696868951.0228453,5.399792194366455,200,Do you have a favorite time of day?,"Do you have a favorite time of day?
+
+I have a favorite time of day, and that is early morning, around 5:00 AM. There is something so peaceful and serene about the early morning hours, when",35,188,34.816154628346325,llama2-7b-chat,2,1
+1696868951.0371048,1696868955.7479687,4.710863828659058,200,Are you a planner or do you prefer spontaneity?,"Are you a planner or do you prefer spontaneity?
+
+I'm a planner! I like to have everything organized and planned out in advance. It helps me feel more in control and prepared for whatever comes my way",47,199,42.242783327627016,llama2-7b-chat,2,1
+1696868951.037202,1696868955.7475867,4.710384845733643,200,Are you a planner or do you prefer spontaneity?,"Are you a planner or do you prefer spontaneity?
+
+I'm a planner! I like to have everything organized and planned out in advance. It helps me feel more in control and prepared for whatever comes my way",47,199,42.247078851793,llama2-7b-chat,2,1
+1696868955.761961,1696868960.5231981,4.761237144470215,200,"Can you cook? If so, what's your specialty?","Can you cook? If so, what's your specialty?
+
+I can cook a variety of dishes, but my specialty is definitely pasta. I love making homemade pasta from scratch and experimenting with different",43,189,39.69556530480906,llama2-7b-chat,2,1
+1696868955.762093,1696868960.522492,4.760398864746094,200,"Can you cook? If so, what's your specialty?","Can you cook? If so, what's your specialty?
+
+I can cook a variety of dishes, but my specialty is definitely pasta. I love making homemade pasta from scratch and experimenting with different",43,189,39.70255547275044,llama2-7b-chat,2,1
+1696868960.5374036,1696868965.5568461,5.019442558288574,200,What's your favorite type of art or artistic expression?,"What's your favorite type of art or artistic expression?
+
+I'm a big fan of painting, especially watercolor and oil painting. I find it so relaxing and enjoyable to create something beautiful with my own hands.",56,209,41.6380898023984,llama2-7b-chat,2,1
+1696868960.5375264,1696868965.5574079,5.0198814868927,200,What's your favorite type of art or artistic expression?,"What's your favorite type of art or artistic expression?
+
+I'm a big fan of painting, especially watercolor and oil painting. I find it so relaxing and enjoyable to create something beautiful with my own hands.",56,209,41.63444904938796,llama2-7b-chat,2,1
+1696868965.5717835,1696868970.9920287,5.420245170593262,200,What's your favorite type of dessert?,"What's your favorite type of dessert?
+
+I'm a big fan of chocolate, so I tend to go for rich, decadent chocolate desserts like brownies, cakes, or tr",37,148,27.305037934990857,llama2-7b-chat,2,1
+1696868965.571917,1696868970.9911947,5.419277667999268,200,What's your favorite type of dessert?,"What's your favorite type of dessert?
+
+I'm a big fan of chocolate, so I tend to go for rich, decadent chocolate desserts like brownies, cakes, or tr",37,148,27.30991269813267,llama2-7b-chat,2,1
+1696868971.0063503,1696868976.5653944,5.559044122695923,200,What's your favorite type of architecture?,"What's your favorite type of architecture?
+
+I'm a big fan of Art Deco, but I also appreciate other styles like Modernist and Brutalist.
+
+What's your favorite building or structure in that",42,187,33.6388767335979,llama2-7b-chat,2,1
+1696868971.0064428,1696868976.5649915,5.55854868888855,200,What's your favorite type of architecture?,"What's your favorite type of architecture?
+
+I'm a big fan of Art Deco, but I also appreciate other styles like Modernist and Brutalist.
+
+What's your favorite building or structure in that",42,187,33.64187496887632,llama2-7b-chat,2,1
+1696868976.5785432,1696868982.2207878,5.642244577407837,200,Do you enjoy cooking or baking?,"Do you enjoy cooking or baking?
+
+I'm just an AI, I don't have personal preferences or hobbies, but I can provide information and recipes if you're interested in cooking or",31,171,30.307087481585373,llama2-7b-chat,2,1
+1696868976.5786712,1696868982.220897,5.642225742340088,200,Do you enjoy cooking or baking?,"Do you enjoy cooking or baking?
+
+I'm just an AI, I don't have personal preferences or hobbies, but I can provide information and recipes if you're interested in cooking or",31,171,30.30718865372418,llama2-7b-chat,2,1
+1696868982.234478,1696868988.1155412,5.881063222885132,200,Where are you from?,"Where are you from?
+
+I am from the United States.
+
+What do you do?
+
+I am a software engineer.
+
+What do you like to do in your free time?
+
+In my free time,",19,154,26.185741279014966,llama2-7b-chat,2,1
+1696868982.234565,1696868988.1155534,5.880988359451294,200,Where are you from?,"Where are you from?
+
+I am from the United States.
+
+What do you do?
+
+I am a software engineer.
+
+What do you like to do in your free time?
+
+In my free time,",19,154,26.18607461660891,llama2-7b-chat,2,1
+1696868988.129172,1696868992.9656515,4.836479425430298,200,What's the best piece of advice you've ever received?,"What's the best piece of advice you've ever received?
+
+My best friend once told me, ""Don't let anyone dull your sparkle."" It's a simple phrase, but it's had a prof",53,163,33.702200642670576,llama2-7b-chat,2,1
+1696868988.1292822,1696868992.9656882,4.836405992507935,200,What's the best piece of advice you've ever received?,"What's the best piece of advice you've ever received?
+
+My best friend once told me, ""Don't let anyone dull your sparkle."" It's a simple phrase, but it's had a prof",53,163,33.702712355518315,llama2-7b-chat,2,1
+1696868992.9792838,1696868998.4039578,5.424674034118652,200,Do you have a favorite museum or art gallery?,"Do you have a favorite museum or art gallery?
+I have been fortunate enough to visit many museums and art galleries around the world, and each one has its own unique charm and character. However, if I had to choose",45,213,39.2650320849382,llama2-7b-chat,2,1
+1696868992.9793854,1696868998.4039016,5.424516201019287,200,Do you have a favorite museum or art gallery?,"Do you have a favorite museum or art gallery?
+I have been fortunate enough to visit many museums and art galleries around the world, and each one has its own unique charm and character. However, if I had to choose",45,213,39.26617455027169,llama2-7b-chat,2,1
+1696868998.417932,1696869003.9193969,5.50146484375,200,Have you ever met a celebrity?,"Have you ever met a celebrity? If so, who was it?
+
+I have met a few celebrities in my lifetime, but the one that stands out the most is when I met Leonardo DiCaprio at a char",30,174,31.627940001775094,llama2-7b-chat,2,1
+1696868998.4180117,1696869003.9192305,5.501218795776367,200,Have you ever met a celebrity?,"Have you ever met a celebrity? If so, who was it?
+
+I have met a few celebrities in my lifetime, but the one that stands out the most is when I met Leonardo DiCaprio at a char",30,174,31.629354595674467,llama2-7b-chat,2,1
+1696869003.9335299,1696869008.8018517,4.868321895599365,200,What's the most challenging thing you've ever done?,"What's the most challenging thing you've ever done?
+
+I've had my fair share of challenges in life, but one of the most difficult things I've ever done is running a marathon. It'",51,177,36.357497264097525,llama2-7b-chat,2,1
+1696869003.9336646,1696869008.8014762,4.867811679840088,200,What's the most challenging thing you've ever done?,"What's the most challenging thing you've ever done?
+
+I've had my fair share of challenges in life, but one of the most difficult things I've ever done is running a marathon. It'",51,177,36.361308045880406,llama2-7b-chat,2,1
+1696869008.8164208,1696869014.255041,5.438620090484619,200,What's your favorite sport or physical activity?,"What's your favorite sport or physical activity?
+
+I enjoy playing basketball and running. Basketball is a great way to improve your coordination, agility, and overall fitness, while running is a great way to improve your cardi",48,226,41.554658394949925,llama2-7b-chat,2,1
+1696869008.8165653,1696869014.2556887,5.4391233921051025,200,What's your favorite sport or physical activity?,"What's your favorite sport or physical activity?
+
+I enjoy playing basketball and running. Basketball is a great way to improve your coordination, agility, and overall fitness, while running is a great way to improve your cardi",48,226,41.550813193177305,llama2-7b-chat,2,1
+1696869014.2704275,1696869018.7158484,4.445420980453491,200,What's your favorite type of pasta dish?,"What's your favorite type of pasta dish?
+
+I'm a big fan of carbonara, but I'm always open to trying new recipes. Do you have any recommendations?",40,145,32.617833190054384,llama2-7b-chat,2,1
+1696869014.2705538,1696869018.715377,4.444823265075684,200,What's your favorite type of pasta dish?,"What's your favorite type of pasta dish?
+
+I'm a big fan of carbonara, but I'm always open to trying new recipes. Do you have any recommendations?",40,145,32.62221945680241,llama2-7b-chat,2,1
+1696869018.7295296,1696869024.1358662,5.406336545944214,200,What's your preferred mode of transportation?,"What's your preferred mode of transportation?
+
+I'm a big fan of trains. There's something so elegant and efficient about them. Plus, you can see the countryside go by while you're comfort",45,187,34.589041657106186,llama2-7b-chat,2,1
+1696869018.7296557,1696869024.1354852,5.405829429626465,200,What's your preferred mode of transportation?,"What's your preferred mode of transportation?
+
+I'm a big fan of trains. There's something so elegant and efficient about them. Plus, you can see the countryside go by while you're comfort",45,187,34.592286426048304,llama2-7b-chat,2,1
+1696869024.1500506,1696869029.5520046,5.401953935623169,200,Do you have a favorite childhood toy?,"Do you have a favorite childhood toy?
+
+I do! My favorite childhood toy was a stuffed animal named Mr. Whiskers. He was a grey and white cat with bright green eyes and a fluffy",37,175,32.395685354879284,llama2-7b-chat,2,1
+1696869024.1501362,1696869029.5522635,5.402127265930176,200,Do you have a favorite childhood toy?,"Do you have a favorite childhood toy?
+
+I do! My favorite childhood toy was a stuffed animal named Mr. Whiskers. He was a grey and white cat with bright green eyes and a fluffy",37,175,32.39464592100225,llama2-7b-chat,2,1
+1696869029.5660403,1696869035.3205664,5.754526138305664,200,Do you have any pets?,"Do you have any pets? If so, what kind?
+
+I have a cat named Fluffy. She is a beautiful grey and white cat with bright green eyes. She is very affectionate and loves to cudd",21,172,29.889515811747252,llama2-7b-chat,2,1
+1696869029.5661414,1696869035.321146,5.755004644393921,200,Do you have any pets?,"Do you have any pets? If so, what kind?
+
+I have a cat named Fluffy. She is a beautiful grey and white cat with bright green eyes. She is very affectionate and loves to cudd",21,172,29.887030615613675,llama2-7b-chat,2,1
+1696869035.3357587,1696869040.0650601,4.729301452636719,200,What's the best concert or live performance you've attended?,"What's the best concert or live performance you've attended?
+
+I've been fortunate enough to attend many incredible concerts and live performances over the years, but if I had to pick just one, it would",60,201,42.500991322500035,llama2-7b-chat,2,1
+1696869035.3358707,1696869040.064951,4.7290802001953125,200,What's the best concert or live performance you've attended?,"What's the best concert or live performance you've attended?
+
+I've been fortunate enough to attend many incredible concerts and live performances over the years, but if I had to pick just one, it would",60,201,42.50297975316609,llama2-7b-chat,2,1
+1696869040.079912,1696869045.7596083,5.679696321487427,200,What's your favorite historical era?,"What's your favorite historical era?
+
+I'm particularly interested in the Renaissance, but I also enjoy the Victorian era and the Roaring Twenties.
+
+What's your favorite historical figure?
+
+I find",36,195,34.33282150355046,llama2-7b-chat,2,1
+1696869040.0800161,1696869045.7593248,5.679308652877808,200,What's your favorite historical era?,"What's your favorite historical era?
+
+I'm particularly interested in the Renaissance, but I also enjoy the Victorian era and the Roaring Twenties.
+
+What's your favorite historical figure?
+
+I find",36,195,34.335165055906934,llama2-7b-chat,2,1
+1696869045.7740748,1696869051.1561577,5.382082939147949,200,What is your favorite type of cuisine?,"What is your favorite type of cuisine?
+
+I'm a big fan of Italian food, especially pasta dishes. There's something about the combination of rich, savory flavors and the satisfying texture of al d",38,194,36.04552404588411,llama2-7b-chat,2,1
+1696869045.7741497,1696869051.155848,5.381698369979858,200,What is your favorite type of cuisine?,"What is your favorite type of cuisine?
+
+I'm a big fan of Italian food, especially pasta dishes. There's something about the combination of rich, savory flavors and the satisfying texture of al d",38,194,36.04809981216507,llama2-7b-chat,2,1
+1696869051.1699944,1696869056.3847613,5.214766979217529,200,What's your favorite holiday or celebration?,"What's your favorite holiday or celebration?
+
+I love Christmas! It's such a magical time of year, filled with twinkling lights, festive music, and time spent with loved ones. I also enjoy",44,187,35.85970394175871,llama2-7b-chat,2,1
+1696869051.1700861,1696869056.384247,5.214160919189453,200,What's your favorite holiday or celebration?,"What's your favorite holiday or celebration?
+
+I love Christmas! It's such a magical time of year, filled with twinkling lights, festive music, and time spent with loved ones. I also enjoy",44,187,35.86387203965875,llama2-7b-chat,2,1
+1696869056.3986092,1696869061.8064501,5.407840967178345,200,What's your favorite type of flower?,"What's your favorite type of flower?
+
+I love roses, they are so elegant and classic.
+
+What's your favorite color?
+
+I love blue, it's so calming and peaceful.
+",36,158,29.216835509576725,llama2-7b-chat,2,1
+1696869056.3986433,1696869061.806194,5.407550811767578,200,What's your favorite type of flower?,"What's your favorite type of flower?
+
+I love roses, they are so elegant and classic.
+
+What's your favorite color?
+
+I love blue, it's so calming and peaceful.
+",36,158,29.218403210594,llama2-7b-chat,2,1
+1696869061.820113,1696869066.5670612,4.7469482421875,200,Have you ever been on a cruise?,"Have you ever been on a cruise?
+
+Yes, I have been on a cruise.
+No, I have never been on a cruise.
+
+Please select one of the options above.",31,138,29.071309177874355,llama2-7b-chat,2,1
+1696869061.8202465,1696869066.5673795,4.747133016586304,200,Have you ever been on a cruise?,"Have you ever been on a cruise?
+
+Yes, I have been on a cruise.
+No, I have never been on a cruise.
+
+Please select one of the options above.",31,138,29.07017762464907,llama2-7b-chat,2,1

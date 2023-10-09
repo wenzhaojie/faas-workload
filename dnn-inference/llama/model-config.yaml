@@ -1,14 +1,14 @@
 # TorchServe frontend parameters
 minWorkers: 1
 maxWorkers: 1
-maxBatchDelay: 1000
-responseTimeout: 1200
-batchSize: 4
+maxBatchDelay: 5000
+responseTimeout: 5000
+batchSize: 1
 deviceType: "gpu"
 
 handler:
     model_name: "meta-llama/Llama-2-7b-chat-hf"
     model_path: "model/models--meta-llama--Llama-2-7b-chat-hf/snapshots/08751db2aca9bf2f7f80d2e516117a53d7450235"
-    max_length: 50
+    max_length: 500
     max_new_tokens: 50
     manual_seed: 40

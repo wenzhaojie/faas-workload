@@ -1,1 +1,0 @@
-curl -v -X POST "http://localhost:8081/models?batch_size=2&url=llama2-7b-chat"
