@@ -1,0 +1,23 @@
+start_t,end_t,latency,status_code,input_text,output_text,input_len,output_len,output_speed,model_name,batch_size,num_worker,max_length,inited_gpu_memory_used,runtime_gpu_memory_used,index,batch_t
+1696931134.276809,1696931140.9021254,6.625316381454468,200,What is your name?,"What is your name?
+
+My name is Sherlock Holmes.
+
+What is your occupation?
+
+I am a consulting detective.
+
+What is your favorite hobby?
+
+I do not have a",18,150,22.640428224662415,llama2-7b-chat,1,2,50, 15805 MiB, 15885 MiB,0,6.713091611862183
+1696931141.0560863,1696931147.628921,6.572834730148315,200,Where are you from?,"Where are you from?
+
+I am from the United States.
+
+What do you do?
+
+I am a software engineer.
+
+What do you like to do in your free time?
+
+In my free time,",19,154,23.429769090896492,llama2-7b-chat,1,2,50, 15805 MiB, 15965 MiB,1,6.657837152481079

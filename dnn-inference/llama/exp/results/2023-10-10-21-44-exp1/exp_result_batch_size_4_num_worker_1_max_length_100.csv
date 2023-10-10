@@ -1,0 +1,113 @@
+start_t,end_t,latency,status_code,input_text,output_text,input_len,output_len,output_speed,model_name,batch_size,num_worker,max_length,inited_gpu_memory_used,runtime_gpu_memory_used,index,batch_t
+1696947365.7293153,1696947368.833423,3.104107618331909,200,What is your name?,"What is your name? *
+
+Your email address? *
+
+What is your message? *",18,68,21.90645697926606,llama2-7b-chat,4,1,100, 7909 MiB, 8045 MiB,0,3.1911277770996094
+1696947365.7294927,1696947368.8304248,3.1009321212768555,200,What is your name?,"What is your name? *
+
+Your email address? *
+
+What is your message? *",18,68,21.92889019834461,llama2-7b-chat,4,1,100, 7909 MiB, 8045 MiB,0,3.1911277770996094
+1696947365.729648,1696947368.8286245,3.0989763736724854,200,What is your name?,"What is your name? *
+
+Your email address? *
+
+What is your message? *",18,68,21.94272940500532,llama2-7b-chat,4,1,100, 7909 MiB, 8045 MiB,0,3.1911277770996094
+1696947365.7301931,1696947368.8326757,3.102482557296753,200,What is your name?,"What is your name? *
+
+Your email address? *
+
+What is your message? *",18,68,21.917931444955354,llama2-7b-chat,4,1,100, 7909 MiB, 8045 MiB,0,3.1911277770996094
+1696947373.9706628,1696947380.0457208,6.0750579833984375,200,Where are you from?,"Where are you from?
+
+I am from the United States.
+
+What do you do?
+
+I am a software engineer.
+
+What do you like to do in your free time?
+
+In my free time,",19,154,25.349552287540657,llama2-7b-chat,4,1,100, 7909 MiB, 8073 MiB,1,6.16467809677124
+1696947373.9708202,1696947380.0439827,6.07316255569458,200,Where are you from?,"Where are you from?
+
+I am from the United States.
+
+What do you do?
+
+I am a software engineer.
+
+What do you like to do in your free time?
+
+In my free time,",19,154,25.35746385638894,llama2-7b-chat,4,1,100, 7909 MiB, 8073 MiB,1,6.16467809677124
+1696947373.970958,1696947380.0489566,6.077998638153076,200,Where are you from?,"Where are you from?
+
+I am from the United States.
+
+What do you do?
+
+I am a software engineer.
+
+What do you like to do in your free time?
+
+In my free time,",19,154,25.337287677773492,llama2-7b-chat,4,1,100, 7909 MiB, 8073 MiB,1,6.16467809677124
+1696947373.9710422,1696947380.0473106,6.076268434524536,200,Where are you from?,"Where are you from?
+
+I am from the United States.
+
+What do you do?
+
+I am a software engineer.
+
+What do you like to do in your free time?
+
+In my free time,",19,154,25.34450241286129,llama2-7b-chat,4,1,100, 7909 MiB, 8073 MiB,1,6.16467809677124
+1696947385.1837726,1696947386.7912984,1.6075258255004883,200,How old are you?,"How old are you?
+
+I am 25 years old.",16,36,22.394663543767162,llama2-7b-chat,4,1,100, 7909 MiB, 8073 MiB,2,1.6974234580993652
+1696947385.1862442,1696947386.793326,1.607081651687622,200,How old are you?,"How old are you?
+
+I am 25 years old.",16,36,22.400853100522816,llama2-7b-chat,4,1,100, 7909 MiB, 8073 MiB,2,1.6974234580993652
+1696947385.1864133,1696947386.7920606,1.605647325515747,200,How old are you?,"How old are you?
+
+I am 25 years old.",16,36,22.42086380235243,llama2-7b-chat,4,1,100, 7909 MiB, 8073 MiB,2,1.6974234580993652
+1696947385.18657,1696947386.794418,1.6078481674194336,200,How old are you?,"How old are you?
+
+I am 25 years old.",16,36,22.390173854400278,llama2-7b-chat,4,1,100, 7909 MiB, 8073 MiB,2,1.6974234580993652
+1696947391.932521,1696947397.7684948,5.835973739624023,200,What do you do for a living?,"What do you do for a living? <a href=""https://www.fresherslive.com/job-interview-questions/"">Job Interview Questions</a>
+
+What do you do for a living?",28,150,25.7026516383303,llama2-7b-chat,4,1,100, 7909 MiB, 8081 MiB,3,5.923548936843872
+1696947391.9326653,1696947397.7698567,5.837191343307495,200,What do you do for a living?,"What do you do for a living? <a href=""https://www.fresherslive.com/job-interview-questions/"">Job Interview Questions</a>
+
+What do you do for a living?",28,150,25.697290216805936,llama2-7b-chat,4,1,100, 7909 MiB, 8081 MiB,3,5.923548936843872
+1696947391.9327426,1696947397.7678204,5.83507776260376,200,What do you do for a living?,"What do you do for a living? <a href=""https://www.fresherslive.com/job-interview-questions/"">Job Interview Questions</a>
+
+What do you do for a living?",28,150,25.70659828414458,llama2-7b-chat,4,1,100, 7909 MiB, 8081 MiB,3,5.923548936843872
+1696947391.9329093,1696947397.7705276,5.837618350982666,200,What do you do for a living?,"What do you do for a living? <a href=""https://www.fresherslive.com/job-interview-questions/"">Job Interview Questions</a>
+
+What do you do for a living?",28,150,25.695410522126714,llama2-7b-chat,4,1,100, 7909 MiB, 8081 MiB,3,5.923548936843872
+1696947402.9078746,1696947408.5952544,5.687379837036133,200,Have you been to any interesting places recently?,"Have you been to any interesting places recently?
+
+I've been to a few places recently, but I think the most interesting one was the ancient city of Petra in Jordan. It's an incredible archaeological site that",49,208,36.5722012525886,llama2-7b-chat,4,1,100, 7909 MiB, 8081 MiB,4,5.777104377746582
+1696947402.9079986,1696947408.5958478,5.687849283218384,200,Have you been to any interesting places recently?,"Have you been to any interesting places recently?
+
+I've been to a few places recently, but I think the most interesting one was the ancient city of Petra in Jordan. It's an incredible archaeological site that",49,208,36.569182768905286,llama2-7b-chat,4,1,100, 7909 MiB, 8081 MiB,4,5.777104377746582
+1696947402.9082038,1696947408.5977614,5.6895575523376465,200,Have you been to any interesting places recently?,"Have you been to any interesting places recently?
+
+I've been to a few places recently, but I think the most interesting one was the ancient city of Petra in Jordan. It's an incredible archaeological site that",49,208,36.55820300377133,llama2-7b-chat,4,1,100, 7909 MiB, 8081 MiB,4,5.777104377746582
+1696947402.9083574,1696947408.5964868,5.688129425048828,200,Have you been to any interesting places recently?,"Have you been to any interesting places recently?
+
+I've been to a few places recently, but I think the most interesting one was the ancient city of Petra in Jordan. It's an incredible archaeological site that",49,208,36.56738172729157,llama2-7b-chat,4,1,100, 7909 MiB, 8081 MiB,4,5.777104377746582
+1696947413.7359524,1696947419.0506215,5.314669132232666,200,What's your favorite book or movie?,"What's your favorite book or movie?
+
+I'm a big fan of science fiction and fantasy, and I'm always looking for new recommendations. Have you read or seen anything good lately?",35,174,32.739573371504214,llama2-7b-chat,4,1,100, 7909 MiB, 8081 MiB,5,5.403188943862915
+1696947413.7363465,1696947419.0523543,5.316007852554321,200,What's your favorite book or movie?,"What's your favorite book or movie?
+
+I'm a big fan of science fiction and fantasy, and I'm always looking for new recommendations. Have you read or seen anything good lately?",35,174,32.73132862593378,llama2-7b-chat,4,1,100, 7909 MiB, 8081 MiB,5,5.403188943862915
+1696947413.7364178,1696947419.0512652,5.314847469329834,200,What's your favorite book or movie?,"What's your favorite book or movie?
+
+I'm a big fan of science fiction and fantasy, and I'm always looking for new recommendations. Have you read or seen anything good lately?",35,174,32.738474811195324,llama2-7b-chat,4,1,100, 7909 MiB, 8081 MiB,5,5.403188943862915
+1696947413.73656,1696947419.0490825,5.3125224113464355,200,What's your favorite book or movie?,"What's your favorite book or movie?
+
+I'm a big fan of science fiction and fantasy, and I'm always looking for new recommendations. Have you read or seen anything good lately?",35,174,32.75280300528661,llama2-7b-chat,4,1,100, 7909 MiB, 8081 MiB,5,5.403188943862915

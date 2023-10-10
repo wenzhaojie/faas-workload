@@ -1,0 +1,43 @@
+start_t,end_t,latency,status_code,input_text,output_text,input_len,output_len,output_speed,model_name,batch_size,num_worker,max_length
+1696911635.751487,1696911642.354848,6.603360891342163,200,What is your name?,"What is your name?
+
+My name is Sherlock Holmes.
+
+What is your occupation?
+
+I am a consulting detective.
+
+What is your favorite hobby?
+
+I do not have a",18,150,22.715705300412836,llama2-7b-chat,1,1,50
+1696911664.7114873,1696911667.7671952,3.0557079315185547,200,What is your name?,"What is your name? *
+
+Your email address? *
+
+What is your message? *",18,68,22.253435709153965,llama2-7b-chat,2,1,50
+1696911664.7116053,1696911667.7646723,3.0530669689178467,200,What is your name?,"What is your name? *
+
+Your email address? *
+
+What is your message? *",18,68,22.2726853659887,llama2-7b-chat,2,1,50
+1696911694.9592533,1696911701.8623695,6.903116226196289,200,What is your name?,"What is your name?
+
+My name is Sherlock Holmes.
+
+What is your occupation?
+
+I am a consulting detective.
+
+What is your favorite hobby?
+
+I do not have a",18,150,21.729316888910624,llama2-7b-chat,1,2,50
+1696911729.039901,1696911732.1078577,3.0679566860198975,200,What is your name?,"What is your name? *
+
+Your email address? *
+
+What is your message? *",18,68,22.164589320919436,llama2-7b-chat,2,2,50
+1696911729.0400422,1696911732.1059704,3.0659282207489014,200,What is your name?,"What is your name? *
+
+Your email address? *
+
+What is your message? *",18,68,22.179253754150164,llama2-7b-chat,2,2,50

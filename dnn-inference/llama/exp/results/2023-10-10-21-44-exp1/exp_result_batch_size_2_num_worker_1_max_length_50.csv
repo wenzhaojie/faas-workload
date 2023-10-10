@@ -1,0 +1,85 @@
+start_t,end_t,latency,status_code,input_text,output_text,input_len,output_len,output_speed,model_name,batch_size,num_worker,max_length,inited_gpu_memory_used,runtime_gpu_memory_used,index,batch_t
+1696946964.6695232,1696946967.6840532,3.0145299434661865,200,What is your name?,"What is your name? *
+
+Your email address? *
+
+What is your message? *",18,68,22.557414016532142,llama2-7b-chat,2,1,50, 7909 MiB, 7987 MiB,0,3.100287914276123
+1696946964.6696692,1696946967.6826122,3.0129430294036865,200,What is your name?,"What is your name? *
+
+Your email address? *
+
+What is your message? *",18,68,22.569294983801395,llama2-7b-chat,2,1,50, 7909 MiB, 7987 MiB,0,3.100287914276123
+1696946972.8219228,1696946978.7841375,5.962214708328247,200,Where are you from?,"Where are you from?
+
+I am from the United States.
+
+What do you do?
+
+I am a software engineer.
+
+What do you like to do in your free time?
+
+In my free time,",19,154,25.82932811609199,llama2-7b-chat,2,1,50, 7909 MiB, 8067 MiB,1,6.046088933944702
+1696946972.8219543,1696946978.7824972,5.960542917251587,200,Where are you from?,"Where are you from?
+
+I am from the United States.
+
+What do you do?
+
+I am a software engineer.
+
+What do you like to do in your free time?
+
+In my free time,",19,154,25.83657263070418,llama2-7b-chat,2,1,50, 7909 MiB, 8067 MiB,1,6.046088933944702
+1696946983.9152672,1696946985.4639387,1.5486714839935303,200,How old are you?,"How old are you?
+
+I am 35 years old.",16,36,23.245730532318884,llama2-7b-chat,2,1,50, 7909 MiB, 8067 MiB,2,1.6342086791992188
+1696946983.9153707,1696946985.46516,1.5497891902923584,200,How old are you?,"How old are you?
+
+I am 35 years old.",16,36,23.228965736435946,llama2-7b-chat,2,1,50, 7909 MiB, 8067 MiB,2,1.6342086791992188
+1696946990.6032317,1696946996.1182687,5.5150370597839355,200,What do you do for a living?,"What do you do for a living? <a href=""https://www.freshessays.com/write-my-essay/"">Write my essay</a> for me! I'm too busy to write my",28,134,24.297207534132102,llama2-7b-chat,2,1,50, 7909 MiB, 8069 MiB,3,5.600743532180786
+1696946990.6033561,1696946996.116053,5.512696981430054,200,What do you do for a living?,"What do you do for a living? <a href=""https://www.freshessays.com/write-my-essay/"">Write my essay</a> for me! I'm too busy to write my",28,134,24.307521427604197,llama2-7b-chat,2,1,50, 7909 MiB, 8069 MiB,3,5.600743532180786
+1696947001.2606494,1696947006.8198533,5.559203863143921,200,Have you been to any interesting places recently?,"Have you been to any interesting places recently?
+
+I've been to a few places recently that I think you might enjoy hearing about.
+
+First, I went to a small town in the countryside that was known for",49,198,35.61661073677989,llama2-7b-chat,2,1,50, 7909 MiB, 8071 MiB,4,5.647087574005127
+1696947001.2608,1696947006.8208854,5.5600855350494385,200,Have you been to any interesting places recently?,"Have you been to any interesting places recently?
+
+I've been to a few places recently that I think you might enjoy hearing about.
+
+First, I went to a small town in the countryside that was known for",49,198,35.6109629522524,llama2-7b-chat,2,1,50, 7909 MiB, 8071 MiB,4,5.647087574005127
+1696947011.9833996,1696947017.1567087,5.173309087753296,200,What's your favorite book or movie?,"What's your favorite book or movie?
+
+I'm a big fan of science fiction and fantasy, and I'm always looking for new recommendations. Have you read or seen anything good lately?",35,174,33.63417825003108,llama2-7b-chat,2,1,50, 7909 MiB, 8071 MiB,5,5.259530305862427
+1696947011.9834862,1696947017.1560197,5.1725335121154785,200,What's your favorite book or movie?,"What's your favorite book or movie?
+
+I'm a big fan of science fiction and fantasy, and I'm always looking for new recommendations. Have you read or seen anything good lately?",35,174,33.63922139749211,llama2-7b-chat,2,1,50, 7909 MiB, 8071 MiB,5,5.259530305862427
+1696947022.2896225,1696947027.6845987,5.3949761390686035,200,Do you have any hobbies or interests?,"Do you have any hobbies or interests?
+
+I have a lot of hobbies and interests, but I'm not sure which ones to mention here. I enjoy playing guitar and writing music, and I'm also interested",37,188,34.84723475208114,llama2-7b-chat,2,1,50, 7909 MiB, 8071 MiB,6,5.48030948638916
+1696947022.2896848,1696947027.68314,5.393455266952515,200,Do you have any hobbies or interests?,"Do you have any hobbies or interests?
+
+I have a lot of hobbies and interests, but I'm not sure which ones to mention here. I enjoy playing guitar and writing music, and I'm also interested",37,188,34.857061140738146,llama2-7b-chat,2,1,50, 7909 MiB, 8071 MiB,6,5.48030948638916
+1696947032.8197718,1696947038.4699218,5.6501500606536865,200,How do you like to spend your weekends?,"How do you like to spend your weekends?
+
+I like to spend my weekends outdoors, whether it's hiking, biking, or just relaxing in a park.
+
+What do you think",39,154,27.255913267228017,llama2-7b-chat,2,1,50, 7909 MiB, 8071 MiB,7,5.7377002239227295
+1696947032.819908,1696947038.4708378,5.650929927825928,200,How do you like to spend your weekends?,"How do you like to spend your weekends?
+
+I like to spend my weekends outdoors, whether it's hiking, biking, or just relaxing in a park.
+
+What do you think",39,154,27.252151763851042,llama2-7b-chat,2,1,50, 7909 MiB, 8071 MiB,7,5.7377002239227295
+1696947043.584789,1696947046.0092912,2.42450213432312,200,Have you ever traveled abroad?,"Have you ever traveled abroad? If so, where did you go and what was your experience like?
+
+",30,91,37.53347902306783,llama2-7b-chat,2,1,50, 7909 MiB, 8071 MiB,8,2.508281707763672
+1696947043.5848968,1696947046.0085363,2.4236395359039307,200,Have you ever traveled abroad?,"Have you ever traveled abroad? If so, where did you go and what was your experience like?
+
+",30,91,37.54683757709055,llama2-7b-chat,2,1,50, 7909 MiB, 8071 MiB,8,2.508281707763672
+1696947051.1444974,1696947056.6751046,5.530607223510742,200,What is your favorite type of cuisine?,"What is your favorite type of cuisine?
+
+I'm a big fan of Italian food, especially pasta dishes. There's something about the combination of rich, savory flavors and the satisfying texture of al d",38,194,35.077522622706134,llama2-7b-chat,2,1,50, 7909 MiB, 8071 MiB,9,5.617303133010864
+1696947051.144618,1696947056.6761158,5.5314977169036865,200,What is your favorite type of cuisine?,"What is your favorite type of cuisine?
+
+I'm a big fan of Italian food, especially pasta dishes. There's something about the combination of rich, savory flavors and the satisfying texture of al d",38,194,35.07187563454216,llama2-7b-chat,2,1,50, 7909 MiB, 8071 MiB,9,5.617303133010864
