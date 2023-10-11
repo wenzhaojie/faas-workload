@@ -43,9 +43,10 @@ class ServiceInvoker:
         except Exception as e:
             print(f"An error occurred: {str(e)}")
 
+
     def mapping(self, input_text_list: list):
         # 用多进程方式并行调用make_prediction_request
-        with Pool(processes=64) as pool:
+        with Pool(processes=len(input_text_list)) as pool:
             res_dict_list = pool.map(self.make_prediction_request, input_text_list)
         return res_dict_list
 
@@ -58,7 +59,18 @@ def test_invoke():
 
 def test_mapping():
     invoker = ServiceInvoker()
-    input_text_list = ["what is the recipe of mayonnaise?", "what is the recipe of mayonnaise?", "what is the recipe of mayonnaise?"]
+
+    input_text_list = ["Are you a morning person or a night owl?"] * 16
+
+    print(f"input_text_list: {input_text_list}")
+    res_dict_list = invoker.mapping(input_text_list)
+    print(res_dict_list)
+
+    invoker = ServiceInvoker()
+    # input_text_list = ["what is the recipe of mayonnaise?", "what is the recipe of mayonnaise?",] * 8
+    input_text_list = ["What's the most memorable trip you've ever taken?"] * 16
+
+    print(f"input_text_list: {input_text_list}")
     res_dict_list = invoker.mapping(input_text_list)
     print(res_dict_list)
 
@@ -171,12 +183,12 @@ def test_modify_model_config():
 
 
 # 启动torch服务
-def start_serving(num_workers=1, batch_size=1, max_length=100):
+def start_serving(num_workers=1, batch_size=1, max_length=100, max_batch_delay=5000):
     # 首先终止之前的服务
     stop_serving()
 
     # 修改model-config.yaml
-    modify_model_config(min_workers=num_workers, max_workers=num_workers, batch_size=batch_size, max_length=max_length)
+    modify_model_config(min_workers=num_workers, max_workers=num_workers, batch_size=batch_size, max_length=max_length, max_batch_delay=max_batch_delay)
 
     # 启动服务
     command = [
@@ -194,11 +206,8 @@ def start_serving(num_workers=1, batch_size=1, max_length=100):
     # 进入上一级目录
     os.chdir("..")
 
-    # 使用Popen以非阻塞方式运行命令
-    process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-
-    # 阻塞地等待命令完成
-    # process.communicate()
+    # 使用os.system
+    os.system(" ".join(command))
 
     # 返回当前目录
     os.chdir("./exp")
@@ -222,10 +231,6 @@ def start_serving(num_workers=1, batch_size=1, max_length=100):
     print("Model is ready!")
     # num_workers=1, batch_size=1, max_length=100
     print(f"num_workers={num_workers}, batch_size={batch_size}, max_length={max_length}")
-
-    # 等待10秒
-    print("Wait for 10 seconds...")
-    time.sleep(10)
 
 
 def stop_serving():
@@ -265,7 +270,7 @@ def test_get_metrics():
     get_metrics()
     
 
-def automatic_exp(batch_size_list=[1,2,4,8,16,32], num_worker_list=[1,2], max_length_list=[50,100], save_dir="./results/2023-10-10", min_index=0, max_index=1):
+def automatic_exp(batch_size_list=[1,2,4,8,16,32], num_worker_list=[1,2], max_length_list=[50,100], max_batch_delay_list=[100], save_dir="./results/2023-10-10", min_index=0, max_index=1):
 
     # 创建save_dir
     os.makedirs(save_dir, exist_ok=True)
@@ -276,88 +281,78 @@ def automatic_exp(batch_size_list=[1,2,4,8,16,32], num_worker_list=[1,2], max_le
 
     total_res_dict_list = []
 
-    
     for num_worker in num_worker_list:
         for batch_size in batch_size_list:
             for max_length in max_length_list:
-
-                # 启动服务
-                start_serving(num_workers=num_worker, batch_size=batch_size, max_length=max_length)
-
-                # 等待5秒
-                print("Wait for 5 seconds...")
-                time.sleep(5)
-
-                # 记录metrics
-                metrics_dict = get_metrics()
-                inited_gpu_memory_used = metrics_dict["memory_used"]
-
-                
-                summary_res_dict_list = []
-
-                for index in range(min_index, min(len(input_text_list), max_index)):
-                    print(f"index={index}")
-                    # data
-                    data = input_text_list[index]
-                    # batch 
-                    batch = [data] * batch_size
-
-                    print(f"batch: {batch}")
-                    
-                    # 调用服务
-                    invoker = ServiceInvoker()
-
-                    # retry 3 times
-                    try:
-                        # 等待5秒
-                        print("Wait for 5 seconds...")
-                        time.sleep(5)
-                        start_t = time.time()
-                        res_dict_list = invoker.mapping(batch)
-                        end_t = time.time()
-                        batch_t = end_t - start_t
-
-                        print(f"batch_t: {batch_t}, batch_size: {batch_size}, num_worker: {num_worker}, max_length: {max_length}, index: {index}")
-                        print("output_text:", res_dict_list[0]["output_text"])
-                    
-                    except Exception as e:
-                        print(f"An error occurred: {str(e)}")
-                        # 跳过
-                        continue
+                for max_batch_delay in max_batch_delay_list:
+                    # 启动服务
+                    start_serving(num_workers=num_worker, batch_size=batch_size, max_length=max_length, max_batch_delay=max_batch_delay)
 
                     # 记录metrics
                     metrics_dict = get_metrics()
-                    runtime_gpu_memory_used = metrics_dict["memory_used"]
-
+                    inited_gpu_memory_used = metrics_dict["memory_used"]
                     
-                    # 在res_dict_list中添加batch_size和num_worker和max_length
-                    for res_dict in res_dict_list:
-                        res_dict["batch_size"] = batch_size
-                        res_dict["num_worker"] = num_worker
-                        res_dict["max_length"] = max_length
-                        res_dict["inited_gpu_memory_used"] = inited_gpu_memory_used
-                        res_dict["runtime_gpu_memory_used"] = runtime_gpu_memory_used
-                        res_dict["index"] = index
-                        res_dict["batch_t"] = batch_t
+                    summary_res_dict_list = []
 
-                    summary_res_dict_list.extend(res_dict_list)
-                    total_res_dict_list.extend(res_dict_list)
+                    for index in range(min_index, min(len(input_text_list), max_index)):
+                        print(f"index={index}")
+                        # data
+                        data = input_text_list[index]
+                        # batch 
+                        batch = [data] * batch_size * num_worker
+                        print(f"batch: {batch}")
+                    
+                        # 调用服务
+                        try:
+                            # invoker
+                            invoker = ServiceInvoker()
+                            start_t = time.time()
+                            res_dict_list = invoker.mapping(batch)
+                            end_t = time.time()
+                            batch_t = end_t - start_t
 
-                    # 等待5秒
-                    print("Wait for 5 seconds...")
-                    time.sleep(5)
+                            print(f"batch_t: {batch_t}, batch_size: {batch_size}, num_worker: {num_worker}, max_length: {max_length}, max_batch_delay:{max_batch_delay}, index: {index}")
+                            print("output_text:", res_dict_list[0]["output_text"])
+                        
+                        except Exception as e:
+                            print(f"An error occurred: {str(e)}")
+                            # 跳过
+                            continue
 
-                # 写入csv文件
-                import csv
-                csv_file_name = f"exp_result_batch_size_{batch_size}_num_worker_{num_worker}_max_length_{max_length}.csv"
+                        # 记录metrics
+                        metrics_dict = get_metrics()
+                        runtime_gpu_memory_used = metrics_dict["memory_used"]
 
-                csv_file_path = os.path.join(save_dir, csv_file_name)
+                        
+                        # 在res_dict_list中添加batch_size和num_worker和max_length
+                        for res_dict in res_dict_list:
+                            res_dict["batch_size"] = batch_size
+                            res_dict["num_worker"] = num_worker
+                            res_dict["max_length"] = max_length
+                            res_dict["max_batch_delay"] = max_batch_delay
+                            res_dict["inited_gpu_memory_used"] = inited_gpu_memory_used
+                            res_dict["runtime_gpu_memory_used"] = runtime_gpu_memory_used
+                            res_dict["index"] = index
+                            res_dict["batch_t"] = batch_t
 
-                with open(csv_file_path, "w", newline="") as f:
-                    writer = csv.DictWriter(f, fieldnames=summary_res_dict_list[0].keys())
-                    writer.writeheader()
-                    writer.writerows(summary_res_dict_list)
-                print(f"Write to {csv_file_path} successfully!")
+                        summary_res_dict_list.extend(res_dict_list)
+                        total_res_dict_list.extend(res_dict_list)
+
+                        # 等待5秒
+                        print("Wait for 5 seconds...")
+                        time.sleep(5)
+
+                    # 写入csv文件
+                    import csv
+                    csv_file_name = f"exp_result_batch_size_{batch_size}_num_worker_{num_worker}_max_length_{max_length}.csv"
+
+                    csv_file_path = os.path.join(save_dir, csv_file_name)
+
+                    with open(csv_file_path, "w", newline="") as f:
+                        writer = csv.DictWriter(f, fieldnames=summary_res_dict_list[0].keys())
+                        writer.writeheader()
+                        writer.writerows(summary_res_dict_list)
+                    print(f"Write to {csv_file_path} successfully!")
 
 
     # 写入csv文件
@@ -378,7 +373,14 @@ def test_automatic_exp():
 
 
 def exp1():
-    automatic_exp(batch_size_list=[1,2,4,8,16,32,], num_worker_list=[1,2], max_length_list=[50,100,], save_dir="./results/2023-10-10-21-44-exp1", max_index=10,)
+    # 2023-10-11-01-33-exp1
+    automatic_exp(batch_size_list=[1,2,4,8,16,32,], num_worker_list=[1,2], max_length_list=[50,100,], save_dir="./results/2023-10-11-01-33-exp1", max_index=100,)
+
+
+def exp2():
+    # 增加max_batch_delay的设置，并发的请求数为batch_size * num_worker
+    automatic_exp(batch_size_list=[1,2,4,8,16,32,], num_worker_list=[1,2], max_length_list=[50,100,], max_batch_delay_list=[1000], save_dir="./results/2023-10-11-01-33-exp2", max_index=100,)
+    pass
 
 
 
@@ -392,7 +394,7 @@ if __name__ == "__main__":
 
     # test_mapping()
 
-    test_exp()
+    # test_exp()
 
     # test_modify_model_config()
 
@@ -404,4 +406,4 @@ if __name__ == "__main__":
     
     # test_automatic_exp()
     
-    # exp1()
+    exp1()

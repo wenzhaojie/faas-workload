@@ -1,8 +1,8 @@
 # TorchServe frontend parameters
 minWorkers: 1
 maxWorkers: 1
-maxBatchDelay: 5000
-responseTimeout: 5000
+maxBatchDelay: 5000 # 单位是毫秒
+responseTimeout: 5000 # 单位是秒
 batchSize: 1
 deviceType: "gpu"
 
