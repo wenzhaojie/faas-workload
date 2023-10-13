@@ -1,0 +1,1 @@
+torch-model-archiver --model-name chatglm --version 1.0 --handler myhandler.py

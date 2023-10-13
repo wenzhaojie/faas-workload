@@ -137,3 +137,8 @@ models/
 model_store/
 model/
 
+# .mar
+*.mar
+
+# logs
+logs/

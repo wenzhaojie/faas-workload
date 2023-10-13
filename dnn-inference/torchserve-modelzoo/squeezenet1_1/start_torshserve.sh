@@ -1,0 +1,1 @@
+torchserve --start --model-store model_store --models squeezenet1_1=squeezenet1_1.mar --ts-config config.properties

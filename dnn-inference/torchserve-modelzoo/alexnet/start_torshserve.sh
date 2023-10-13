@@ -1,0 +1,1 @@
+torchserve --start --model-store model_store --models alexnet=alexnet.mar --ts-config config.properties

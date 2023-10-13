@@ -5,9 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e5aadb8-17db-4d2e-9df8-e99d6a3776bd" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-chatglm/myhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-chatglm/package_model.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/alexnet/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/alexnet/get_model_config.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/alexnet/invoke.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/alexnet/kitten.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/alexnet/start_torshserve.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/densenet161/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/densenet161/get_model_config.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/densenet161/invoke.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/densenet161/kitten.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/densenet161/start_torshserve.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/fastrcnn/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/fastrcnn/get_model_config.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/fastrcnn/invoke.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/fastrcnn/persons.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/fastrcnn/start_torshserve.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/maskrcnn/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/maskrcnn/get_model_config.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/maskrcnn/invoke.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/maskrcnn/persons.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/maskrcnn/start_torshserve.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/resnet-18/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/resnet-18/get_model_config.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/resnet-18/invoke.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/resnet-18/kitten.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/resnet-18/start_torshserve.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/squeezenet1_1/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/squeezenet1_1/get_model_config.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/squeezenet1_1/invoke.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/squeezenet1_1/kitten.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/squeezenet1_1/start_torshserve.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/text-classifier/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/text-classifier/get_model_config.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/text-classifier/invoke.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/text-classifier/sample_text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/text-classifier/start_torshserve.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/vgg16/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/vgg16/get_model_config.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/vgg16/invoke.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/vgg16/kitten.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/vgg16/start_torshserve.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/faas-workload.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/faas-workload.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dnn-inference/llama/custom_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/dnn-inference/llama/custom_handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dnn-inference/llama/package_model.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dnn-inference/llama/package_model.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +99,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/wzj/GitHubProjects/faas-workload/dnn-inference/llama&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/wzj/GitHubProjects/faas-workload/dnn-inference/torchserve-modelzoo/bert/model_store&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -68,18 +111,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dnn-inference/llama" />
-      <recent name="$PROJECT_DIR$/dnn-inference/chat-glm" />
-      <recent name="$PROJECT_DIR$/dnn-inference/stable-diffusion" />
-      <recent name="$PROJECT_DIR$/time-series-prediction/paddle-ts" />
-      <recent name="$PROJECT_DIR$/time-series-prediction/base" />
+      <recent name="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/bert/model_store" />
+      <recent name="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo" />
+      <recent name="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/bert-token-classification/model_store" />
+      <recent name="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/text-classifier&#9;/model_store" />
+      <recent name="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/text-classifier&#9;" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dnn-inference/llama/model_store" />
-      <recent name="$PROJECT_DIR$/dnn-inference/llama" />
-      <recent name="$PROJECT_DIR$/time-series-prediction/paddle-ts" />
-      <recent name="$PROJECT_DIR$/time-series-prediction/paddle-ts/models" />
-      <recent name="$PROJECT_DIR$/time-series-prediction" />
+      <recent name="$PROJECT_DIR$/dnn-inference/torchserve-chatglm/model_store" />
+      <recent name="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/fastrcnn/model_store" />
+      <recent name="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/squeezenet1_1/model_store" />
+      <recent name="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/alexnet/model_store" />
+      <recent name="$PROJECT_DIR$/dnn-inference/torchserve-modelzoo/squeezenet1_1" />
     </key>
   </component>
   <component name="RunManager" selected="Python.handler_batch">
@@ -226,7 +269,10 @@
       <workItem from="1694152800036" duration="4386000" />
       <workItem from="1696644339869" duration="2744000" />
       <workItem from="1696742636477" duration="3242000" />
-      <workItem from="1696747033977" duration="2433000" />
+      <workItem from="1696747033977" duration="3048000" />
+      <workItem from="1697182396861" duration="6418000" />
+      <workItem from="1697190156422" duration="818000" />
+      <workItem from="1697191087724" duration="715000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1670405183604</created>
@@ -351,7 +397,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696748657132</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update">
+      <option name="closed" value="true" />
+      <created>1696757857125</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1696757857125</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
