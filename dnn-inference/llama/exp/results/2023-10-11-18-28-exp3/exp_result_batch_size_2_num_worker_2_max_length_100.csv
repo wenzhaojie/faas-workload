@@ -1,0 +1,337 @@
+start_t,end_t,latency,status_code,input_text,output_text,input_len,output_len,output_speed,model_name,batch_size,num_worker,max_length,max_batch_delay,inited_gpu_memory_used,runtime_gpu_memory_used,index,batch_t,init_t,input_token_count,output_token_count
+1697085411.6159852,1697085415.1569467,3.540961503982544,200,What is your name?,"What is your name? *
+
+Your email address? *
+
+What is your message? *",18,68,19.20382357264261,llama2-7b-chat,2,2,100,1000, 15805 MiB, 15961 MiB,0,9.742620944976807,15.766640663146973,6,22
+1697085411.616174,1697085418.002018,6.385843992233276,200,What is your name?,"What is your name? *
+
+Your email address? *
+
+What is your message? *",18,68,10.648553281712546,llama2-7b-chat,2,2,100,1000, 15805 MiB, 15961 MiB,0,9.742620944976807,15.766640663146973,6,22
+1697085411.6163394,1697085418.0009267,6.384587287902832,200,What is your name?,"What is your name? *
+
+Your email address? *
+
+What is your message? *",18,68,10.650649279843458,llama2-7b-chat,2,2,100,1000, 15805 MiB, 15961 MiB,0,9.742620944976807,15.766640663146973,6,22
+1697085411.6165068,1697085415.3297384,3.7132315635681152,200,What is your name?,"What is your name? *
+
+Your email address? *
+
+What is your message? *",18,68,18.31288968540855,llama2-7b-chat,2,2,100,1000, 15805 MiB, 15961 MiB,0,9.742620944976807,15.766640663146973,6,22
+1697085411.6166925,1697085415.1578813,3.5411887168884277,200,What is your name?,"What is your name? *
+
+Your email address? *
+
+What is your message? *",18,68,19.202591399802678,llama2-7b-chat,2,2,100,1000, 15805 MiB, 15961 MiB,0,9.742620944976807,15.766640663146973,6,22
+1697085411.6167884,1697085415.327964,3.7111756801605225,200,What is your name?,"What is your name? *
+
+Your email address? *
+
+What is your message? *",18,68,18.32303449376418,llama2-7b-chat,2,2,100,1000, 15805 MiB, 15961 MiB,0,9.742620944976807,15.766640663146973,6,22
+1697085411.6169443,1697085418.2272673,6.610322952270508,200,What is your name?,"What is your name? *
+
+Your email address? *
+
+What is your message? *",18,68,10.286940667043117,llama2-7b-chat,2,2,100,1000, 15805 MiB, 15961 MiB,0,9.742620944976807,15.766640663146973,6,22
+1697085411.617345,1697085418.2283103,6.610965251922607,200,What is your name?,"What is your name? *
+
+Your email address? *
+
+What is your message? *",18,68,10.285941221703467,llama2-7b-chat,2,2,100,1000, 15805 MiB, 15961 MiB,0,9.742620944976807,15.766640663146973,6,22
+1697085427.5565798,1697085434.9028578,7.346277952194214,200,Where are you from?,"Where are you from?
+
+I am from the United States.
+
+What do you do?
+
+I am a software engineer.
+
+What do you like to do in your free time?
+
+In my free time,",19,154,20.962996636140442,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16121 MiB,1,18.368383646011353,15.766640663146973,6,50
+1697085427.5567656,1697085434.9042306,7.3474650382995605,200,Where are you from?,"Where are you from?
+
+I am from the United States.
+
+What do you do?
+
+I am a software engineer.
+
+What do you like to do in your free time?
+
+In my free time,",19,154,20.95960976979899,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16121 MiB,1,18.368383646011353,15.766640663146973,6,50
+1697085427.556946,1697085442.588603,15.031656980514526,200,Where are you from?,"Where are you from?
+
+I am from the United States.
+
+What do you do?
+
+I am a software engineer.
+
+What do you like to do in your free time?
+
+In my free time,",19,154,10.245044854311773,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16121 MiB,1,18.368383646011353,15.766640663146973,6,50
+1697085427.5570815,1697085435.135829,7.578747510910034,200,Where are you from?,"Where are you from?
+
+I am from the United States.
+
+What do you do?
+
+I am a software engineer.
+
+What do you like to do in your free time?
+
+In my free time,",19,154,20.319980284117964,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16121 MiB,1,18.368383646011353,15.766640663146973,6,50
+1697085427.5572622,1697085442.1465256,14.589263439178467,200,Where are you from?,"Where are you from?
+
+I am from the United States.
+
+What do you do?
+
+I am a software engineer.
+
+What do you like to do in your free time?
+
+In my free time,",19,154,10.555707671056481,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16121 MiB,1,18.368383646011353,15.766640663146973,6,50
+1697085427.5574207,1697085435.1368487,7.57942795753479,200,Where are you from?,"Where are you from?
+
+I am from the United States.
+
+What do you do?
+
+I am a software engineer.
+
+What do you like to do in your free time?
+
+In my free time,",19,154,20.318156048558645,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16121 MiB,1,18.368383646011353,15.766640663146973,6,50
+1697085427.5576031,1697085442.1473637,14.589760541915894,200,Where are you from?,"Where are you from?
+
+I am from the United States.
+
+What do you do?
+
+I am a software engineer.
+
+What do you like to do in your free time?
+
+In my free time,",19,154,10.555348016683562,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16121 MiB,1,18.368383646011353,15.766640663146973,6,50
+1697085427.5580087,1697085442.5894842,15.03147554397583,200,Where are you from?,"Where are you from?
+
+I am from the United States.
+
+What do you do?
+
+I am a software engineer.
+
+What do you like to do in your free time?
+
+In my free time,",19,154,10.245168516521229,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16121 MiB,1,18.368383646011353,15.766640663146973,6,50
+1697085451.6387138,1697085455.491957,3.853243112564087,200,How old are you?,"How old are you?
+
+I am 35 years old.",16,36,9.34277930261304,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16121 MiB,2,7.1487603187561035,15.766640663146973,6,16
+1697085451.6388807,1697085453.6065402,1.9676594734191895,200,How old are you?,"How old are you?
+
+I am 35 years old.",16,36,18.295848690445926,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16121 MiB,2,7.1487603187561035,15.766640663146973,6,16
+1697085451.6390398,1697085453.659991,2.020951271057129,200,How old are you?,"How old are you?
+
+I am 35 years old.",16,36,17.81339338338868,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16121 MiB,2,7.1487603187561035,15.766640663146973,6,16
+1697085451.6391714,1697085453.60819,1.9690186977386475,200,How old are you?,"How old are you?
+
+I am 35 years old.",16,36,18.283218966556692,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16121 MiB,2,7.1487603187561035,15.766640663146973,6,16
+1697085451.6393375,1697085453.6589751,2.0196375846862793,200,How old are you?,"How old are you?
+
+I am 35 years old.",16,36,17.82498022069245,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16121 MiB,2,7.1487603187561035,15.766640663146973,6,16
+1697085451.6395006,1697085455.5948794,3.955378770828247,200,How old are you?,"How old are you?
+
+I am 35 years old.",16,36,9.101530368092076,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16121 MiB,2,7.1487603187561035,15.766640663146973,6,16
+1697085451.6396463,1697085455.4906785,3.851032257080078,200,How old are you?,"How old are you?
+
+I am 35 years old.",16,36,9.348142938510685,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16121 MiB,2,7.1487603187561035,15.766640663146973,6,16
+1697085451.6400158,1697085455.5957305,3.955714702606201,200,How old are you?,"How old are you?
+
+I am 35 years old.",16,36,9.100757437406088,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16121 MiB,2,7.1487603187561035,15.766640663146973,6,16
+1697085464.6757383,1697085471.4393823,6.763643980026245,200,What do you do for a living?,"What do you do for a living? <a href=""https://www.freshessays.com/write-my-essay/"">Write my essay</a> for me! I'm too busy to write my",28,134,19.811805647328,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16125 MiB,3,17.071604013442993,15.766640663146973,9,50
+1697085464.6759064,1697085471.6683168,6.99241042137146,200,What do you do for a living?,"What do you do for a living? <a href=""https://www.freshessays.com/write-my-essay/"">Write my essay</a> for me! I'm too busy to write my",28,134,19.163634844780443,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16125 MiB,3,17.071604013442993,15.766640663146973,9,50
+1697085464.6760852,1697085478.5354378,13.859352588653564,200,What do you do for a living?,"What do you do for a living? <a href=""https://www.freshessays.com/write-my-essay/"">Write my essay</a> for me! I'm too busy to write my",28,134,9.668561294104293,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16125 MiB,3,17.071604013442993,15.766640663146973,9,50
+1697085464.6761868,1697085471.6687515,6.992564678192139,200,What do you do for a living?,"What do you do for a living? <a href=""https://www.freshessays.com/write-my-essay/"">Write my essay</a> for me! I'm too busy to write my",28,134,19.163212092683057,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16125 MiB,3,17.071604013442993,15.766640663146973,9,50
+1697085464.6763904,1697085478.1157172,13.439326763153076,200,What do you do for a living?,"What do you do for a living? <a href=""https://www.freshessays.com/write-my-essay/"">Write my essay</a> for me! I'm too busy to write my",28,134,9.970737549695645,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16125 MiB,3,17.071604013442993,15.766640663146973,9,50
+1697085464.676518,1697085478.1163216,13.43980360031128,200,What do you do for a living?,"What do you do for a living? <a href=""https://www.freshessays.com/write-my-essay/"">Write my essay</a> for me! I'm too busy to write my",28,134,9.970383793175104,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16125 MiB,3,17.071604013442993,15.766640663146973,9,50
+1697085464.6767159,1697085478.537058,13.860342264175415,200,What do you do for a living?,"What do you do for a living? <a href=""https://www.freshessays.com/write-my-essay/"">Write my essay</a> for me! I'm too busy to write my",28,134,9.667870925983369,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16125 MiB,3,17.071604013442993,15.766640663146973,9,50
+1697085464.6771154,1697085471.4401174,6.763001918792725,200,What do you do for a living?,"What do you do for a living? <a href=""https://www.freshessays.com/write-my-essay/"">Write my essay</a> for me! I'm too busy to write my",28,134,19.813686526932198,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16125 MiB,3,17.071604013442993,15.766640663146973,9,50
+1697085487.9106116,1697085494.7783265,6.867714881896973,200,Have you been to any interesting places recently?,"Have you been to any interesting places recently?
+
+I've been to a few places recently that I think you might enjoy hearing about.
+
+First, I went to a small town in the countryside that was known for",49,198,28.830550394851166,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16133 MiB,4,17.32611846923828,15.766640663146973,10,50
+1697085487.910772,1697085494.7791386,6.868366479873657,200,Have you been to any interesting places recently?,"Have you been to any interesting places recently?
+
+I've been to a few places recently that I think you might enjoy hearing about.
+
+First, I went to a small town in the countryside that was known for",49,198,28.82781525712096,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16133 MiB,4,17.32611846923828,15.766640663146973,10,50
+1697085487.9109538,1697085494.98885,7.077896356582642,200,Have you been to any interesting places recently?,"Have you been to any interesting places recently?
+
+I've been to a few places recently that I think you might enjoy hearing about.
+
+First, I went to a small town in the countryside that was known for",49,198,27.97441358629877,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16133 MiB,4,17.32611846923828,15.766640663146973,10,50
+1697085487.9111865,1697085501.6308644,13.719677925109863,200,Have you been to any interesting places recently?,"Have you been to any interesting places recently?
+
+I've been to a few places recently that I think you might enjoy hearing about.
+
+First, I went to a small town in the countryside that was known for",49,198,14.431825665354639,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16133 MiB,4,17.32611846923828,15.766640663146973,10,50
+1697085487.9113624,1697085494.9884398,7.077077388763428,200,Have you been to any interesting places recently?,"Have you been to any interesting places recently?
+
+I've been to a few places recently that I think you might enjoy hearing about.
+
+First, I went to a small town in the countryside that was known for",49,198,27.977650818736684,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16133 MiB,4,17.32611846923828,15.766640663146973,10,50
+1697085487.9118268,1697085501.9093606,13.997533798217773,200,Have you been to any interesting places recently?,"Have you been to any interesting places recently?
+
+I've been to a few places recently that I think you might enjoy hearing about.
+
+First, I went to a small town in the countryside that was known for",49,198,14.14534894891343,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16133 MiB,4,17.32611846923828,15.766640663146973,10,50
+1697085487.911967,1697085501.9094994,13.997532367706299,200,Have you been to any interesting places recently?,"Have you been to any interesting places recently?
+
+I've been to a few places recently that I think you might enjoy hearing about.
+
+First, I went to a small town in the countryside that was known for",49,198,14.145350394531375,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16133 MiB,4,17.32611846923828,15.766640663146973,10,50
+1697085487.9121096,1697085501.6303043,13.718194723129272,200,Have you been to any interesting places recently?,"Have you been to any interesting places recently?
+
+I've been to a few places recently that I think you might enjoy hearing about.
+
+First, I went to a small town in the countryside that was known for",49,198,14.433386024632402,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16133 MiB,4,17.32611846923828,15.766640663146973,10,50
+1697085511.4046357,1697085518.0565622,6.651926517486572,200,What's your favorite book or movie?,"What's your favorite book or movie?
+
+I'm a big fan of science fiction and fantasy, and I'm always looking for new recommendations. Have you read or seen anything good lately?",35,174,26.15783555975688,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,5,16.637954235076904,15.766640663146973,10,46
+1697085511.4048169,1697085517.830725,6.425908088684082,200,What's your favorite book or movie?,"What's your favorite book or movie?
+
+I'm a big fan of science fiction and fantasy, and I'm always looking for new recommendations. Have you read or seen anything good lately?",35,174,27.077884961724106,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,5,16.637954235076904,15.766640663146973,10,46
+1697085511.4049618,1697085518.0571227,6.652160882949829,200,What's your favorite book or movie?,"What's your favorite book or movie?
+
+I'm a big fan of science fiction and fantasy, and I'm always looking for new recommendations. Have you read or seen anything good lately?",35,174,26.156913980535236,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,5,16.637954235076904,15.766640663146973,10,46
+1697085511.4050865,1697085517.8310158,6.425929307937622,200,What's your favorite book or movie?,"What's your favorite book or movie?
+
+I'm a big fan of science fiction and fantasy, and I'm always looking for new recommendations. Have you read or seen anything good lately?",35,174,27.077795547029545,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,5,16.637954235076904,15.766640663146973,10,46
+1697085511.4052548,1697085524.1820536,12.776798725128174,200,What's your favorite book or movie?,"What's your favorite book or movie?
+
+I'm a big fan of science fiction and fantasy, and I'm always looking for new recommendations. Have you read or seen anything good lately?",35,174,13.618434769406957,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,5,16.637954235076904,15.766640663146973,10,46
+1697085511.4053895,1697085524.1823545,12.776964902877808,200,What's your favorite book or movie?,"What's your favorite book or movie?
+
+I'm a big fan of science fiction and fantasy, and I'm always looking for new recommendations. Have you read or seen anything good lately?",35,174,13.618257647464405,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,5,16.637954235076904,15.766640663146973,10,46
+1697085511.4055376,1697085524.5695257,13.16398811340332,200,What's your favorite book or movie?,"What's your favorite book or movie?
+
+I'm a big fan of science fiction and fantasy, and I'm always looking for new recommendations. Have you read or seen anything good lately?",35,174,13.217878845001124,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,5,16.637954235076904,15.766640663146973,10,46
+1697085511.4060118,1697085524.570394,13.164382219314575,200,What's your favorite book or movie?,"What's your favorite book or movie?
+
+I'm a big fan of science fiction and fantasy, and I'm always looking for new recommendations. Have you read or seen anything good lately?",35,174,13.21748313754594,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,5,16.637954235076904,15.766640663146973,10,46
+1697085533.774764,1697085540.4627862,6.688022136688232,200,Do you have any hobbies or interests?,"Do you have any hobbies or interests?
+
+I have a lot of hobbies and interests, but I'm not sure which ones to mention here. I enjoy playing guitar and writing music, and I'm also interested",37,188,28.10995480542677,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,6,16.950671911239624,15.766640663146973,11,50
+1697085533.7749288,1697085540.4629905,6.688061714172363,200,Do you have any hobbies or interests?,"Do you have any hobbies or interests?
+
+I have a lot of hobbies and interests, but I'm not sure which ones to mention here. I enjoy playing guitar and writing music, and I'm also interested",37,188,28.109788461075034,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,6,16.950671911239624,15.766640663146973,11,50
+1697085533.7751358,1697085547.0722196,13.297083854675293,200,Do you have any hobbies or interests?,"Do you have any hobbies or interests?
+
+I have a lot of hobbies and interests, but I'm not sure which ones to mention here. I enjoy playing guitar and writing music, and I'm also interested",37,188,14.138438326377754,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,6,16.950671911239624,15.766640663146973,11,50
+1697085533.7752843,1697085547.0732617,13.297977447509766,200,Do you have any hobbies or interests?,"Do you have any hobbies or interests?
+
+I have a lot of hobbies and interests, but I'm not sure which ones to mention here. I enjoy playing guitar and writing music, and I'm also interested",37,188,14.13748825654729,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,6,16.950671911239624,15.766640663146973,11,50
+1697085533.7754238,1697085540.6948025,6.919378757476807,200,Do you have any hobbies or interests?,"Do you have any hobbies or interests?
+
+I have a lot of hobbies and interests, but I'm not sure which ones to mention here. I enjoy playing guitar and writing music, and I'm also interested",37,188,27.170069248898198,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,6,16.950671911239624,15.766640663146973,11,50
+1697085533.775584,1697085540.694689,6.919105052947998,200,Do you have any hobbies or interests?,"Do you have any hobbies or interests?
+
+I have a lot of hobbies and interests, but I'm not sure which ones to mention here. I enjoy playing guitar and writing music, and I'm also interested",37,188,27.17114403688661,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,6,16.950671911239624,15.766640663146973,11,50
+1697085533.7760484,1697085547.4871557,13.71110725402832,200,Do you have any hobbies or interests?,"Do you have any hobbies or interests?
+
+I have a lot of hobbies and interests, but I'm not sure which ones to mention here. I enjoy playing guitar and writing music, and I'm also interested",37,188,13.711511150550269,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,6,16.950671911239624,15.766640663146973,11,50
+1697085533.7761543,1697085547.4883285,13.7121741771698,200,Do you have any hobbies or interests?,"Do you have any hobbies or interests?
+
+I have a lot of hobbies and interests, but I'm not sure which ones to mention here. I enjoy playing guitar and writing music, and I'm also interested",37,188,13.710444278997869,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,6,16.950671911239624,15.766640663146973,11,50
+1697085556.9470649,1697085564.2914498,7.3443849086761475,200,How do you like to spend your weekends?,"How do you like to spend your weekends?
+
+I like to spend my weekends outdoors, whether it's hiking, biking, or just relaxing in a park.
+
+What do you think",39,154,20.968399929322207,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,7,18.091466188430786,15.766640663146973,11,50
+1697085556.9473317,1697085571.0878537,14.140522003173828,200,How do you like to spend your weekends?,"How do you like to spend your weekends?
+
+I like to spend my weekends outdoors, whether it's hiking, biking, or just relaxing in a park.
+
+What do you think",39,154,10.890687059886108,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,7,18.091466188430786,15.766640663146973,11,50
+1697085556.9474928,1697085571.0872643,14.139771461486816,200,How do you like to spend your weekends?,"How do you like to spend your weekends?
+
+I like to spend my weekends outdoors, whether it's hiking, biking, or just relaxing in a park.
+
+What do you think",39,154,10.891265139571548,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,7,18.091466188430786,15.766640663146973,11,50
+1697085556.9476626,1697085571.4872077,14.539545059204102,200,How do you like to spend your weekends?,"How do you like to spend your weekends?
+
+I like to spend my weekends outdoors, whether it's hiking, biking, or just relaxing in a park.
+
+What do you think",39,154,10.591803207935449,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,7,18.091466188430786,15.766640663146973,11,50
+1697085556.9477854,1697085571.4882612,14.540475845336914,200,How do you like to spend your weekends?,"How do you like to spend your weekends?
+
+I like to spend my weekends outdoors, whether it's hiking, biking, or just relaxing in a park.
+
+What do you think",39,154,10.59112518999076,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,7,18.091466188430786,15.766640663146973,11,50
+1697085556.9479728,1697085564.0474136,7.099440813064575,200,How do you like to spend your weekends?,"How do you like to spend your weekends?
+
+I like to spend my weekends outdoors, whether it's hiking, biking, or just relaxing in a park.
+
+What do you think",39,154,21.691849267424725,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,7,18.091466188430786,15.766640663146973,11,50
+1697085556.9481292,1697085564.2909536,7.342824459075928,200,How do you like to spend your weekends?,"How do you like to spend your weekends?
+
+I like to spend my weekends outdoors, whether it's hiking, biking, or just relaxing in a park.
+
+What do you think",39,154,20.972855998164558,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,7,18.091466188430786,15.766640663146973,11,50
+1697085556.9486206,1697085564.0477417,7.09912109375,200,How do you like to spend your weekends?,"How do you like to spend your weekends?
+
+I like to spend my weekends outdoors, whether it's hiking, biking, or just relaxing in a park.
+
+What do you think",39,154,21.692826191622533,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,7,18.091466188430786,15.766640663146973,11,50
+1697085580.9176173,1697085584.020202,3.1025846004486084,200,Have you ever traveled abroad?,"Have you ever traveled abroad? If so, where did you go and what was your experience like?
+
+",30,91,29.33038473369659,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,8,9.496655941009521,15.766640663146973,9,25
+1697085580.9177468,1697085584.0206516,3.102904796600342,200,Have you ever traveled abroad?,"Have you ever traveled abroad? If so, where did you go and what was your experience like?
+
+",30,91,29.327358061292436,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,8,9.496655941009521,15.766640663146973,9,25
+1697085580.9179904,1697085586.9054148,5.987424373626709,200,Have you ever traveled abroad?,"Have you ever traveled abroad? If so, where did you go and what was your experience like?
+
+",30,91,15.19852182197658,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,8,9.496655941009521,15.766640663146973,9,25
+1697085580.918064,1697085587.0259705,6.107906341552734,200,Have you ever traveled abroad?,"Have you ever traveled abroad? If so, where did you go and what was your experience like?
+
+",30,91,14.898722231694574,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,8,9.496655941009521,15.766640663146973,9,25
+1697085580.918188,1697085583.943411,3.0252230167388916,200,Have you ever traveled abroad?,"Have you ever traveled abroad? If so, where did you go and what was your experience like?
+
+",30,91,30.080426962404754,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,8,9.496655941009521,15.766640663146973,9,25
+1697085580.9183598,1697085587.0265188,6.108159065246582,200,Have you ever traveled abroad?,"Have you ever traveled abroad? If so, where did you go and what was your experience like?
+
+",30,91,14.898105800446505,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,8,9.496655941009521,15.766640663146973,9,25
+1697085580.9185336,1697085583.943403,3.024869441986084,200,Have you ever traveled abroad?,"Have you ever traveled abroad? If so, where did you go and what was your experience like?
+
+",30,91,30.083943041274125,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,8,9.496655941009521,15.766640663146973,9,25
+1697085580.9189043,1697085586.9045234,5.985619068145752,200,Have you ever traveled abroad?,"Have you ever traveled abroad? If so, where did you go and what was your experience like?
+
+",30,91,15.203105804758525,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,8,9.496655941009521,15.766640663146973,9,25
+1697085596.3251543,1697085603.2143044,6.889150142669678,200,What is your favorite type of cuisine?,"What is your favorite type of cuisine?
+
+I'm a big fan of Italian food, especially pasta dishes. There's something about the combination of rich, savory flavors and the satisfying texture of al d",38,194,28.160222376111733,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,9,17.505241632461548,15.766640663146973,11,50
+1697085596.3253345,1697085603.2149866,6.8896520137786865,200,What is your favorite type of cuisine?,"What is your favorite type of cuisine?
+
+I'm a big fan of Italian food, especially pasta dishes. There's something about the combination of rich, savory flavors and the satisfying texture of al d",38,194,28.15817106756878,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,9,17.505241632461548,15.766640663146973,11,50
+1697085596.3254983,1697085603.4535646,7.128066301345825,200,What is your favorite type of cuisine?,"What is your favorite type of cuisine?
+
+I'm a big fan of Italian food, especially pasta dishes. There's something about the combination of rich, savory flavors and the satisfying texture of al d",38,194,27.2163573960264,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,9,17.505241632461548,15.766640663146973,11,50
+1697085596.3256452,1697085603.4531226,7.127477407455444,200,What is your favorite type of cuisine?,"What is your favorite type of cuisine?
+
+I'm a big fan of Italian food, especially pasta dishes. There's something about the combination of rich, savory flavors and the satisfying texture of al d",38,194,27.21860609436281,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,9,17.505241632461548,15.766640663146973,11,50
+1697085596.3257897,1697085610.0243967,13.698606967926025,200,What is your favorite type of cuisine?,"What is your favorite type of cuisine?
+
+I'm a big fan of Italian food, especially pasta dishes. There's something about the combination of rich, savory flavors and the satisfying texture of al d",38,194,14.162023952817421,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,9,17.505241632461548,15.766640663146973,11,50
+1697085596.3259602,1697085610.0249958,13.69903564453125,200,What is your favorite type of cuisine?,"What is your favorite type of cuisine?
+
+I'm a big fan of Italian food, especially pasta dishes. There's something about the combination of rich, savory flavors and the satisfying texture of al d",38,194,14.161580788166367,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,9,17.505241632461548,15.766640663146973,11,50
+1697085596.326597,1697085610.434447,14.107850074768066,200,What is your favorite type of cuisine?,"What is your favorite type of cuisine?
+
+I'm a big fan of Italian food, especially pasta dishes. There's something about the combination of rich, savory flavors and the satisfying texture of al d",38,194,13.75120936016818,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,9,17.505241632461548,15.766640663146973,11,50
+1697085596.3267145,1697085610.4348023,14.10808777809143,200,What is your favorite type of cuisine?,"What is your favorite type of cuisine?
+
+I'm a big fan of Italian food, especially pasta dishes. There's something about the combination of rich, savory flavors and the satisfying texture of al d",38,194,13.75097766979195,llama2-7b-chat,2,2,100,1000, 15805 MiB, 16137 MiB,9,17.505241632461548,15.766640663146973,11,50

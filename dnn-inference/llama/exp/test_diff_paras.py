@@ -7,6 +7,8 @@ import subprocess
 import os
 import json
 
+from get_token_count import SimpleTokenCounter
+
 
 class ServiceInvoker:
     def __init__(self, ip="127.0.0.1", port=8080, model_name="llama2-7b-chat") -> None:
@@ -206,6 +208,8 @@ def start_serving(num_workers=1, batch_size=1, max_length=100, max_batch_delay=5
     # 进入上一级目录
     os.chdir("..")
 
+    # time
+    start_t = time.time()
     # 使用os.system
     os.system(" ".join(command))
 
@@ -229,8 +233,15 @@ def start_serving(num_workers=1, batch_size=1, max_length=100, max_batch_delay=5
         if all([worker["status"] == "READY" for worker in res[0]["workers"]]):
             break
     print("Model is ready!")
+    # time
+    end_t = time.time()
+    init_t = end_t - start_t
+    print(f"Init time: {init_t}")
+
     # num_workers=1, batch_size=1, max_length=100
     print(f"num_workers={num_workers}, batch_size={batch_size}, max_length={max_length}")
+
+    return init_t
 
 
 def stop_serving():
@@ -274,6 +285,11 @@ def automatic_exp(batch_size_list=[1,2,4,8,16,32], num_worker_list=[1,2], max_le
 
     # 创建save_dir
     os.makedirs(save_dir, exist_ok=True)
+
+    # 负责统计token_count
+    counter = SimpleTokenCounter()
+
+
     
     # 获取输入
     input_generator = InputGenerator()
@@ -286,7 +302,7 @@ def automatic_exp(batch_size_list=[1,2,4,8,16,32], num_worker_list=[1,2], max_le
             for max_length in max_length_list:
                 for max_batch_delay in max_batch_delay_list:
                     # 启动服务
-                    start_serving(num_workers=num_worker, batch_size=batch_size, max_length=max_length, max_batch_delay=max_batch_delay)
+                    init_t = start_serving(num_workers=num_worker, batch_size=batch_size, max_length=max_length, max_batch_delay=max_batch_delay)
 
                     # 记录metrics
                     metrics_dict = get_metrics()
@@ -298,9 +314,14 @@ def automatic_exp(batch_size_list=[1,2,4,8,16,32], num_worker_list=[1,2], max_le
                         print(f"index={index}")
                         # data
                         data = input_text_list[index]
+
+                        # input_token_count
+                        input_token_count = counter.get_token_count(data, max_length=max_length)
+
                         # batch 
-                        batch = [data] * batch_size * num_worker
+                        batch = [data] * batch_size * num_worker * 2
                         print(f"batch: {batch}")
+                        print(f"input_token_count: {input_token_count}")
                     
                         # 调用服务
                         try:
@@ -313,6 +334,9 @@ def automatic_exp(batch_size_list=[1,2,4,8,16,32], num_worker_list=[1,2], max_le
 
                             print(f"batch_t: {batch_t}, batch_size: {batch_size}, num_worker: {num_worker}, max_length: {max_length}, max_batch_delay:{max_batch_delay}, index: {index}")
                             print("output_text:", res_dict_list[0]["output_text"])
+
+                            # output_token_count
+                            output_token_count = counter.get_token_count(res_dict_list[0]["output_text"], max_length=max_length)
                         
                         except Exception as e:
                             print(f"An error occurred: {str(e)}")
@@ -334,6 +358,9 @@ def automatic_exp(batch_size_list=[1,2,4,8,16,32], num_worker_list=[1,2], max_le
                             res_dict["runtime_gpu_memory_used"] = runtime_gpu_memory_used
                             res_dict["index"] = index
                             res_dict["batch_t"] = batch_t
+                            res_dict["init_t"] = init_t
+                            res_dict["input_token_count"] = input_token_count
+                            res_dict["output_token_count"] = output_token_count
 
                         summary_res_dict_list.extend(res_dict_list)
                         total_res_dict_list.extend(res_dict_list)
@@ -379,8 +406,70 @@ def exp1():
 
 def exp2():
     # 增加max_batch_delay的设置，并发的请求数为batch_size * num_worker
-    automatic_exp(batch_size_list=[1,2,4,8,16,32,], num_worker_list=[1,2], max_length_list=[50,100,], max_batch_delay_list=[1000], save_dir="./results/2023-10-11-01-33-exp2", max_index=100,)
+    automatic_exp(batch_size_list=[1,2,4,8,16,32,], num_worker_list=[1,2], max_length_list=[50,100,], max_batch_delay_list=[1000], save_dir="./results/2023-10-11-18-28-exp2", max_index=10,)
     pass
+
+
+def exp2():
+    # 增加max_batch_delay的设置，并发的请求数为batch_size * num_worker
+    automatic_exp(batch_size_list=[1,2,4,8,16,32,], num_worker_list=[1,2], max_length_list=[50,100,], max_batch_delay_list=[1000], save_dir="./results/2023-10-11-18-28-exp2", max_index=10,)
+    pass
+
+
+def exp3():
+    # 增加max_batch_delay的设置，并发的请求数为batch_size * num_worker * 2
+    automatic_exp(batch_size_list=[1,2,4,8,16,32,], num_worker_list=[1,2], max_length_list=[50,100,], max_batch_delay_list=[1000], save_dir="./results/2023-10-12-18-08-exp3", max_index=10,)
+    pass
+
+
+def exp4():
+    save_dir = "./results/2023-10-12-10-48-exp4"
+    # 统计不同num_worker的服务启动时间
+
+    num_worker_list = [1,2]
+    batch_size = 1
+    max_length = 100
+    max_batch_delay = 1000
+
+    # log_dict_list
+    log_dict_list = []
+
+    for num_worker in num_worker_list:
+        
+        init_t = start_serving(num_workers=num_worker, batch_size=batch_size, max_length=max_length, max_batch_delay=max_batch_delay)
+
+        log_dict = {
+            "num_worker": num_worker,
+            "batch_size": batch_size,
+            "max_length": max_length,
+            "max_batch_delay": max_batch_delay,
+            "init_t": init_t,
+        }
+
+        log_dict_list.append(log_dict)
+    
+    # 写入csv文件
+    import csv
+    csv_file_name = f"exp_result_init_time.csv"
+    
+    # 创建save_dir
+    os.makedirs(save_dir, exist_ok=True)
+    csv_file_path = os.path.join(save_dir, csv_file_name)
+    with open(csv_file_path, "w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=log_dict_list[0].keys())
+        writer.writeheader()
+        writer.writerows(log_dict_list)
+
+    print(f"Write to {csv_file_path} successfully!")
+
+
+def exp5():
+    # 增加max_batch_delay的设置，并发的请求数为batch_size * num_worker * 2，同时增加max_length, max_index=100
+    automatic_exp(batch_size_list=[1,2,4,8,16,32,], num_worker_list=[1,2], max_length_list=[10,20,50,100,200], max_batch_delay_list=[1000], save_dir="./results/2023-10-12-23-32-exp5", max_index=100,)
+    pass
+
+    
+        
 
 
 
@@ -406,4 +495,12 @@ if __name__ == "__main__":
     
     # test_automatic_exp()
     
-    exp1()
+    # exp1()
+
+    # exp2()
+
+    # exp3()
+
+    # exp4()
+
+    exp5()

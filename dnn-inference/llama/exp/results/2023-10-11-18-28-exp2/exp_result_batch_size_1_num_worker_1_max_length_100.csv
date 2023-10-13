@@ -1,0 +1,48 @@
+start_t,end_t,latency,status_code,input_text,output_text,input_len,output_len,output_speed,model_name,batch_size,num_worker,max_length,max_batch_delay,inited_gpu_memory_used,runtime_gpu_memory_used,index,batch_t
+1697020280.1762333,1697020286.8499858,6.673752546310425,200,What is your name?,"What is your name?
+
+My name is Sherlock Holmes.
+
+What is your occupation?
+
+I am a consulting detective.
+
+What is your favorite hobby?
+
+I do not have a",18,150,22.4761105478697,llama2-7b-chat,1,1,100,1000, 7909 MiB, 7989 MiB,0,6.6853508949279785
+1697020291.9105644,1697020297.9302337,6.0196692943573,200,Where are you from?,"Where are you from?
+
+I am from the United States.
+
+What do you do?
+
+I am a software engineer.
+
+What do you like to do in your free time?
+
+In my free time,",19,154,25.58280072700274,llama2-7b-chat,1,1,100,1000, 7909 MiB, 7991 MiB,1,6.030360221862793
+1697020302.9918177,1697020304.5687895,1.5769717693328857,200,How old are you?,"How old are you?
+
+I am 25 years old.",16,36,22.828563389710688,llama2-7b-chat,1,1,100,1000, 7909 MiB, 7991 MiB,2,1.5884225368499756
+1697020309.6116426,1697020315.2277322,5.616089582443237,200,What do you do for a living?,"What do you do for a living? <a href=""https://www.freshessays.com/write-my-essay/"">Write my essay</a>
+I'm a full-time writer and editor",28,135,24.038078100112724,llama2-7b-chat,1,1,100,1000, 7909 MiB, 7991 MiB,3,5.627407550811768
+1697020320.289748,1697020325.892057,5.602308988571167,200,Have you been to any interesting places recently?,"Have you been to any interesting places recently?
+
+I've been to a few places recently that I think you might enjoy hearing about.
+
+First, I went to a small town in the countryside that was known for",49,198,35.34257043014306,llama2-7b-chat,1,1,100,1000, 7909 MiB, 7991 MiB,4,5.613922357559204
+1697020330.9576974,1697020336.1835773,5.225879907608032,200,What's your favorite book or movie?,"What's your favorite book or movie?
+
+I'm a big fan of science fiction and fantasy, and I'm always looking for new recommendations. Have you read or seen anything good lately?",35,174,33.29582827701116,llama2-7b-chat,1,1,100,1000, 7909 MiB, 7991 MiB,5,5.238263368606567
+1697020341.2455778,1697020346.7200866,5.474508762359619,200,Do you have any hobbies or interests?,"Do you have any hobbies or interests?
+
+Yes, I have several hobbies and interests. I enjoy playing the guitar and writing music. I also like to read and learn about different cultures and histories. I find",37,204,37.263617404837625,llama2-7b-chat,1,1,100,1000, 7909 MiB, 7991 MiB,6,5.485822916030884
+1697020351.7820752,1697020357.405,5.6229248046875,200,How do you like to spend your weekends?,"How do you like to spend your weekends?
+
+I like to spend my weekends outdoors, either hiking or biking. It's a great way to get some exercise and fresh air, and it'",39,164,29.16631569806569,llama2-7b-chat,1,1,100,1000, 7909 MiB, 7991 MiB,7,5.639845371246338
+1697020362.473499,1697020364.922718,2.449218988418579,200,Have you ever traveled abroad?,"Have you ever traveled abroad? If so, where did you go and what was your experience like?
+
+",30,91,37.15470132736363,llama2-7b-chat,1,1,100,1000, 7909 MiB, 7991 MiB,8,2.460862874984741
+1697020369.9853096,1697020375.5780191,5.592709541320801,200,What is your favorite type of cuisine?,"What is your favorite type of cuisine?
+
+I'm just an AI, I don't have personal preferences or taste buds, but I can provide information on different types of cuisine if you're",38,174,31.111932188580518,llama2-7b-chat,1,1,100,1000, 7909 MiB, 7993 MiB,9,5.604273080825806
