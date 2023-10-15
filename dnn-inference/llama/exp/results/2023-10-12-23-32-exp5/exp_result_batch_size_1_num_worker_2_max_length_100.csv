@@ -1,0 +1,1525 @@
+start_t,end_t,latency,status_code,input_text,output_text,input_len,output_len,output_speed,model_name,batch_size,num_worker,max_length,max_batch_delay,inited_gpu_memory_used,runtime_gpu_memory_used,index,batch_t,init_t,input_token_count,output_token_count
+1697204292.4741764,1697204300.56035,8.08617353439331,200,What is your name?,"What is your name?
+
+My name is Sherlock Holmes.
+
+What is your occupation?
+
+I am a consulting detective.
+
+What is your favorite hobby?
+
+I do not have a",18,150,18.550183144351006,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15965 MiB,0,17.24844789505005,18.19527554512024,6,50
+1697204292.4744294,1697204300.465756,7.991326570510864,200,What is your name?,"What is your name?
+
+My name is Sherlock Holmes.
+
+What is your occupation?
+
+I am a consulting detective.
+
+What is your favorite hobby?
+
+I do not have a",18,150,18.770350413850114,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15965 MiB,0,17.24844789505005,18.19527554512024,6,50
+1697204292.4744458,1697204307.8180873,15.343641519546509,200,What is your name?,"What is your name?
+
+My name is Sherlock Holmes.
+
+What is your occupation?
+
+I am a consulting detective.
+
+What is your favorite hobby?
+
+I do not have a",18,150,9.776036530110053,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15965 MiB,0,17.24844789505005,18.19527554512024,6,50
+1697204292.474524,1697204307.6913164,15.216792345046997,200,What is your name?,"What is your name?
+
+My name is Sherlock Holmes.
+
+What is your occupation?
+
+I am a consulting detective.
+
+What is your favorite hobby?
+
+I do not have a",18,150,9.857530851357406,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15965 MiB,0,17.24844789505005,18.19527554512024,6,50
+1697204315.587204,1697204322.8618102,7.274606227874756,200,Where are you from?,"Where are you from?
+
+I am from the United States.
+
+What do you do?
+
+I am a software engineer.
+
+What do you like to do in your free time?
+
+In my free time,",19,154,21.16953071767713,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15965 MiB,1,16.52583622932434,18.19527554512024,6,50
+1697204315.5872912,1697204330.044936,14.457644701004028,200,Where are you from?,"Where are you from?
+
+I am from the United States.
+
+What do you do?
+
+I am a software engineer.
+
+What do you like to do in your free time?
+
+In my free time,",19,154,10.651804162078024,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15965 MiB,1,16.52583622932434,18.19527554512024,6,50
+1697204315.5875013,1697204330.3218524,14.73435115814209,200,Where are you from?,"Where are you from?
+
+I am from the United States.
+
+What do you do?
+
+I am a software engineer.
+
+What do you like to do in your free time?
+
+In my free time,",19,154,10.45176664700982,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15965 MiB,1,16.52583622932434,18.19527554512024,6,50
+1697204315.5876045,1697204322.9989886,7.411384105682373,200,Where are you from?,"Where are you from?
+
+I am from the United States.
+
+What do you do?
+
+I am a software engineer.
+
+What do you like to do in your free time?
+
+In my free time,",19,154,20.778844788509456,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15965 MiB,1,16.52583622932434,18.19527554512024,6,50
+1697204337.9536254,1697204339.915249,1.9616236686706543,200,How old are you?,"How old are you?
+
+I am 25 years old.",16,36,18.352143978970414,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15965 MiB,2,5.803259372711182,18.19527554512024,6,16
+1697204337.953756,1697204341.8110209,3.857264757156372,200,How old are you?,"How old are you?
+
+I am 25 years old.",16,36,9.333038374721182,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15965 MiB,2,5.803259372711182,18.19527554512024,6,16
+1697204337.9539266,1697204341.8338084,3.8798818588256836,200,How old are you?,"How old are you?
+
+I am 25 years old.",16,36,9.278633038299793,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15965 MiB,2,5.803259372711182,18.19527554512024,6,16
+1697204337.9539275,1697204339.9098895,1.9559619426727295,200,How old are you?,"How old are you?
+
+I am 25 years old.",16,36,18.405266081408364,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15965 MiB,2,5.803259372711182,18.19527554512024,6,16
+1697204349.647479,1697204363.275888,13.628408908843994,200,What do you do for a living?,"What do you do for a living? <a href=""https://www.freshessays.com/write-my-essay/"">Write my essay</a>
+I'm a full-time writer and editor",28,135,9.905778503049858,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15965 MiB,3,15.589527606964111,18.19527554512024,9,50
+1697204349.6476722,1697204356.5233788,6.875706672668457,200,What do you do for a living?,"What do you do for a living? <a href=""https://www.freshessays.com/write-my-essay/"">Write my essay</a>
+I'm a full-time writer and editor",28,135,19.63434544650326,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15965 MiB,3,15.589527606964111,18.19527554512024,9,50
+1697204349.647874,1697204356.490131,6.842256784439087,200,What do you do for a living?,"What do you do for a living? <a href=""https://www.freshessays.com/write-my-essay/"">Write my essay</a>
+I'm a full-time writer and editor",28,135,19.73033229431289,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15965 MiB,3,15.589527606964111,18.19527554512024,9,50
+1697204349.6478846,1697204363.3548381,13.706953525543213,200,What do you do for a living?,"What do you do for a living? <a href=""https://www.freshessays.com/write-my-essay/"">Write my essay</a>
+I'm a full-time writer and editor",28,135,9.849015665547016,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15965 MiB,3,15.589527606964111,18.19527554512024,9,50
+1697204371.0962517,1697204384.7506974,13.65444564819336,200,Have you been to any interesting places recently?,"Have you been to any interesting places recently?
+
+I've been to a few places recently that I think you might enjoy hearing about.
+
+First, I went to a small town in the countryside that was known for",49,198,14.500771770708809,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15969 MiB,4,15.526463031768799,18.19527554512024,10,50
+1697204371.0963817,1697204377.9773018,6.880920171737671,200,Have you been to any interesting places recently?,"Have you been to any interesting places recently?
+
+I've been to a few places recently that I think you might enjoy hearing about.
+
+First, I went to a small town in the countryside that was known for",49,198,28.77522119981202,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15969 MiB,4,15.526463031768799,18.19527554512024,10,50
+1697204371.0965629,1697204384.825145,13.72858214378357,200,Have you been to any interesting places recently?,"Have you been to any interesting places recently?
+
+I've been to a few places recently that I think you might enjoy hearing about.
+
+First, I went to a small town in the countryside that was known for",49,198,14.422465330089185,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15969 MiB,4,15.526463031768799,18.19527554512024,10,50
+1697204371.0965748,1697204377.9536128,6.8570380210876465,200,Have you been to any interesting places recently?,"Have you been to any interesting places recently?
+
+I've been to a few places recently that I think you might enjoy hearing about.
+
+First, I went to a small town in the countryside that was known for",49,198,28.875441464825613,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15969 MiB,4,15.526463031768799,18.19527554512024,10,50
+1697204392.4578125,1697204405.1070886,12.6492760181427,200,What's your favorite book or movie?,"What's your favorite book or movie?
+
+I'm a big fan of science fiction and fantasy, and I'm always looking for new recommendations. Have you read or seen anything good lately?",35,174,13.755727976086058,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15969 MiB,5,14.705399513244629,18.19527554512024,10,46
+1697204392.4579651,1697204398.93519,6.477224826812744,200,What's your favorite book or movie?,"What's your favorite book or movie?
+
+I'm a big fan of science fiction and fantasy, and I'm always looking for new recommendations. Have you read or seen anything good lately?",35,174,26.86335655352269,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15969 MiB,5,14.705399513244629,18.19527554512024,10,46
+1697204392.4581432,1697204398.8085163,6.350373029708862,200,What's your favorite book or movie?,"What's your favorite book or movie?
+
+I'm a big fan of science fiction and fantasy, and I'm always looking for new recommendations. Have you read or seen anything good lately?",35,174,27.39996519668659,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15969 MiB,5,14.705399513244629,18.19527554512024,10,46
+1697204392.4582086,1697204405.313527,12.855318546295166,200,What's your favorite book or movie?,"What's your favorite book or movie?
+
+I'm a big fan of science fiction and fantasy, and I'm always looking for new recommendations. Have you read or seen anything good lately?",35,174,13.535253861923621,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15969 MiB,5,14.705399513244629,18.19527554512024,10,46
+1697204413.1637585,1697204426.526037,13.362278461456299,200,Do you have any hobbies or interests?,"Do you have any hobbies or interests?
+
+Yes, I have several hobbies and interests. I enjoy playing the guitar and writing music. I also like to read and learn about different cultures and histories. I find",37,204,15.266857414208301,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,6,15.443943500518799,18.19527554512024,11,50
+1697204413.163932,1697204419.905963,6.74203085899353,200,Do you have any hobbies or interests?,"Do you have any hobbies or interests?
+
+Yes, I have several hobbies and interests. I enjoy playing the guitar and writing music. I also like to read and learn about different cultures and histories. I find",37,204,30.25794516022932,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,6,15.443943500518799,18.19527554512024,11,50
+1697204413.1641276,1697204426.6011848,13.437057256698608,200,Do you have any hobbies or interests?,"Do you have any hobbies or interests?
+
+Yes, I have several hobbies and interests. I enjoy playing the guitar and writing music. I also like to read and learn about different cultures and histories. I find",37,204,15.181895567074585,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,6,15.443943500518799,18.19527554512024,11,50
+1697204413.1641316,1697204419.8737116,6.709579944610596,200,Do you have any hobbies or interests?,"Do you have any hobbies or interests?
+
+Yes, I have several hobbies and interests. I enjoy playing the guitar and writing music. I also like to read and learn about different cultures and histories. I find",37,204,30.404287851709853,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,6,15.443943500518799,18.19527554512024,11,50
+1697204434.3996007,1697204441.3861568,6.986556053161621,200,How do you like to spend your weekends?,"How do you like to spend your weekends?
+
+I like to spend my weekends outdoors, either hiking or biking. It's a great way to get some exercise and fresh air, and it'",39,164,23.4736540796499,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,7,15.839210748672485,18.19527554512024,11,50
+1697204434.3997374,1697204441.3437564,6.944019079208374,200,How do you like to spend your weekends?,"How do you like to spend your weekends?
+
+I like to spend my weekends outdoors, either hiking or biking. It's a great way to get some exercise and fresh air, and it'",39,164,23.617446629869598,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,7,15.839210748672485,18.19527554512024,11,50
+1697204434.3998904,1697204448.2410893,13.841198921203613,200,How do you like to spend your weekends?,"How do you like to spend your weekends?
+
+I like to spend my weekends outdoors, either hiking or biking. It's a great way to get some exercise and fresh air, and it'",39,164,11.848684563644634,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,7,15.839210748672485,18.19527554512024,11,50
+1697204434.3999224,1697204448.344211,13.944288730621338,200,How do you like to spend your weekends?,"How do you like to spend your weekends?
+
+I like to spend my weekends outdoors, either hiking or biking. It's a great way to get some exercise and fresh air, and it'",39,164,11.761087508168112,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,7,15.839210748672485,18.19527554512024,11,50
+1697204456.1103647,1697204462.0393424,5.928977727890015,200,Have you ever traveled abroad?,"Have you ever traveled abroad? If so, where did you go and what was your experience like?
+
+",30,91,15.348345731159423,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,8,7.839175224304199,18.19527554512024,9,25
+1697204456.110516,1697204459.1562862,3.0457701683044434,200,Have you ever traveled abroad?,"Have you ever traveled abroad? If so, where did you go and what was your experience like?
+
+",30,91,29.87750058982914,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,8,7.839175224304199,18.19527554512024,9,25
+1697204456.1106856,1697204462.1431682,6.032482624053955,200,Have you ever traveled abroad?,"Have you ever traveled abroad? If so, where did you go and what was your experience like?
+
+",30,91,15.084999936368833,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,8,7.839175224304199,18.19527554512024,9,25
+1697204456.110715,1697204459.0969417,2.986226797103882,200,Have you ever traveled abroad?,"Have you ever traveled abroad? If so, where did you go and what was your experience like?
+
+",30,91,30.47323803009674,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,8,7.839175224304199,18.19527554512024,9,25
+1697204469.8110855,1697204483.6427884,13.831702947616577,200,What is your favorite type of cuisine?,"What is your favorite type of cuisine?
+
+I'm just an AI, I don't have personal preferences or taste buds, but I can provide information on different types of cuisine if you're",38,174,12.579795897798903,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,9,15.638520240783691,18.19527554512024,11,50
+1697204469.8111985,1697204476.720816,6.9096174240112305,200,What is your favorite type of cuisine?,"What is your favorite type of cuisine?
+
+I'm just an AI, I don't have personal preferences or taste buds, but I can provide information on different types of cuisine if you're",38,174,25.182291481919417,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,9,15.638520240783691,18.19527554512024,11,50
+1697204469.8113215,1697204483.5918236,13.780502080917358,200,What is your favorite type of cuisine?,"What is your favorite type of cuisine?
+
+I'm just an AI, I don't have personal preferences or taste buds, but I can provide information on different types of cuisine if you're",38,174,12.626535591975829,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,9,15.638520240783691,18.19527554512024,11,50
+1697204469.8113766,1697204476.7475293,6.936152696609497,200,What is your favorite type of cuisine?,"What is your favorite type of cuisine?
+
+I'm just an AI, I don't have personal preferences or taste buds, but I can provide information on different types of cuisine if you're",38,174,25.08595292099812,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,9,15.638520240783691,18.19527554512024,11,50
+1697204491.283923,1697204497.309917,6.025994062423706,200,"Can you cook? If so, what's your specialty?","Can you cook? If so, what's your specialty?
+
+I can cook a variety of dishes, but my specialty is definitely pasta. I love making homemade pasta from scratch, and I have a",43,170,28.211113094197867,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,10,13.797554016113281,18.19527554512024,15,50
+1697204491.2840552,1697204497.2849984,6.000943183898926,200,"Can you cook? If so, what's your specialty?","Can you cook? If so, what's your specialty?
+
+I can cook a variety of dishes, but my specialty is definitely pasta. I love making homemade pasta from scratch, and I have a",43,170,28.328880109401037,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,10,13.797554016113281,18.19527554512024,15,50
+1697204491.2842271,1697204503.2753768,11.991149663925171,200,"Can you cook? If so, what's your specialty?","Can you cook? If so, what's your specialty?
+
+I can cook a variety of dishes, but my specialty is definitely pasta. I love making homemade pasta from scratch, and I have a",43,170,14.177122691699635,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,10,13.797554016113281,18.19527554512024,15,50
+1697204491.2842762,1697204503.2157168,11.931440591812134,200,"Can you cook? If so, what's your specialty?","Can you cook? If so, what's your specialty?
+
+I can cook a variety of dishes, but my specialty is definitely pasta. I love making homemade pasta from scratch, and I have a",43,170,14.248069936891048,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,10,13.797554016113281,18.19527554512024,15,50
+1697204510.930212,1697204524.2075708,13.277358770370483,200,What's your favorite season of the year?,"What's your favorite season of the year?
+
+I personally love summer because of the warm weather and the ability to spend time outdoors. However, I also enjoy winter because of the holidays and the cozy atmosphere it",40,214,16.1176634375173,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,11,15.289353847503662,18.19527554512024,11,50
+1697204510.9303532,1697204517.5972345,6.666881322860718,200,What's your favorite season of the year?,"What's your favorite season of the year?
+
+I personally love summer because of the warm weather and the ability to spend time outdoors. However, I also enjoy winter because of the holidays and the cozy atmosphere it",40,214,32.09896646370389,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,11,15.289353847503662,18.19527554512024,11,50
+1697204510.9305005,1697204524.4205294,13.490028858184814,200,What's your favorite season of the year?,"What's your favorite season of the year?
+
+I personally love summer because of the warm weather and the ability to spend time outdoors. However, I also enjoy winter because of the holidays and the cozy atmosphere it",40,214,15.863568732854091,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,11,15.289353847503662,18.19527554512024,11,50
+1697204510.930515,1697204517.723334,6.792819023132324,200,What's your favorite season of the year?,"What's your favorite season of the year?
+
+I personally love summer because of the warm weather and the ability to spend time outdoors. However, I also enjoy winter because of the holidays and the cozy atmosphere it",40,214,31.503857127834934,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,11,15.289353847503662,18.19527554512024,11,50
+1697204532.0546696,1697204546.7804325,14.725762844085693,200,Do you have any pets?,"Do you have any pets? If so, what kind?
+
+I have a cat named Fluffy. She is a beautiful grey and white cat with bright green eyes. She is very affectionate and loves to cudd",21,172,11.680209835042966,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,12,16.683101892471313,18.19527554512024,8,50
+1697204532.0547814,1697204546.8491979,14.794416427612305,200,Do you have any pets?,"Do you have any pets? If so, what kind?
+
+I have a cat named Fluffy. She is a beautiful grey and white cat with bright green eyes. She is very affectionate and loves to cudd",21,172,11.626007747015903,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,12,16.683101892471313,18.19527554512024,8,50
+1697204532.054948,1697204539.4764826,7.421534538269043,200,Do you have any pets?,"Do you have any pets? If so, what kind?
+
+I have a cat named Fluffy. She is a beautiful grey and white cat with bright green eyes. She is very affectionate and loves to cudd",21,172,23.175799979516945,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,12,16.683101892471313,18.19527554512024,8,50
+1697204532.0549898,1697204539.436012,7.381022214889526,200,Do you have any pets?,"Do you have any pets? If so, what kind?
+
+I have a cat named Fluffy. She is a beautiful grey and white cat with bright green eyes. She is very affectionate and loves to cudd",21,172,23.30300532804647,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,12,16.683101892471313,18.19527554512024,8,50
+1697204554.5762696,1697204561.5490656,6.9727959632873535,200,What's your favorite sport or physical activity?,"What's your favorite sport or physical activity?
+
+I enjoy playing basketball and running. Basketball is a great way to improve your coordination, agility, and cardiovascular fitness, while running can help you improve your",48,222,31.838017513900862,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,13,15.703389167785645,18.19527554512024,11,50
+1697204554.5764272,1697204568.4775145,13.901087284088135,200,What's your favorite sport or physical activity?,"What's your favorite sport or physical activity?
+
+I enjoy playing basketball and running. Basketball is a great way to improve your coordination, agility, and cardiovascular fitness, while running can help you improve your",48,222,15.96997382025736,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,13,15.703389167785645,18.19527554512024,11,50
+1697204554.576604,1697204568.5290277,13.952423810958862,200,What's your favorite sport or physical activity?,"What's your favorite sport or physical activity?
+
+I enjoy playing basketball and running. Basketball is a great way to improve your coordination, agility, and cardiovascular fitness, while running can help you improve your",48,222,15.911213922962345,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,13,15.703389167785645,18.19527554512024,11,50
+1697204554.576648,1697204561.5762274,6.999579429626465,200,What's your favorite sport or physical activity?,"What's your favorite sport or physical activity?
+
+I enjoy playing basketball and running. Basketball is a great way to improve your coordination, agility, and cardiovascular fitness, while running can help you improve your",48,222,31.71619127005851,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,13,15.703389167785645,18.19527554512024,11,50
+1697204576.2782044,1697204589.2828212,13.004616737365723,200,Are you a morning person or a night owl?,"Are you a morning person or a night owl?
+
+Morning person:
+
+* Wake up early and feel energized and alert
+* Have a productive morning routine, such as exercise or meditation
+* Enjo",40,178,13.687446819448255,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,14,14.950421333312988,18.19527554512024,12,50
+1697204576.2783225,1697204582.8076925,6.529370069503784,200,Are you a morning person or a night owl?,"Are you a morning person or a night owl?
+
+Morning person:
+
+* Wake up early and feel energized and alert
+* Have a productive morning routine, such as exercise or meditation
+* Enjo",40,178,27.26143534601762,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,14,14.950421333312988,18.19527554512024,12,50
+1697204576.278478,1697204589.1971643,12.918686389923096,200,Are you a morning person or a night owl?,"Are you a morning person or a night owl?
+
+Morning person:
+
+* Wake up early and feel energized and alert
+* Have a productive morning routine, such as exercise or meditation
+* Enjo",40,178,13.778490678343623,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,14,14.950421333312988,18.19527554512024,12,50
+1697204576.2785528,1697204582.7699308,6.49137806892395,200,Are you a morning person or a night owl?,"Are you a morning person or a night owl?
+
+Morning person:
+
+* Wake up early and feel energized and alert
+* Have a productive morning routine, such as exercise or meditation
+* Enjo",40,178,27.420987979753633,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,14,14.950421333312988,18.19527554512024,12,50
+1697204597.0460944,1697204609.0775049,12.031410455703735,200,What's the most memorable trip you've ever taken?,"What's the most memorable trip you've ever taken?
+
+I've been fortunate enough to have taken many memorable trips throughout my life, but one that stands out to me is the time I spent travel",49,189,15.708881406369168,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,15,13.871412992477417,18.19527554512024,15,50
+1697204597.0461676,1697204603.08954,6.043372392654419,200,What's the most memorable trip you've ever taken?,"What's the most memorable trip you've ever taken?
+
+I've been fortunate enough to have taken many memorable trips throughout my life, but one that stands out to me is the time I spent travel",49,189,31.273929144218414,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,15,13.871412992477417,18.19527554512024,15,50
+1697204597.0463312,1697204603.1207962,6.074465036392212,200,What's the most memorable trip you've ever taken?,"What's the most memorable trip you've ever taken?
+
+I've been fortunate enough to have taken many memorable trips throughout my life, but one that stands out to me is the time I spent travel",49,189,31.113850992259916,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,15,13.871412992477417,18.19527554512024,15,50
+1697204597.046609,1697204609.1388528,12.092243909835815,200,What's the most memorable trip you've ever taken?,"What's the most memorable trip you've ever taken?
+
+I've been fortunate enough to have taken many memorable trips throughout my life, but one that stands out to me is the time I spent travel",49,189,15.6298534340899,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15973 MiB,15,13.871412992477417,18.19527554512024,15,50
+1697204616.772788,1697204618.5653129,1.792524814605713,200,"Do you have any siblings? If so, how many?","Do you have any siblings? If so, how many?
+
+I have 2 siblings.",42,62,34.58808463616033,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,16,5.480868339538574,18.19527554512024,14,23
+1697204616.772894,1697204618.5618572,1.7889633178710938,200,"Do you have any siblings? If so, how many?","Do you have any siblings? If so, how many?
+
+I have 2 siblings.",42,62,34.65694314726441,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,16,5.480868339538574,18.19527554512024,14,23
+1697204616.7730508,1697204620.3042638,3.5312130451202393,200,"Do you have any siblings? If so, how many?","Do you have any siblings? If so, how many?
+
+I have 2 siblings.",42,62,17.55770586701853,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,16,5.480868339538574,18.19527554512024,14,23
+1697204616.7730935,1697204620.3022103,3.5291168689727783,200,"Do you have any siblings? If so, how many?","Do you have any siblings? If so, how many?
+
+I have 2 siblings.",42,62,17.568134550910003,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,16,5.480868339538574,18.19527554512024,14,23
+1697204628.1760862,1697204635.1595054,6.983419179916382,200,What's your favorite type of music?,"What's your favorite type of music?
+
+I'm a big fan of rock music, but I also enjoy listening to pop, hip-hop, and electronic dance music.
+
+What's your favorite band or artist",35,174,24.91616148439244,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,17,15.751731157302856,18.19527554512024,10,50
+1697204628.1762285,1697204635.0983748,6.922146320343018,200,What's your favorite type of music?,"What's your favorite type of music?
+
+I'm a big fan of rock music, but I also enjoy listening to pop, hip-hop, and electronic dance music.
+
+What's your favorite band or artist",35,174,25.136712220116387,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,17,15.751731157302856,18.19527554512024,10,50
+1697204628.1764123,1697204642.0866017,13.910189390182495,200,What's your favorite type of music?,"What's your favorite type of music?
+
+I'm a big fan of rock music, but I also enjoy listening to pop, hip-hop, and electronic dance music.
+
+What's your favorite band or artist",35,174,12.508816028256621,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,17,15.751731157302856,18.19527554512024,10,50
+1697204628.1764452,1697204641.971612,13.795166730880737,200,What's your favorite type of music?,"What's your favorite type of music?
+
+I'm a big fan of rock music, but I also enjoy listening to pop, hip-hop, and electronic dance music.
+
+What's your favorite band or artist",35,174,12.61311322975878,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,17,15.751731157302856,18.19527554512024,10,50
+1697204649.8613887,1697204664.4520366,14.59064793586731,200,What languages do you speak?,"What languages do you speak?
+
+I speak English, Spanish, and some French.
+
+What are your hobbies?
+
+I enjoy playing guitar, reading, and hiking.
+
+What is your favorite food?",28,171,11.71983593543101,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,18,16.47594666481018,18.19527554512024,7,50
+1697204649.861537,1697204657.1968553,7.335318326950073,200,What languages do you speak?,"What languages do you speak?
+
+I speak English, Spanish, and some French.
+
+What are your hobbies?
+
+I enjoy playing guitar, reading, and hiking.
+
+What is your favorite food?",28,171,23.311871738646072,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,18,16.47594666481018,18.19527554512024,7,50
+1697204649.8616972,1697204657.1727633,7.311066150665283,200,What languages do you speak?,"What languages do you speak?
+
+I speak English, Spanish, and some French.
+
+What are your hobbies?
+
+I enjoy playing guitar, reading, and hiking.
+
+What is your favorite food?",28,171,23.38920158511212,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,18,16.47594666481018,18.19527554512024,7,50
+1697204649.8617923,1697204664.5061142,14.644321918487549,200,What languages do you speak?,"What languages do you speak?
+
+I speak English, Spanish, and some French.
+
+What are your hobbies?
+
+I enjoy playing guitar, reading, and hiking.
+
+What is your favorite food?",28,171,11.67688070173622,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,18,16.47594666481018,18.19527554512024,7,50
+1697204672.1477327,1697204685.551775,13.40404224395752,200,What's your favorite holiday or celebration?,"What's your favorite holiday or celebration?
+
+I love Christmas! It's such a magical time of year, filled with twinkling lights, festive music, and time spent with loved ones. I also enjoy",44,187,13.951015417330451,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,19,15.212928533554077,18.19527554512024,12,50
+1697204672.1478884,1697204685.3156958,13.167807340621948,200,What's your favorite holiday or celebration?,"What's your favorite holiday or celebration?
+
+I love Christmas! It's such a magical time of year, filled with twinkling lights, festive music, and time spent with loved ones. I also enjoy",44,187,14.201301337627827,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,19,15.212928533554077,18.19527554512024,12,50
+1697204672.1479974,1697204678.886576,6.73857855796814,200,What's your favorite holiday or celebration?,"What's your favorite holiday or celebration?
+
+I love Christmas! It's such a magical time of year, filled with twinkling lights, festive music, and time spent with loved ones. I also enjoy",44,187,27.75065963709496,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,19,15.212928533554077,18.19527554512024,12,50
+1697204672.148046,1697204678.7565289,6.608482837677002,200,What's your favorite holiday or celebration?,"What's your favorite holiday or celebration?
+
+I love Christmas! It's such a magical time of year, filled with twinkling lights, festive music, and time spent with loved ones. I also enjoy",44,187,28.296963855887654,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,19,15.212928533554077,18.19527554512024,12,50
+1697204693.1839964,1697204700.1864336,7.002437114715576,200,Are you a coffee or tea person?,"Are you a coffee or tea person?
+
+I am a coffee person. I love the taste and the energy boost that comes with drinking a good cup of coffee. I can't start my day without it! ���",31,176,25.13410647132227,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,20,15.9090256690979,18.19527554512024,9,49
+1697204693.1841133,1697204700.2405868,7.05647349357605,200,Are you a coffee or tea person?,"Are you a coffee or tea person?
+
+I am a coffee person. I love the taste and the energy boost that comes with drinking a good cup of coffee. I can't start my day without it! ���",31,176,24.941636946588666,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,20,15.9090256690979,18.19527554512024,9,49
+1697204693.1842792,1697204707.1543355,13.970056295394897,200,Are you a coffee or tea person?,"Are you a coffee or tea person?
+
+I am a coffee person. I love the taste and the energy boost that comes with drinking a good cup of coffee. I can't start my day without it! ���",31,176,12.598374428742767,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,20,15.9090256690979,18.19527554512024,9,49
+1697204693.184344,1697204707.256082,14.071738004684448,200,Are you a coffee or tea person?,"Are you a coffee or tea person?
+
+I am a coffee person. I love the taste and the energy boost that comes with drinking a good cup of coffee. I can't start my day without it! ���",31,176,12.507339174550436,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,20,15.9090256690979,18.19527554512024,9,49
+1697204715.064422,1697204721.1765087,6.112086772918701,200,What's the best piece of advice you've ever received?,"What's the best piece of advice you've ever received?
+
+I've received a lot of great advice over the years, but one piece that really stands out to me is from my grandmother. She told me,",53,186,30.431505132440968,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,21,13.981775045394897,18.19527554512024,15,50
+1697204715.06449,1697204721.138026,6.073535919189453,200,What's the best piece of advice you've ever received?,"What's the best piece of advice you've ever received?
+
+I've received a lot of great advice over the years, but one piece that really stands out to me is from my grandmother. She told me,",53,186,30.624664524059114,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,21,13.981775045394897,18.19527554512024,15,50
+1697204715.0646846,1697204727.2396712,12.174986600875854,200,What's the best piece of advice you've ever received?,"What's the best piece of advice you've ever received?
+
+I've received a lot of great advice over the years, but one piece that really stands out to me is from my grandmother. She told me,",53,186,15.277224205455747,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,21,13.981775045394897,18.19527554512024,15,50
+1697204715.0647302,1697204727.1765072,12.111777067184448,200,What's the best piece of advice you've ever received?,"What's the best piece of advice you've ever received?
+
+I've received a lot of great advice over the years, but one piece that really stands out to me is from my grandmother. She told me,",53,186,15.356953729271233,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,21,13.981775045394897,18.19527554512024,15,50
+1697204734.8594024,1697204741.6884193,6.829016923904419,200,Do you have any upcoming plans or goals?,"Do you have any upcoming plans or goals?
+
+I'm just an AI, I don't have personal plans or goals like humans do, but I'm always learning and improving my language abilities. My primary",40,182,26.650980957877522,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,22,15.487007856369019,18.19527554512024,11,50
+1697204734.8596275,1697204741.6212249,6.761597394943237,200,Do you have any upcoming plans or goals?,"Do you have any upcoming plans or goals?
+
+I'm just an AI, I don't have personal plans or goals like humans do, but I'm always learning and improving my language abilities. My primary",40,182,26.91671647532748,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,22,15.487007856369019,18.19527554512024,11,50
+1697204734.8597813,1697204748.333371,13.473589658737183,200,Do you have any upcoming plans or goals?,"Do you have any upcoming plans or goals?
+
+I'm just an AI, I don't have personal plans or goals like humans do, but I'm always learning and improving my language abilities. My primary",40,182,13.507907291950142,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,22,15.487007856369019,18.19527554512024,11,50
+1697204734.8598077,1697204748.4431045,13.583296775817871,200,Do you have any upcoming plans or goals?,"Do you have any upcoming plans or goals?
+
+I'm just an AI, I don't have personal plans or goals like humans do, but I'm always learning and improving my language abilities. My primary",40,182,13.398809067030895,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,22,15.487007856369019,18.19527554512024,11,50
+1697204756.1824121,1697204769.8737364,13.691324234008789,200,Have you ever met a celebrity?,"Have you ever met a celebrity? If so, who was it?
+
+I have met a few celebrities in my lifetime, but the one that stands out the most is when I met Leonardo DiCaprio at a char",30,174,12.708777984220829,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,23,15.473994731903076,18.19527554512024,9,50
+1697204756.182545,1697204763.0034928,6.820947885513306,200,Have you ever met a celebrity?,"Have you ever met a celebrity? If so, who was it?
+
+I have met a few celebrities in my lifetime, but the one that stands out the most is when I met Leonardo DiCaprio at a char",30,174,25.509650992870142,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,23,15.473994731903076,18.19527554512024,9,50
+1697204756.1827064,1697204763.0520885,6.86938214302063,200,Have you ever met a celebrity?,"Have you ever met a celebrity? If so, who was it?
+
+I have met a few celebrities in my lifetime, but the one that stands out the most is when I met Leonardo DiCaprio at a char",30,174,25.32978896461394,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,23,15.473994731903076,18.19527554512024,9,50
+1697204756.1827607,1697204769.7841482,13.60138750076294,200,Have you ever met a celebrity?,"Have you ever met a celebrity? If so, who was it?
+
+I have met a few celebrities in my lifetime, but the one that stands out the most is when I met Leonardo DiCaprio at a char",30,174,12.79281249727205,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,23,15.473994731903076,18.19527554512024,9,50
+1697204777.5132577,1697204789.6259,12.112642288208008,200,What's the most challenging thing you've ever done?,"What's the most challenging thing you've ever done?
+
+I've had my fair share of challenges in life, but one of the most difficult things I've ever done is completing a solo backpacking",51,183,15.108181653986064,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,24,14.0616135597229,18.19527554512024,15,50
+1697204777.5133367,1697204783.7237015,6.210364818572998,200,What's the most challenging thing you've ever done?,"What's the most challenging thing you've ever done?
+
+I've had my fair share of challenges in life, but one of the most difficult things I've ever done is completing a solo backpacking",51,183,29.466867945134545,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,24,14.0616135597229,18.19527554512024,15,50
+1697204777.5135045,1697204789.8352427,12.321738243103027,200,What's the most challenging thing you've ever done?,"What's the most challenging thing you've ever done?
+
+I've had my fair share of challenges in life, but one of the most difficult things I've ever done is completing a solo backpacking",51,183,14.8518006461006,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,24,14.0616135597229,18.19527554512024,15,50
+1697204777.5135489,1697204783.6059215,6.09237265586853,200,What's the most challenging thing you've ever done?,"What's the most challenging thing you've ever done?
+
+I've had my fair share of challenges in life, but one of the most difficult things I've ever done is completing a solo backpacking",51,183,30.037558491062374,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,24,14.0616135597229,18.19527554512024,15,50
+1697204797.4206529,1697204804.7168946,7.296241760253906,200,How would you describe your fashion style?,"How would you describe your fashion style?
+
+I would describe my fashion style as classic with a modern twist. I like to dress in a way that is timeless and sophisticated, but also incorporates current trends and",42,211,28.91899788044541,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,25,16.354723930358887,18.19527554512024,9,50
+1697204797.4208143,1697204811.86172,14.440905809402466,200,How would you describe your fashion style?,"How would you describe your fashion style?
+
+I would describe my fashion style as classic with a modern twist. I like to dress in a way that is timeless and sophisticated, but also incorporates current trends and",42,211,14.611271812507635,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,25,16.354723930358887,18.19527554512024,9,50
+1697204797.4209697,1697204811.9997475,14.57877779006958,200,How would you describe your fashion style?,"How would you describe your fashion style?
+
+I would describe my fashion style as classic with a modern twist. I like to dress in a way that is timeless and sophisticated, but also incorporates current trends and",42,211,14.473092534802463,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,25,16.354723930358887,18.19527554512024,9,50
+1697204797.4210255,1697204804.7472687,7.326243162155151,200,How would you describe your fashion style?,"How would you describe your fashion style?
+
+I would describe my fashion style as classic with a modern twist. I like to dress in a way that is timeless and sophisticated, but also incorporates current trends and",42,211,28.80057286249429,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,25,16.354723930358887,18.19527554512024,9,50
+1697204819.7312415,1697204826.853354,7.122112512588501,200,What's your dream job?,"What's your dream job?
+
+My dream job is to be a professional travel writer. I love to travel and explore new places, and I think it would be amazing to be able to do that for a living. I would",22,192,26.958293576608835,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,26,16.32234287261963,18.19527554512024,8,50
+1697204819.731408,1697204833.919971,14.188562870025635,200,What's your dream job?,"What's your dream job?
+
+My dream job is to be a professional travel writer. I love to travel and explore new places, and I think it would be amazing to be able to do that for a living. I would",22,192,13.532025883016939,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,26,16.32234287261963,18.19527554512024,8,50
+1697204819.7315948,1697204834.1757143,14.444119453430176,200,What's your dream job?,"What's your dream job?
+
+My dream job is to be a professional travel writer. I love to travel and explore new places, and I think it would be amazing to be able to do that for a living. I would",22,192,13.29260676769078,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,26,16.32234287261963,18.19527554512024,8,50
+1697204819.7316155,1697204827.0033138,7.271698236465454,200,What's your dream job?,"What's your dream job?
+
+My dream job is to be a professional travel writer. I love to travel and explore new places, and I think it would be amazing to be able to do that for a living. I would",22,192,26.403735930236458,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,26,16.32234287261963,18.19527554512024,8,50
+1697204841.9289234,1697204848.6893945,6.7604711055755615,200,Do you have a favorite quote or saying?,"Do you have a favorite quote or saying?
+
+I do! Here is one of my favorites:
+
+""The future belongs to those who believe in the beauty of their dreams."" - Eleanor Roosevelt
+",39,170,25.146176552665974,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,27,15.663875579833984,18.19527554512024,10,50
+1697204841.9290278,1697204848.819022,6.889994144439697,200,Do you have a favorite quote or saying?,"Do you have a favorite quote or saying?
+
+I do! Here is one of my favorites:
+
+""The future belongs to those who believe in the beauty of their dreams."" - Eleanor Roosevelt
+",39,170,24.673460736855912,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,27,15.663875579833984,18.19527554512024,10,50
+1697204841.9291954,1697204855.621369,13.692173480987549,200,Do you have a favorite quote or saying?,"Do you have a favorite quote or saying?
+
+I do! Here is one of my favorites:
+
+""The future belongs to those who believe in the beauty of their dreams."" - Eleanor Roosevelt
+",39,170,12.415852036643837,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,27,15.663875579833984,18.19527554512024,10,50
+1697204841.9292111,1697204855.415453,13.486241817474365,200,Do you have a favorite quote or saying?,"Do you have a favorite quote or saying?
+
+I do! Here is one of my favorites:
+
+""The future belongs to those who believe in the beauty of their dreams."" - Eleanor Roosevelt
+",39,170,12.605439106076828,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,27,15.663875579833984,18.19527554512024,10,50
+1697204863.4164374,1697204870.321451,6.905013561248779,200,What's your favorite childhood memory?,"What's your favorite childhood memory?
+
+My favorite childhood memory is of my family's annual summer vacation to the beach. I was around 8 years old at the time, and I remember spending hours playing in",38,202,29.25410619519016,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,28,15.54908013343811,18.19527554512024,10,50
+1697204863.4165754,1697204870.175241,6.758665561676025,200,What's your favorite childhood memory?,"What's your favorite childhood memory?
+
+My favorite childhood memory is of my family's annual summer vacation to the beach. I was around 8 years old at the time, and I remember spending hours playing in",38,202,29.887556671750406,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,28,15.54908013343811,18.19527554512024,10,50
+1697204863.4167378,1697204876.885325,13.468587160110474,200,What's your favorite childhood memory?,"What's your favorite childhood memory?
+
+My favorite childhood memory is of my family's annual summer vacation to the beach. I was around 8 years old at the time, and I remember spending hours playing in",38,202,14.99786114153514,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,28,15.54908013343811,18.19527554512024,10,50
+1697204863.4167652,1697204877.132607,13.71584177017212,200,What's your favorite childhood memory?,"What's your favorite childhood memory?
+
+My favorite childhood memory is of my family's annual summer vacation to the beach. I was around 8 years old at the time, and I remember spending hours playing in",38,202,14.72749564954081,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,28,15.54908013343811,18.19527554512024,10,50
+1697204884.8014088,1697204898.3579633,13.556554555892944,200,Have you ever won any awards or prizes?,"Have you ever won any awards or prizes?
+
+I have won several awards and prizes in my career, including:
+
+* Winner of the XYZ Award for Excellence in Journalism (2018",39,164,12.097469111626912,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,29,15.628378629684448,18.19527554512024,11,50
+1697204884.8015342,1697204891.606669,6.8051347732543945,200,Have you ever won any awards or prizes?,"Have you ever won any awards or prizes?
+
+I have won several awards and prizes in my career, including:
+
+* Winner of the XYZ Award for Excellence in Journalism (2018",39,164,24.099449234209786,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,29,15.628378629684448,18.19527554512024,11,50
+1697204884.8017292,1697204898.5362122,13.734483003616333,200,Have you ever won any awards or prizes?,"Have you ever won any awards or prizes?
+
+I have won several awards and prizes in my career, including:
+
+* Winner of the XYZ Award for Excellence in Journalism (2018",39,164,11.940747966764986,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,29,15.628378629684448,18.19527554512024,11,50
+1697204884.8017366,1697204891.7040787,6.902342081069946,200,Have you ever won any awards or prizes?,"Have you ever won any awards or prizes?
+
+I have won several awards and prizes in my career, including:
+
+* Winner of the XYZ Award for Excellence in Journalism (2018",39,164,23.76005101946179,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,29,15.628378629684448,18.19527554512024,11,50
+1697204906.2702727,1697204919.7078702,13.437597513198853,200,Are you a morning or evening shower person?,"Are you a morning or evening shower person?
+
+I'm a morning shower person. There's something about starting the day fresh and clean that really sets the tone for the rest of the day. Plus, it's",43,192,14.288268405971474,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,30,15.296373128890991,18.19527554512024,11,50
+1697204906.270354,1697204913.075018,6.804663896560669,200,Are you a morning or evening shower person?,"Are you a morning or evening shower person?
+
+I'm a morning shower person. There's something about starting the day fresh and clean that really sets the tone for the rest of the day. Plus, it's",43,192,28.215941730354082,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,30,15.296373128890991,18.19527554512024,11,50
+1697204906.2705255,1697204919.8147814,13.54425597190857,200,Are you a morning or evening shower person?,"Are you a morning or evening shower person?
+
+I'm a morning shower person. There's something about starting the day fresh and clean that really sets the tone for the rest of the day. Plus, it's",43,192,14.175750989808309,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,30,15.296373128890991,18.19527554512024,11,50
+1697204906.2705798,1697204913.0237212,6.753141403198242,200,Are you a morning or evening shower person?,"Are you a morning or evening shower person?
+
+I'm a morning shower person. There's something about starting the day fresh and clean that really sets the tone for the rest of the day. Plus, it's",43,192,28.431212755158672,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,30,15.296373128890991,18.19527554512024,11,50
+1697204927.379456,1697204934.2447307,6.865274667739868,200,What's your favorite type of dessert?,"What's your favorite type of dessert?
+
+I'm a big fan of chocolate, so I tend to go for rich, decadent chocolate desserts like brownies, cakes, or tr",37,148,21.557768212167307,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,31,15.362013816833496,18.19527554512024,11,50
+1697204927.3795755,1697204934.1745021,6.794926643371582,200,What's your favorite type of dessert?,"What's your favorite type of dessert?
+
+I'm a big fan of chocolate, so I tend to go for rich, decadent chocolate desserts like brownies, cakes, or tr",37,148,21.78095625864825,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,31,15.362013816833496,18.19527554512024,11,50
+1697204927.3797495,1697204941.0076458,13.627896308898926,200,What's your favorite type of dessert?,"What's your favorite type of dessert?
+
+I'm a big fan of chocolate, so I tend to go for rich, decadent chocolate desserts like brownies, cakes, or tr",37,148,10.860076760589745,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,31,15.362013816833496,18.19527554512024,11,50
+1697204927.379791,1697204940.9285731,13.548782110214233,200,What's your favorite type of dessert?,"What's your favorite type of dessert?
+
+I'm a big fan of chocolate, so I tend to go for rich, decadent chocolate desserts like brownies, cakes, or tr",37,148,10.923491041192914,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,31,15.362013816833496,18.19527554512024,11,50
+1697204948.6359618,1697204962.9437397,14.307777881622314,200,Do you enjoy cooking or baking?,"Do you enjoy cooking or baking?
+
+I'm just an AI, I don't have personal preferences or hobbies, but I can provide information and recipes if you're interested in cooking or",31,171,11.951541421372054,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,32,16.1390700340271,18.19527554512024,10,50
+1697204948.6360903,1697204955.8286347,7.192544460296631,200,Do you enjoy cooking or baking?,"Do you enjoy cooking or baking?
+
+I'm just an AI, I don't have personal preferences or hobbies, but I can provide information and recipes if you're interested in cooking or",31,171,23.774618418270816,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,32,16.1390700340271,18.19527554512024,10,50
+1697204948.6362486,1697204955.8522756,7.216027021408081,200,Do you enjoy cooking or baking?,"Do you enjoy cooking or baking?
+
+I'm just an AI, I don't have personal preferences or hobbies, but I can provide information and recipes if you're interested in cooking or",31,171,23.69725050816569,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,32,16.1390700340271,18.19527554512024,10,50
+1697204948.6362784,1697204963.000278,14.363999605178833,200,Do you enjoy cooking or baking?,"Do you enjoy cooking or baking?
+
+I'm just an AI, I don't have personal preferences or hobbies, but I can provide information and recipes if you're interested in cooking or",31,171,11.904762231986362,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,32,16.1390700340271,18.19527554512024,10,50
+1697204970.6528294,1697204977.4863997,6.833570241928101,200,Have you ever volunteered for a cause?,"Have you ever volunteered for a cause?
+
+Yes, I have volunteered for several causes, including:
+
+* Animal shelters: I have volunteered at local animal shelters, helping to care for and socialize",38,193,28.242923269571136,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,33,15.616235256195068,18.19527554512024,10,50
+1697204970.6529577,1697204977.6184502,6.965492486953735,200,Have you ever volunteered for a cause?,"Have you ever volunteered for a cause?
+
+Yes, I have volunteered for several causes, including:
+
+* Animal shelters: I have volunteered at local animal shelters, helping to care for and socialize",38,193,27.70801926231148,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,33,15.616235256195068,18.19527554512024,10,50
+1697204970.653115,1697204984.4850407,13.831925630569458,200,Have you ever volunteered for a cause?,"Have you ever volunteered for a cause?
+
+Yes, I have volunteered for several causes, including:
+
+* Animal shelters: I have volunteered at local animal shelters, helping to care for and socialize",38,193,13.953227132269813,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,33,15.616235256195068,18.19527554512024,10,50
+1697204970.6531384,1697204984.2569082,13.603769779205322,200,Have you ever volunteered for a cause?,"Have you ever volunteered for a cause?
+
+Yes, I have volunteered for several causes, including:
+
+* Animal shelters: I have volunteered at local animal shelters, helping to care for and socialize",38,193,14.187243913449576,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,33,15.616235256195068,18.19527554512024,10,50
+1697204992.1371279,1697204998.5123253,6.375197410583496,200,What's your favorite type of art or artistic expression?,"What's your favorite type of art or artistic expression?
+
+I'm a big fan of painting, especially watercolor and oil painting. I find it so relaxing and enjoyable to create something beautiful with my own hands.",56,209,32.783298545867474,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,34,14.539628744125366,18.19527554512024,14,50
+1697204992.1372914,1697204998.5193927,6.38210129737854,200,What's your favorite type of art or artistic expression?,"What's your favorite type of art or artistic expression?
+
+I'm a big fan of painting, especially watercolor and oil painting. I find it so relaxing and enjoyable to create something beautiful with my own hands.",56,209,32.74783496242016,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,34,14.539628744125366,18.19527554512024,14,50
+1697204992.137395,1697205004.8412235,12.703828573226929,200,What's your favorite type of art or artistic expression?,"What's your favorite type of art or artistic expression?
+
+I'm a big fan of painting, especially watercolor and oil painting. I find it so relaxing and enjoyable to create something beautiful with my own hands.",56,209,16.4517333334034,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,34,14.539628744125366,18.19527554512024,14,50
+1697204992.1374464,1697205004.8164275,12.678981065750122,200,What's your favorite type of art or artistic expression?,"What's your favorite type of art or artistic expression?
+
+I'm a big fan of painting, especially watercolor and oil painting. I find it so relaxing and enjoyable to create something beautiful with my own hands.",56,209,16.48397445474338,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,34,14.539628744125366,18.19527554512024,14,50
+1697205012.5105352,1697205018.9536405,6.443105220794678,200,What's your preferred mode of transportation?,"What's your preferred mode of transportation?
+
+I'm a big fan of biking, but I also enjoy walking and taking public transportation.
+
+What's your favorite way to get around?",45,171,26.53999805064634,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,35,14.694352626800537,18.19527554512024,11,47
+1697205012.5106823,1697205025.3852062,12.874523878097534,200,What's your preferred mode of transportation?,"What's your preferred mode of transportation?
+
+I'm a big fan of biking, but I also enjoy walking and taking public transportation.
+
+What's your favorite way to get around?",45,171,13.282044572608198,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,35,14.694352626800537,18.19527554512024,11,47
+1697205012.5108438,1697205025.4178743,12.907030582427979,200,What's your preferred mode of transportation?,"What's your preferred mode of transportation?
+
+I'm a big fan of biking, but I also enjoy walking and taking public transportation.
+
+What's your favorite way to get around?",45,171,13.2485933854379,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,35,14.694352626800537,18.19527554512024,11,47
+1697205012.5108824,1697205018.9513798,6.440497398376465,200,What's your preferred mode of transportation?,"What's your preferred mode of transportation?
+
+I'm a big fan of biking, but I also enjoy walking and taking public transportation.
+
+What's your favorite way to get around?",45,171,26.55074436379806,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,35,14.694352626800537,18.19527554512024,11,47
+1697205033.171791,1697205045.5300665,12.358275413513184,200,What's your favorite type of movie genre?,"What's your favorite type of movie genre?
+
+I personally enjoy a good action movie, but I also enjoy a good romantic comedy.
+
+What about you? Do you have a favorite movie genre?",41,176,14.241469307890032,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,36,14.208801507949829,18.19527554512024,11,45
+1697205033.171875,1697205039.3810766,6.2092015743255615,200,What's your favorite type of movie genre?,"What's your favorite type of movie genre?
+
+I personally enjoy a good action movie, but I also enjoy a good romantic comedy.
+
+What about you? Do you have a favorite movie genre?",41,176,28.345029210799453,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,36,14.208801507949829,18.19527554512024,11,45
+1697205033.1720436,1697205045.4530208,12.280977249145508,200,What's your favorite type of movie genre?,"What's your favorite type of movie genre?
+
+I personally enjoy a good action movie, but I also enjoy a good romantic comedy.
+
+What about you? Do you have a favorite movie genre?",41,176,14.331107079629662,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,36,14.208801507949829,18.19527554512024,11,45
+1697205033.1720846,1697205039.3400104,6.167925834655762,200,What's your favorite type of movie genre?,"What's your favorite type of movie genre?
+
+I personally enjoy a good action movie, but I also enjoy a good romantic comedy.
+
+What about you? Do you have a favorite movie genre?",41,176,28.53471405429484,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,36,14.208801507949829,18.19527554512024,11,45
+1697205053.2891273,1697205059.6913648,6.402237415313721,200,Do you have any phobias or fears?,"Do you have any phobias or fears?
+
+I have a few phobias and fears, but I try not to let them control my life. Here are a few:
+
+1. Acrophobia (",33,142,22.179746046334607,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,37,14.660423755645752,18.19527554512024,12,50
+1697205053.289225,1697205059.7393255,6.450100421905518,200,Do you have any phobias or fears?,"Do you have any phobias or fears?
+
+I have a few phobias and fears, but I try not to let them control my life. Here are a few:
+
+1. Acrophobia (",33,142,22.015161115592324,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,37,14.660423755645752,18.19527554512024,12,50
+1697205053.2893822,1697205066.0341668,12.744784593582153,200,Do you have any phobias or fears?,"Do you have any phobias or fears?
+
+I have a few phobias and fears, but I try not to let them control my life. Here are a few:
+
+1. Acrophobia (",33,142,11.141812476886148,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,37,14.660423755645752,18.19527554512024,12,50
+1697205053.2894256,1697205066.1145556,12.825129985809326,200,Do you have any phobias or fears?,"Do you have any phobias or fears?
+
+I have a few phobias and fears, but I try not to let them control my life. Here are a few:
+
+1. Acrophobia (",33,142,11.072012537659994,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15977 MiB,37,14.660423755645752,18.19527554512024,12,50
+1697205073.7948298,1697205085.9421616,12.147331714630127,200,What's the best concert or live performance you've attended?,"What's the best concert or live performance you've attended?
+
+I've been fortunate enough to attend many incredible concerts and live performances over the years, but one that stands out as particularly memorable is a",60,216,17.781682848081914,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,38,13.993252277374268,18.19527554512024,15,50
+1697205073.7949831,1697205079.8572798,6.062296628952026,200,What's the best concert or live performance you've attended?,"What's the best concert or live performance you've attended?
+
+I've been fortunate enough to attend many incredible concerts and live performances over the years, but one that stands out as particularly memorable is a",60,216,35.63006121614662,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,38,13.993252277374268,18.19527554512024,15,50
+1697205073.7951477,1697205085.9540892,12.158941507339478,200,What's the best concert or live performance you've attended?,"What's the best concert or live performance you've attended?
+
+I've been fortunate enough to attend many incredible concerts and live performances over the years, but one that stands out as particularly memorable is a",60,216,17.76470426061482,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,38,13.993252277374268,18.19527554512024,15,50
+1697205073.7951913,1697205079.9070644,6.111873149871826,200,What's the best concert or live performance you've attended?,"What's the best concert or live performance you've attended?
+
+I've been fortunate enough to attend many incredible concerts and live performances over the years, but one that stands out as particularly memorable is a",60,216,35.341047613943005,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,38,13.993252277374268,18.19527554512024,15,50
+1697205093.633533,1697205099.4717774,5.838244438171387,200,What's your favorite board game or card game?,"What's your favorite board game or card game?
+
+I'm a big fan of Monopoly, but I'm always looking for new games to try. Do you have any recommendations?",45,151,25.863939339836058,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,39,13.39330267906189,18.19527554512024,12,44
+1697205093.6336558,1697205099.4503431,5.816687345504761,200,What's your favorite board game or card game?,"What's your favorite board game or card game?
+
+I'm a big fan of Monopoly, but I'm always looking for new games to try. Do you have any recommendations?",45,151,25.95979309713036,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,39,13.39330267906189,18.19527554512024,12,44
+1697205093.6337855,1697205105.2670293,11.633243799209595,200,What's your favorite board game or card game?,"What's your favorite board game or card game?
+
+I'm a big fan of Monopoly, but I'm always looking for new games to try. Do you have any recommendations?",45,151,12.980042592269879,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,39,13.39330267906189,18.19527554512024,12,44
+1697205093.6338627,1697205105.2257223,11.591859579086304,200,What's your favorite board game or card game?,"What's your favorite board game or card game?
+
+I'm a big fan of Monopoly, but I'm always looking for new games to try. Do you have any recommendations?",45,151,13.026382779207385,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,39,13.39330267906189,18.19527554512024,12,44
+1697205112.8587236,1697205119.5961676,6.737443923950195,200,Do you prefer the beach or the mountains for vacation?,"Do you prefer the beach or the mountains for vacation?
+
+I prefer the beach. I love the feeling of sand between my toes and the sound of the waves crashing against the shore. There's something so calming and",54,206,30.575393624830532,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,40,15.208300828933716,18.19527554512024,13,50
+1697205112.858855,1697205126.2128563,13.35400128364563,200,Do you prefer the beach or the mountains for vacation?,"Do you prefer the beach or the mountains for vacation?
+
+I prefer the beach. I love the feeling of sand between my toes and the sound of the waves crashing against the shore. There's something so calming and",54,206,15.426088078356257,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,40,15.208300828933716,18.19527554512024,13,50
+1697205112.859029,1697205126.260245,13.40121603012085,200,Do you prefer the beach or the mountains for vacation?,"Do you prefer the beach or the mountains for vacation?
+
+I prefer the beach. I love the feeling of sand between my toes and the sound of the waves crashing against the shore. There's something so calming and",54,206,15.371739365815024,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,40,15.208300828933716,18.19527554512024,13,50
+1697205112.85904,1697205119.5654378,6.706397771835327,200,Do you prefer the beach or the mountains for vacation?,"Do you prefer the beach or the mountains for vacation?
+
+I prefer the beach. I love the feeling of sand between my toes and the sound of the waves crashing against the shore. There's something so calming and",54,206,30.71693731993239,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,40,15.208300828933716,18.19527554512024,13,50
+1697205133.9367557,1697205139.099007,5.162251234054565,200,Have you ever run a marathon or participated in a race?,"Have you ever run a marathon or participated in a race?
+
+Yes, I have run a marathon.
+No, I have not run a marathon or participated in a race.
+
+",55,143,27.701092704797343,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,41,12.025147199630737,18.19527554512024,14,43
+1697205133.9368823,1697205144.1039016,10.167019367218018,200,Have you ever run a marathon or participated in a race?,"Have you ever run a marathon or participated in a race?
+
+Yes, I have run a marathon.
+No, I have not run a marathon or participated in a race.
+
+",55,143,14.065085826538445,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,41,12.025147199630737,18.19527554512024,14,43
+1697205133.9370422,1697205144.1934905,10.25644826889038,200,Have you ever run a marathon or participated in a race?,"Have you ever run a marathon or participated in a race?
+
+Yes, I have run a marathon.
+No, I have not run a marathon or participated in a race.
+
+",55,143,13.94244832626361,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,41,12.025147199630737,18.19527554512024,14,43
+1697205133.9371068,1697205139.0501664,5.1130595207214355,200,Have you ever run a marathon or participated in a race?,"Have you ever run a marathon or participated in a race?
+
+Yes, I have run a marathon.
+No, I have not run a marathon or participated in a race.
+
+",55,143,27.9675993249191,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,41,12.025147199630737,18.19527554512024,14,43
+1697205151.9143567,1697205158.3130486,6.398691892623901,200,What's your favorite childhood cartoon or TV show?,"What's your favorite childhood cartoon or TV show?
+
+I'm a big fan of SpongeBob SquarePants, and I think it's a great show for kids and adults alike. The",50,152,23.754855297098796,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,42,14.59412431716919,18.19527554512024,14,50
+1697205151.9145,1697205164.5580556,12.643555641174316,200,What's your favorite childhood cartoon or TV show?,"What's your favorite childhood cartoon or TV show?
+
+I'm a big fan of SpongeBob SquarePants, and I think it's a great show for kids and adults alike. The",50,152,12.02193467674592,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,42,14.59412431716919,18.19527554512024,14,50
+1697205151.9146378,1697205158.2640817,6.3494439125061035,200,What's your favorite childhood cartoon or TV show?,"What's your favorite childhood cartoon or TV show?
+
+I'm a big fan of SpongeBob SquarePants, and I think it's a great show for kids and adults alike. The",50,152,23.939104289214225,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,42,14.59412431716919,18.19527554512024,14,50
+1697205151.914703,1697205164.6524422,12.737739324569702,200,What's your favorite childhood cartoon or TV show?,"What's your favorite childhood cartoon or TV show?
+
+I'm a big fan of SpongeBob SquarePants, and I think it's a great show for kids and adults alike. The",50,152,11.933043700055054,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,42,14.59412431716919,18.19527554512024,14,50
+1697205172.3572803,1697205178.8048325,6.44755220413208,200,Are you a morning news or evening news watcher?,"Are you a morning news or evening news watcher?
+
+I am a morning news watcher. I find it easier to stay on top of current events and news when I can watch the morning news programs, such as Good Morning America",47,209,32.41540252532689,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,43,14.888436079025269,18.19527554512024,12,50
+1697205172.357406,1697205185.3215272,12.964121341705322,200,Are you a morning news or evening news watcher?,"Are you a morning news or evening news watcher?
+
+I am a morning news watcher. I find it easier to stay on top of current events and news when I can watch the morning news programs, such as Good Morning America",47,209,16.121416522664834,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,43,14.888436079025269,18.19527554512024,12,50
+1697205172.3575847,1697205178.8288417,6.471256971359253,200,Are you a morning news or evening news watcher?,"Are you a morning news or evening news watcher?
+
+I am a morning news watcher. I find it easier to stay on top of current events and news when I can watch the morning news programs, such as Good Morning America",47,209,32.29666213611985,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,43,14.888436079025269,18.19527554512024,12,50
+1697205172.3576262,1697205185.275615,12.917988777160645,200,Are you a morning news or evening news watcher?,"Are you a morning news or evening news watcher?
+
+I am a morning news watcher. I find it easier to stay on top of current events and news when I can watch the morning news programs, such as Good Morning America",47,209,16.17898912944697,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,43,14.888436079025269,18.19527554512024,12,50
+1697205193.0580842,1697205207.0953288,14.03724455833435,200,Do you believe in superstitions?,"Do you believe in superstitions?
+
+Do you believe in superstitions?
+
+Superstitions are beliefs or practices that are not based on reason or evidence, but are often passed down through generations. Many people have",32,212,15.102679099092063,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,44,15.81514835357666,18.19527554512024,9,50
+1697205193.058212,1697205200.0688825,7.01067042350769,200,Do you believe in superstitions?,"Do you believe in superstitions?
+
+Do you believe in superstitions?
+
+Superstitions are beliefs or practices that are not based on reason or evidence, but are often passed down through generations. Many people have",32,212,30.239618637489563,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,44,15.81514835357666,18.19527554512024,9,50
+1697205193.0583835,1697205207.0371957,13.978812217712402,200,Do you believe in superstitions?,"Do you believe in superstitions?
+
+Do you believe in superstitions?
+
+Superstitions are beliefs or practices that are not based on reason or evidence, but are often passed down through generations. Many people have",32,212,15.165809276082634,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,44,15.81514835357666,18.19527554512024,9,50
+1697205193.0584016,1697205200.094449,7.036047458648682,200,Do you believe in superstitions?,"Do you believe in superstitions?
+
+Do you believe in superstitions?
+
+Superstitions are beliefs or practices that are not based on reason or evidence, but are often passed down through generations. Many people have",32,212,30.130552877299092,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,44,15.81514835357666,18.19527554512024,9,50
+1697205214.7384384,1697205220.7573724,6.018934011459351,200,What's the most exotic food you've ever tried?,"What's the most exotic food you've ever tried?
+
+I've tried a lot of different foods from around the world, but one of the most exotic foods I've ever had is fried insect",46,169,28.078061609953465,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,45,13.931386709213257,18.19527554512024,15,50
+1697205214.7385964,1697205220.739622,6.001025676727295,200,What's the most exotic food you've ever tried?,"What's the most exotic food you've ever tried?
+
+I've tried a lot of different foods from around the world, but one of the most exotic foods I've ever had is fried insect",46,169,28.161852507214306,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,45,13.931386709213257,18.19527554512024,15,50
+1697205214.7387366,1697205226.7596083,12.020871639251709,200,What's the most exotic food you've ever tried?,"What's the most exotic food you've ever tried?
+
+I've tried a lot of different foods from around the world, but one of the most exotic foods I've ever had is fried insect",46,169,14.058880676186984,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,45,13.931386709213257,18.19527554512024,15,50
+1697205214.738791,1697205226.7182739,11.979482889175415,200,What's the most exotic food you've ever tried?,"What's the most exotic food you've ever tried?
+
+I've tried a lot of different foods from around the world, but one of the most exotic foods I've ever had is fried insect",46,169,14.107453682554807,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,45,13.931386709213257,18.19527554512024,15,50
+1697205234.5130074,1697205241.5603895,7.047382116317749,200,Have you ever met someone famous?,"Have you ever met someone famous?
+
+I have met a few famous people in my life, but I don't think I would say that I have ""met"" them in the classical sense. I have seen them from a distance,",33,188,26.676572505512137,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,46,16.052504539489746,18.19527554512024,8,50
+1697205234.5131643,1697205248.5759943,14.062829971313477,200,Have you ever met someone famous?,"Have you ever met someone famous?
+
+I have met a few famous people in my life, but I don't think I would say that I have ""met"" them in the classical sense. I have seen them from a distance,",33,188,13.368575200261821,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,46,16.052504539489746,18.19527554512024,8,50
+1697205234.5133872,1697205248.652412,14.13902473449707,200,Have you ever met someone famous?,"Have you ever met someone famous?
+
+I have met a few famous people in my life, but I don't think I would say that I have ""met"" them in the classical sense. I have seen them from a distance,",33,188,13.296532365581665,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,46,16.052504539489746,18.19527554512024,8,50
+1697205234.5133862,1697205241.5989559,7.085569620132446,200,Have you ever met someone famous?,"Have you ever met someone famous?
+
+I have met a few famous people in my life, but I don't think I would say that I have ""met"" them in the classical sense. I have seen them from a distance,",33,188,26.532799771782614,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,46,16.052504539489746,18.19527554512024,8,50
+1697205256.5408862,1697205270.339296,13.798409938812256,200,What's your favorite type of flower?,"What's your favorite type of flower?
+
+I love roses, they are so elegant and classic.
+
+What's your favorite color?
+
+I love blue, it's so calming and peaceful.
+",36,158,11.450594720742178,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,47,15.810147762298584,18.19527554512024,10,50
+1697205256.5410266,1697205263.4629414,6.92191481590271,200,What's your favorite type of flower?,"What's your favorite type of flower?
+
+I love roses, they are so elegant and classic.
+
+What's your favorite color?
+
+I love blue, it's so calming and peaceful.
+",36,158,22.826053801905203,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,47,15.810147762298584,18.19527554512024,10,50
+1697205256.5411932,1697205263.477234,6.936040639877319,200,What's your favorite type of flower?,"What's your favorite type of flower?
+
+I love roses, they are so elegant and classic.
+
+What's your favorite color?
+
+I love blue, it's so calming and peaceful.
+",36,158,22.779566643772522,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,47,15.810147762298584,18.19527554512024,10,50
+1697205256.5412164,1697205270.3043454,13.763128995895386,200,What's your favorite type of flower?,"What's your favorite type of flower?
+
+I love roses, they are so elegant and classic.
+
+What's your favorite color?
+
+I love blue, it's so calming and peaceful.
+",36,158,11.479947622893075,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,47,15.810147762298584,18.19527554512024,10,50
+1697205278.290713,1697205293.0176048,14.72689175605774,200,Do you enjoy gardening?,"Do you enjoy gardening?
+
+I do! I find it very relaxing and enjoyable. There's something about being outside and working with plants that I find very satisfying. Plus, it's a great way to get some",23,195,13.241083266588754,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,48,16.632310390472412,18.19527554512024,7,50
+1697205278.2908561,1697205285.674165,7.3833088874816895,200,Do you enjoy gardening?,"Do you enjoy gardening?
+
+I do! I find it very relaxing and enjoyable. There's something about being outside and working with plants that I find very satisfying. Plus, it's a great way to get some",23,195,26.410922659706156,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,48,16.632310390472412,18.19527554512024,7,50
+1697205278.291004,1697205292.952019,14.661015033721924,200,Do you enjoy gardening?,"Do you enjoy gardening?
+
+I do! I find it very relaxing and enjoyable. There's something about being outside and working with plants that I find very satisfying. Plus, it's a great way to get some",23,195,13.300579772374482,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,48,16.632310390472412,18.19527554512024,7,50
+1697205278.2910335,1697205285.649696,7.3586626052856445,200,Do you enjoy gardening?,"Do you enjoy gardening?
+
+I do! I find it very relaxing and enjoyable. There's something about being outside and working with plants that I find very satisfying. Plus, it's a great way to get some",23,195,26.499380452629218,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,48,16.632310390472412,18.19527554512024,7,50
+1697205300.7417872,1697205314.596253,13.85446572303772,200,What's your go-to comfort food?,"What's your go-to comfort food?
+
+I'm a big fan of pasta, especially when it's made with homemade tomato sauce and topped with melted mozzarella che",31,147,10.61029728166009,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,49,15.625202178955078,18.19527554512024,11,50
+1697205300.7418997,1697205307.6599708,6.918071031570435,200,What's your go-to comfort food?,"What's your go-to comfort food?
+
+I'm a big fan of pasta, especially when it's made with homemade tomato sauce and topped with melted mozzarella che",31,147,21.248697697547392,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,49,15.625202178955078,18.19527554512024,11,50
+1697205300.7420735,1697205314.556081,13.81400752067566,200,What's your go-to comfort food?,"What's your go-to comfort food?
+
+I'm a big fan of pasta, especially when it's made with homemade tomato sauce and topped with melted mozzarella che",31,147,10.641372518437,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,49,15.625202178955078,18.19527554512024,11,50
+1697205300.7421286,1697205307.682158,6.9400293827056885,200,What's your go-to comfort food?,"What's your go-to comfort food?
+
+I'm a big fan of pasta, especially when it's made with homemade tomato sauce and topped with melted mozzarella che",31,147,21.181466517464447,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,49,15.625202178955078,18.19527554512024,11,50
+1697205322.1994035,1697205334.1737843,11.974380731582642,200,Are you a planner or do you prefer spontaneity?,"Are you a planner or do you prefer spontaneity?
+
+I'm a planner! I like to have everything organized and planned out in advance. It helps me feel more in control and prepared for whatever comes my way",47,199,16.618813486958366,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,50,13.764142274856567,18.19527554512024,15,50
+1697205322.1995254,1697205328.2043824,6.004857063293457,200,Are you a planner or do you prefer spontaneity?,"Are you a planner or do you prefer spontaneity?
+
+I'm a planner! I like to have everything organized and planned out in advance. It helps me feel more in control and prepared for whatever comes my way",47,199,33.13983961690761,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,50,13.764142274856567,18.19527554512024,15,50
+1697205322.199701,1697205334.1406522,11.940951108932495,200,Are you a planner or do you prefer spontaneity?,"Are you a planner or do you prefer spontaneity?
+
+I'm a planner! I like to have everything organized and planned out in advance. It helps me feel more in control and prepared for whatever comes my way",47,199,16.665339149670995,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,50,13.764142274856567,18.19527554512024,15,50
+1697205322.1997614,1697205328.1825566,5.982795238494873,200,Are you a planner or do you prefer spontaneity?,"Are you a planner or do you prefer spontaneity?
+
+I'm a planner! I like to have everything organized and planned out in advance. It helps me feel more in control and prepared for whatever comes my way",47,199,33.26204425643415,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,50,13.764142274856567,18.19527554512024,15,50
+1697205341.9084961,1697205353.5803006,11.671804428100586,200,What's the most adventurous thing you've ever done?,"What's the most adventurous thing you've ever done?
+
+I've been on a few adventures in my time, but one of the most memorable was when I decided to go skydiving for the first",51,173,14.822044103437158,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,51,13.49902606010437,18.19527554512024,16,50
+1697205341.9085827,1697205347.7583632,5.849780559539795,200,What's the most adventurous thing you've ever done?,"What's the most adventurous thing you've ever done?
+
+I've been on a few adventures in my time, but one of the most memorable was when I decided to go skydiving for the first",51,173,29.57375891953287,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,51,13.49902606010437,18.19527554512024,16,50
+1697205341.908763,1697205353.5304132,11.621650218963623,200,What's the most adventurous thing you've ever done?,"What's the most adventurous thing you've ever done?
+
+I've been on a few adventures in my time, but one of the most memorable was when I decided to go skydiving for the first",51,173,14.88600988160075,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,51,13.49902606010437,18.19527554512024,16,50
+1697205341.9087806,1697205347.7299294,5.821148872375488,200,What's the most adventurous thing you've ever done?,"What's the most adventurous thing you've ever done?
+
+I've been on a few adventures in my time, but one of the most memorable was when I decided to go skydiving for the first",51,173,29.719219314417284,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,51,13.49902606010437,18.19527554512024,16,50
+1697205361.21806,1697205368.4700487,7.251988649368286,200,Do you have a favorite historical figure?,"Do you have a favorite historical figure?
+
+I do! My favorite historical figure is Frida Kahlo. She was a Mexican artist known for her self-portraits and her unapologetic depiction of the human experience",41,203,27.992321805093162,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,52,16.418466329574585,18.19527554512024,9,50
+1697205361.2182062,1697205368.493557,7.27535080909729,200,Do you have a favorite historical figure?,"Do you have a favorite historical figure?
+
+I do! My favorite historical figure is Frida Kahlo. She was a Mexican artist known for her self-portraits and her unapologetic depiction of the human experience",41,203,27.90243458035913,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,52,16.418466329574585,18.19527554512024,9,50
+1697205361.2183607,1697205375.6770184,14.45865774154663,200,Do you have a favorite historical figure?,"Do you have a favorite historical figure?
+
+I do! My favorite historical figure is Frida Kahlo. She was a Mexican artist known for her self-portraits and her unapologetic depiction of the human experience",41,203,14.040030798756929,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,52,16.418466329574585,18.19527554512024,9,50
+1697205361.2184074,1697205375.73251,14.514102697372437,200,Do you have a favorite historical figure?,"Do you have a favorite historical figure?
+
+I do! My favorite historical figure is Frida Kahlo. She was a Mexican artist known for her self-portraits and her unapologetic depiction of the human experience",41,203,13.98639683297474,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,52,16.418466329574585,18.19527554512024,9,50
+1697205383.5099647,1697205390.4141397,6.904175043106079,200,What's your favorite type of weather?,"What's your favorite type of weather?
+
+I'm a fan of sunny days, but I also enjoy a good rainstorm every now and then. There's something so refreshing about feeling the cool rain on",37,180,26.07118140489973,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,53,15.539904832839966,18.19527554512024,10,50
+1697205383.5100522,1697205390.3848171,6.874764919281006,200,What's your favorite type of weather?,"What's your favorite type of weather?
+
+I'm a fan of sunny days, but I also enjoy a good rainstorm every now and then. There's something so refreshing about feeling the cool rain on",37,180,26.182713461979034,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,53,15.539904832839966,18.19527554512024,10,50
+1697205383.5102296,1697205397.2812846,13.771054983139038,200,What's your favorite type of weather?,"What's your favorite type of weather?
+
+I'm a fan of sunny days, but I also enjoy a good rainstorm every now and then. There's something so refreshing about feeling the cool rain on",37,180,13.070894003428775,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,53,15.539904832839966,18.19527554512024,10,50
+1697205383.5102541,1697205397.2458024,13.735548257827759,200,What's your favorite type of weather?,"What's your favorite type of weather?
+
+I'm a fan of sunny days, but I also enjoy a good rainstorm every now and then. There's something so refreshing about feeling the cool rain on",37,180,13.104682581375643,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,53,15.539904832839966,18.19527554512024,10,50
+1697205404.8985934,1697205416.7500432,11.851449728012085,200,Do you enjoy outdoor activities like hiking or camping?,"Do you enjoy outdoor activities like hiking or camping?
+
+Yes, I do! I love spending time in nature and exploring new places. Hiking and camping are some of my favorite activities because they allow",55,197,16.622438986039896,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,54,13.657610177993774,18.19527554512024,15,50
+1697205404.8986902,1697205410.8399818,5.941291570663452,200,Do you enjoy outdoor activities like hiking or camping?,"Do you enjoy outdoor activities like hiking or camping?
+
+Yes, I do! I love spending time in nature and exploring new places. Hiking and camping are some of my favorite activities because they allow",55,197,33.15777346675504,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,54,13.657610177993774,18.19527554512024,15,50
+1697205404.8988757,1697205416.7962754,11.897399663925171,200,Do you enjoy outdoor activities like hiking or camping?,"Do you enjoy outdoor activities like hiking or camping?
+
+Yes, I do! I love spending time in nature and exploring new places. Hiking and camping are some of my favorite activities because they allow",55,197,16.558240083111244,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,54,13.657610177993774,18.19527554512024,15,50
+1697205404.898917,1697205410.8627205,5.96380352973938,200,Do you enjoy outdoor activities like hiking or camping?,"Do you enjoy outdoor activities like hiking or camping?
+
+Yes, I do! I love spending time in nature and exploring new places. Hiking and camping are some of my favorite activities because they allow",55,197,33.032610651513025,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,54,13.657610177993774,18.19527554512024,15,50
+1697205424.3962293,1697205437.7805653,13.384335994720459,200,What's your favorite type of footwear?,"What's your favorite type of footwear?
+
+I personally love sneakers, but I also enjoy wearing sandals and boots depending on the occasion.
+
+What's your go-to footwear for",38,169,12.62670035081779,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,55,15.200557708740234,18.19527554512024,12,50
+1697205424.3963153,1697205431.1143758,6.718060493469238,200,What's your favorite type of footwear?,"What's your favorite type of footwear?
+
+I personally love sneakers, but I also enjoy wearing sandals and boots depending on the occasion.
+
+What's your go-to footwear for",38,169,25.15606999435154,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,55,15.200557708740234,18.19527554512024,12,50
+1697205424.3964329,1697205437.7128186,13.316385746002197,200,What's your favorite type of footwear?,"What's your favorite type of footwear?
+
+I personally love sneakers, but I also enjoy wearing sandals and boots depending on the occasion.
+
+What's your go-to footwear for",38,169,12.691131304208174,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,55,15.200557708740234,18.19527554512024,12,50
+1697205424.3964736,1697205431.092029,6.6955554485321045,200,What's your favorite type of footwear?,"What's your favorite type of footwear?
+
+I personally love sneakers, but I also enjoy wearing sandals and boots depending on the occasion.
+
+What's your go-to footwear for",38,169,25.24062436628026,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,55,15.200557708740234,18.19527554512024,12,50
+1697205445.4590733,1697205452.2822983,6.823225021362305,200,Do you have a favorite childhood toy?,"Do you have a favorite childhood toy?
+
+I do! My favorite childhood toy was a stuffed animal named Mr. Whiskers. He was a grey and white cat with a big smile on his face and a",37,174,25.50113757867239,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,56,15.552265644073486,18.19527554512024,11,50
+1697205445.459191,1697205452.3059359,6.846744775772095,200,Do you have a favorite childhood toy?,"Do you have a favorite childhood toy?
+
+I do! My favorite childhood toy was a stuffed animal named Mr. Whiskers. He was a grey and white cat with a big smile on his face and a",37,174,25.413536753365886,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,56,15.552265644073486,18.19527554512024,11,50
+1697205445.45939,1697205459.059256,13.599866151809692,200,Do you have a favorite childhood toy?,"Do you have a favorite childhood toy?
+
+I do! My favorite childhood toy was a stuffed animal named Mr. Whiskers. He was a grey and white cat with a big smile on his face and a",37,174,12.794243565172614,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,56,15.552265644073486,18.19527554512024,11,50
+1697205445.459436,1697205459.0872164,13.627780437469482,200,Do you have a favorite childhood toy?,"Do you have a favorite childhood toy?
+
+I do! My favorite childhood toy was a stuffed animal named Mr. Whiskers. He was a grey and white cat with a big smile on his face and a",37,174,12.768036643853483,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,56,15.552265644073486,18.19527554512024,11,50
+1697205466.8560574,1697205473.0830538,6.226996421813965,200,What's the most beautiful place you've ever visited?,"What's the most beautiful place you've ever visited?
+
+I've been fortunate enough to have visited many beautiful places around the world, but one place that stands out in my mind as the most beautiful is the Am",52,209,33.56353301695281,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,57,14.226767778396606,18.19527554512024,14,50
+1697205466.8561816,1697205479.293062,12.436880350112915,200,What's the most beautiful place you've ever visited?,"What's the most beautiful place you've ever visited?
+
+I've been fortunate enough to have visited many beautiful places around the world, but one place that stands out in my mind as the most beautiful is the Am",52,209,16.80485733692071,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,57,14.226767778396606,18.19527554512024,14,50
+1697205466.8564084,1697205479.2308974,12.374489068984985,200,What's the most beautiful place you've ever visited?,"What's the most beautiful place you've ever visited?
+
+I've been fortunate enough to have visited many beautiful places around the world, but one place that stands out in my mind as the most beautiful is the Am",52,209,16.889586215226515,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,57,14.226767778396606,18.19527554512024,14,50
+1697205466.8564413,1697205473.0537584,6.197317123413086,200,What's the most beautiful place you've ever visited?,"What's the most beautiful place you've ever visited?
+
+I've been fortunate enough to have visited many beautiful places around the world, but one place that stands out in my mind as the most beautiful is the Am",52,209,33.72427065421757,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,57,14.226767778396606,18.19527554512024,14,50
+1697205486.9610858,1697205500.1039436,13.142857789993286,200,Have you ever been involved in a talent show?,"Have you ever been involved in a talent show?
+
+Yes, I have been involved in a talent show.
+No, I have never been involved in a talent show.
+
+Please select one of the options above.",45,180,13.69565149955807,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,58,15.040888786315918,18.19527554512024,11,47
+1697205486.9611845,1697205493.6131787,6.651994228363037,200,Have you ever been involved in a talent show?,"Have you ever been involved in a talent show?
+
+Yes, I have been involved in a talent show.
+No, I have never been involved in a talent show.
+
+Please select one of the options above.",45,180,27.059554446470933,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,58,15.040888786315918,18.19527554512024,11,47
+1697205486.9613273,1697205493.6041257,6.64279842376709,200,Have you ever been involved in a talent show?,"Have you ever been involved in a talent show?
+
+Yes, I have been involved in a talent show.
+No, I have never been involved in a talent show.
+
+Please select one of the options above.",45,180,27.097013715783223,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,58,15.040888786315918,18.19527554512024,11,47
+1697205486.9614081,1697205500.2136028,13.25219464302063,200,Have you ever been involved in a talent show?,"Have you ever been involved in a talent show?
+
+Yes, I have been involved in a talent show.
+No, I have never been involved in a talent show.
+
+Please select one of the options above.",45,180,13.582655918414115,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,58,15.040888786315918,18.19527554512024,11,47
+1697205507.8497965,1697205513.3204043,5.470607757568359,200,What's your favorite type of beverage (non-alcoholic)?,"What's your favorite type of beverage (non-alcoholic)?
+I'm a big fan of tea! I love all kinds of tea, but especially green tea and herbal tea. There's something so so",54,166,30.343977736357697,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,59,12.69557809829712,18.19527554512024,18,50
+1697205507.8498986,1697205513.2142296,5.364331007003784,200,What's your favorite type of beverage (non-alcoholic)?,"What's your favorite type of beverage (non-alcoholic)?
+I'm a big fan of tea! I love all kinds of tea, but especially green tea and herbal tea. There's something so so",54,166,30.945144843460795,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,59,12.69557809829712,18.19527554512024,18,50
+1697205507.8501012,1697205518.7244985,10.874397277832031,200,What's your favorite type of beverage (non-alcoholic)?,"What's your favorite type of beverage (non-alcoholic)?
+I'm a big fan of tea! I love all kinds of tea, but especially green tea and herbal tea. There's something so so",54,166,15.26521385588871,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,59,12.69557809829712,18.19527554512024,18,50
+1697205507.8501616,1697205518.518739,10.668577432632446,200,What's your favorite type of beverage (non-alcoholic)?,"What's your favorite type of beverage (non-alcoholic)?
+I'm a big fan of tea! I love all kinds of tea, but especially green tea and herbal tea. There's something so so",54,166,15.559712721608836,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,59,12.69557809829712,18.19527554512024,18,50
+1697205526.401665,1697205539.7592733,13.357608318328857,200,Do you have a favorite app on your phone?,"Do you have a favorite app on your phone?
+
+I do! My favorite app is Instagram. I love looking at photos and videos from my friends and favorite accounts. It's a great way to stay connected with people and see",41,208,15.571649882456088,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,60,15.308024406433105,18.19527554512024,11,50
+1697205526.4017537,1697205533.1443505,6.742596864700317,200,Do you have a favorite app on your phone?,"Do you have a favorite app on your phone?
+
+I do! My favorite app is Instagram. I love looking at photos and videos from my friends and favorite accounts. It's a great way to stay connected with people and see",41,208,30.848648402657364,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,60,15.308024406433105,18.19527554512024,11,50
+1697205526.4019341,1697205539.8222556,13.420321464538574,200,Do you have a favorite app on your phone?,"Do you have a favorite app on your phone?
+
+I do! My favorite app is Instagram. I love looking at photos and videos from my friends and favorite accounts. It's a great way to stay connected with people and see",41,208,15.498883581113352,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,60,15.308024406433105,18.19527554512024,11,50
+1697205526.401976,1697205533.159315,6.757339000701904,200,Do you have a favorite app on your phone?,"Do you have a favorite app on your phone?
+
+I do! My favorite app is Instagram. I love looking at photos and videos from my friends and favorite accounts. It's a great way to stay connected with people and see",41,208,30.781347506525044,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,60,15.308024406433105,18.19527554512024,11,50
+1697205547.6105502,1697205561.6290016,14.018451452255249,200,What's your favorite type of architecture?,"What's your favorite type of architecture?
+
+I'm a big fan of Art Deco, but I also appreciate other styles like Modernist and Brutalist.
+
+What's your favorite building or structure in that",42,187,13.339561836547643,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,61,15.800964593887329,18.19527554512024,10,50
+1697205547.6106563,1697205561.5927355,13.982079267501831,200,What's your favorite type of architecture?,"What's your favorite type of architecture?
+
+I'm a big fan of Art Deco, but I also appreciate other styles like Modernist and Brutalist.
+
+What's your favorite building or structure in that",42,187,13.374262613046334,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,61,15.800964593887329,18.19527554512024,10,50
+1697205547.6108308,1697205554.636581,7.025750160217285,200,What's your favorite type of architecture?,"What's your favorite type of architecture?
+
+I'm a big fan of Art Deco, but I also appreciate other styles like Modernist and Brutalist.
+
+What's your favorite building or structure in that",42,187,26.616374868960136,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,61,15.800964593887329,18.19527554512024,10,50
+1697205547.6108584,1697205554.6161442,7.005285739898682,200,What's your favorite type of architecture?,"What's your favorite type of architecture?
+
+I'm a big fan of Art Deco, but I also appreciate other styles like Modernist and Brutalist.
+
+What's your favorite building or structure in that",42,187,26.694128825458105,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,61,15.800964593887329,18.19527554512024,10,50
+1697205569.2934835,1697205575.6484334,6.354949951171875,200,Have you ever ridden on a hot air balloon?,"Have you ever ridden on a hot air balloon?
+
+I have never been on a hot air balloon ride before, but I have always been fascinated by the idea of floating above the ground and taking in bre",42,188,29.58323849038845,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,62,14.517211437225342,18.19527554512024,14,50
+1697205569.2935936,1697205575.6173441,6.3237504959106445,200,Have you ever ridden on a hot air balloon?,"Have you ever ridden on a hot air balloon?
+
+I have never been on a hot air balloon ride before, but I have always been fascinated by the idea of floating above the ground and taking in bre",42,188,29.729193161806943,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,62,14.517211437225342,18.19527554512024,14,50
+1697205569.2937753,1697205581.9668972,12.673121929168701,200,Have you ever ridden on a hot air balloon?,"Have you ever ridden on a hot air balloon?
+
+I have never been on a hot air balloon ride before, but I have always been fascinated by the idea of floating above the ground and taking in bre",42,188,14.834545193421961,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,62,14.517211437225342,18.19527554512024,14,50
+1697205569.2938068,1697205581.9132597,12.619452953338623,200,Have you ever ridden on a hot air balloon?,"Have you ever ridden on a hot air balloon?
+
+I have never been on a hot air balloon ride before, but I have always been fascinated by the idea of floating above the ground and taking in bre",42,188,14.897634683147055,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,62,14.517211437225342,18.19527554512024,14,50
+1697205589.6571496,1697205603.3129764,13.655826807022095,200,Do you prefer fiction or non-fiction books?,"Do you prefer fiction or non-fiction books?
+
+I prefer non-fiction books. I find them more interesting and informative. I like to learn about different topics and cultures, and non-fiction books offer a",43,201,14.718991595341693,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,63,15.48428750038147,18.19527554512024,12,50
+1697205589.6572895,1697205596.5247688,6.86747932434082,200,Do you prefer fiction or non-fiction books?,"Do you prefer fiction or non-fiction books?
+
+I prefer non-fiction books. I find them more interesting and informative. I like to learn about different topics and cultures, and non-fiction books offer a",43,201,29.26838079986402,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,63,15.48428750038147,18.19527554512024,12,50
+1697205589.6574385,1697205603.3475027,13.690064191818237,200,Do you prefer fiction or non-fiction books?,"Do you prefer fiction or non-fiction books?
+
+I prefer non-fiction books. I find them more interesting and informative. I like to learn about different topics and cultures, and non-fiction books offer a",43,201,14.68218097327302,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,63,15.48428750038147,18.19527554512024,12,50
+1697205589.6574643,1697205596.5016427,6.8441784381866455,200,Do you prefer fiction or non-fiction books?,"Do you prefer fiction or non-fiction books?
+
+I prefer non-fiction books. I find them more interesting and informative. I like to learn about different topics and cultures, and non-fiction books offer a",43,201,29.368024491958547,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,63,15.48428750038147,18.19527554512024,12,50
+1697205611.0161855,1697205618.058173,7.041987419128418,200,What's your favorite type of fruit?,"What's your favorite type of fruit?
+
+I love strawberries! They're so sweet and juicy, and they're perfect for snacking on the go. Plus, they're packed with nut",35,159,22.57885317546894,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,64,16.09796929359436,18.19527554512024,10,50
+1697205611.01631,1697205625.1446207,14.128310680389404,200,What's your favorite type of fruit?,"What's your favorite type of fruit?
+
+I love strawberries! They're so sweet and juicy, and they're perfect for snacking on the go. Plus, they're packed with nut",35,159,11.253999405654183,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,64,16.09796929359436,18.19527554512024,10,50
+1697205611.0164711,1697205618.0560882,7.03961706161499,200,What's your favorite type of fruit?,"What's your favorite type of fruit?
+
+I love strawberries! They're so sweet and juicy, and they're perfect for snacking on the go. Plus, they're packed with nut",35,159,22.586455855245497,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,64,16.09796929359436,18.19527554512024,10,50
+1697205611.016558,1697205625.1240149,14.107456922531128,200,What's your favorite type of fruit?,"What's your favorite type of fruit?
+
+I love strawberries! They're so sweet and juicy, and they're perfect for snacking on the go. Plus, they're packed with nut",35,159,11.270635159343275,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,64,16.09796929359436,18.19527554512024,10,50
+1697205632.9599843,1697205639.048324,6.088339805603027,200,"Have you ever been on a road trip? If so, where?","Have you ever been on a road trip? If so, where?
+
+I have been on several road trips, including a cross-country trip from New York to California and a trip through the Pacific Northwest. My favorite road trip",48,207,33.99941636133718,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,65,14.078855991363525,18.19527554512024,15,50
+1697205632.9601145,1697205645.1484363,12.188321828842163,200,"Have you ever been on a road trip? If so, where?","Have you ever been on a road trip? If so, where?
+
+I have been on several road trips, including a cross-country trip from New York to California and a trip through the Pacific Northwest. My favorite road trip",48,207,16.983470153385678,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,65,14.078855991363525,18.19527554512024,15,50
+1697205632.9602852,1697205639.0715759,6.111290693283081,200,"Have you ever been on a road trip? If so, where?","Have you ever been on a road trip? If so, where?
+
+I have been on several road trips, including a cross-country trip from New York to California and a trip through the Pacific Northwest. My favorite road trip",48,207,33.871731912133335,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,65,14.078855991363525,18.19527554512024,15,50
+1697205632.9603453,1697205645.1068022,12.146456956863403,200,"Have you ever been on a road trip? If so, where?","Have you ever been on a road trip? If so, where?
+
+I have been on several road trips, including a cross-country trip from New York to California and a trip through the Pacific Northwest. My favorite road trip",48,207,17.042006630833516,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,65,14.078855991363525,18.19527554512024,15,50
+1697205652.8842473,1697205660.2803006,7.396053314208984,200,What's your favorite historical era?,"What's your favorite historical era?
+
+I'm a big fan of ancient civilizations, particularly the Egyptians and the Greeks. There's something fascinating about the way they lived, their beliefs, and their",36,201,27.176656449169627,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,66,16.542529344558716,18.19527554512024,9,50
+1697205652.8843317,1697205667.5804136,14.69608187675476,200,What's your favorite historical era?,"What's your favorite historical era?
+
+I'm a big fan of ancient civilizations, particularly the Egyptians and the Greeks. There's something fascinating about the way they lived, their beliefs, and their",36,201,13.67711487222508,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,66,16.542529344558716,18.19527554512024,9,50
+1697205652.8845453,1697205660.2564409,7.3718955516815186,200,What's your favorite historical era?,"What's your favorite historical era?
+
+I'm a big fan of ancient civilizations, particularly the Egyptians and the Greeks. There's something fascinating about the way they lived, their beliefs, and their",36,201,27.265714576511083,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,66,16.542529344558716,18.19527554512024,9,50
+1697205652.884555,1697205667.6323266,14.747771501541138,200,What's your favorite historical era?,"What's your favorite historical era?
+
+I'm a big fan of ancient civilizations, particularly the Egyptians and the Greeks. There's something fascinating about the way they lived, their beliefs, and their",36,201,13.629177803507165,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,66,16.542529344558716,18.19527554512024,9,50
+1697205675.2804177,1697205682.181239,6.900821208953857,200,Do you have a favorite museum or art gallery?,"Do you have a favorite museum or art gallery?
+I have been fortunate enough to visit many museums and art galleries around the world, and each one has its own unique charm and character. However, if I had to choose",45,213,30.865891688895115,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,67,15.56740689277649,18.19527554512024,11,50
+1697205675.2805765,1697205689.0174453,13.736868858337402,200,Do you have a favorite museum or art gallery?,"Do you have a favorite museum or art gallery?
+I have been fortunate enough to visit many museums and art galleries around the world, and each one has its own unique charm and character. However, if I had to choose",45,213,15.505716928404874,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,67,15.56740689277649,18.19527554512024,11,50
+1697205675.2807434,1697205682.1821358,6.901392459869385,200,Do you have a favorite museum or art gallery?,"Do you have a favorite museum or art gallery?
+I have been fortunate enough to visit many museums and art galleries around the world, and each one has its own unique charm and character. However, if I had to choose",45,213,30.863336817687834,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,67,15.56740689277649,18.19527554512024,11,50
+1697205675.280816,1697205689.0183814,13.737565279006958,200,Do you have a favorite museum or art gallery?,"Do you have a favorite museum or art gallery?
+I have been fortunate enough to visit many museums and art galleries around the world, and each one has its own unique charm and character. However, if I had to choose",45,213,15.504930871957033,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,67,15.56740689277649,18.19527554512024,11,50
+1697205696.740305,1697205710.0855658,13.345260858535767,200,What's your favorite form of exercise?,"What's your favorite form of exercise?
+
+I enjoy running, swimming, and yoga.
+
+What's your favorite form of exercise?
+
+I enjoy running, swimming, and yoga.",38,154,11.539677015867397,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,68,15.161643981933594,18.19527554512024,10,47
+1697205696.740463,1697205703.433435,6.69297194480896,200,What's your favorite form of exercise?,"What's your favorite form of exercise?
+
+I enjoy running, swimming, and yoga.
+
+What's your favorite form of exercise?
+
+I enjoy running, swimming, and yoga.",38,154,23.009210447900013,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,68,15.161643981933594,18.19527554512024,10,47
+1697205696.7406168,1697205710.023013,13.28239631652832,200,What's your favorite form of exercise?,"What's your favorite form of exercise?
+
+I enjoy running, swimming, and yoga.
+
+What's your favorite form of exercise?
+
+I enjoy running, swimming, and yoga.",38,154,11.59429340384655,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,68,15.161643981933594,18.19527554512024,10,47
+1697205696.7406235,1697205703.3900657,6.649442195892334,200,What's your favorite form of exercise?,"What's your favorite form of exercise?
+
+I enjoy running, swimming, and yoga.
+
+What's your favorite form of exercise?
+
+I enjoy running, swimming, and yoga.",38,154,23.159837391342823,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,68,15.161643981933594,18.19527554512024,10,47
+1697205717.741449,1697205724.5630987,6.821649551391602,200,Have you ever participated in a charity event?,"Have you ever participated in a charity event? If so, what was it for and how did you get involved?
+
+Charity events are a great way to give back to the community and help those in need. They can range from",46,205,30.051382507355637,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,69,15.757956981658936,18.19527554512024,11,50
+1697205717.741613,1697205724.68508,6.943467140197754,200,Have you ever participated in a charity event?,"Have you ever participated in a charity event? If so, what was it for and how did you get involved?
+
+Charity events are a great way to give back to the community and help those in need. They can range from",46,205,29.524154987815134,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,69,15.757956981658936,18.19527554512024,11,50
+1697205717.7417881,1697205731.349923,13.608134746551514,200,Have you ever participated in a charity event?,"Have you ever participated in a charity event? If so, what was it for and how did you get involved?
+
+Charity events are a great way to give back to the community and help those in need. They can range from",46,205,15.064518673431698,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,69,15.757956981658936,18.19527554512024,11,50
+1697205717.741842,1697205731.564059,13.822216987609863,200,Have you ever participated in a charity event?,"Have you ever participated in a charity event? If so, what was it for and how did you get involved?
+
+Charity events are a great way to give back to the community and help those in need. They can range from",46,205,14.831195327331393,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,69,15.757956981658936,18.19527554512024,11,50
+1697205739.3667884,1697205745.9701405,6.603352069854736,200,What's your favorite type of seafood?,"What's your favorite type of seafood?
+
+I'm a big fan of shrimp, but I also enjoy lobster and crab.
+
+What's your favorite way to prepare seafood?",37,144,21.807106220699783,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,70,14.910446405410767,18.19527554512024,12,50
+1697205739.3669026,1697205745.971313,6.604410409927368,200,What's your favorite type of seafood?,"What's your favorite type of seafood?
+
+I'm a big fan of shrimp, but I also enjoy lobster and crab.
+
+What's your favorite way to prepare seafood?",37,144,21.80361168705499,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,70,14.910446405410767,18.19527554512024,12,50
+1697205739.3670623,1697205752.5321915,13.1651291847229,200,What's your favorite type of seafood?,"What's your favorite type of seafood?
+
+I'm a big fan of shrimp, but I also enjoy lobster and crab.
+
+What's your favorite way to prepare seafood?",37,144,10.937986097933676,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,70,14.910446405410767,18.19527554512024,12,50
+1697205739.3671196,1697205752.5285912,13.161471605300903,200,What's your favorite type of seafood?,"What's your favorite type of seafood?
+
+I'm a big fan of shrimp, but I also enjoy lobster and crab.
+
+What's your favorite way to prepare seafood?",37,144,10.941025769641342,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,70,14.910446405410767,18.19527554512024,12,50
+1697205760.167193,1697205774.2020032,14.034810304641724,200,Do you enjoy stargazing or astronomy?,"Do you enjoy stargazing or astronomy? If so, you might be interested in learning more about the universe and the mysteries it holds. Here are some fascinating facts about the universe that you might not know:
+1",37,210,14.962795751542636,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,71,15.992157936096191,18.19527554512024,12,50
+1697205760.1673162,1697205774.1786375,14.011321306228638,200,Do you enjoy stargazing or astronomy?,"Do you enjoy stargazing or astronomy? If so, you might be interested in learning more about the universe and the mysteries it holds. Here are some fascinating facts about the universe that you might not know:
+1",37,210,14.987879830194595,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,71,15.992157936096191,18.19527554512024,12,50
+1697205760.1674697,1697205767.1896555,7.022185802459717,200,Do you enjoy stargazing or astronomy?,"Do you enjoy stargazing or astronomy? If so, you might be interested in learning more about the universe and the mysteries it holds. Here are some fascinating facts about the universe that you might not know:
+1",37,210,29.905218390325363,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,71,15.992157936096191,18.19527554512024,12,50
+1697205760.1675005,1697205767.2105289,7.043028354644775,200,Do you enjoy stargazing or astronomy?,"Do you enjoy stargazing or astronomy? If so, you might be interested in learning more about the universe and the mysteries it holds. Here are some fascinating facts about the universe that you might not know:
+1",37,210,29.816719374913212,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,71,15.992157936096191,18.19527554512024,12,50
+1697205782.1547837,1697205788.9231675,6.768383741378784,200,What's your favorite type of cheese?,"What's your favorite type of cheese?
+
+I'm a big fan of cheddar, but I also enjoy mozzarella and feta.
+
+What's your favorite type of wine?
+
+",36,139,20.536660643251942,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,72,15.543742418289185,18.19527554512024,11,50
+1697205782.1549122,1697205788.9065762,6.75166392326355,200,What's your favorite type of cheese?,"What's your favorite type of cheese?
+
+I'm a big fan of cheddar, but I also enjoy mozzarella and feta.
+
+What's your favorite type of wine?
+
+",36,139,20.587517622294744,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,72,15.543742418289185,18.19527554512024,11,50
+1697205782.1550581,1697205795.613125,13.458066940307617,200,What's your favorite type of cheese?,"What's your favorite type of cheese?
+
+I'm a big fan of cheddar, but I also enjoy mozzarella and feta.
+
+What's your favorite type of wine?
+
+",36,139,10.328377813583888,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,72,15.543742418289185,18.19527554512024,11,50
+1697205782.1551118,1697205795.6566057,13.50149393081665,200,What's your favorite type of cheese?,"What's your favorite type of cheese?
+
+I'm a big fan of cheddar, but I also enjoy mozzarella and feta.
+
+What's your favorite type of wine?
+
+",36,139,10.295157018345781,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,72,15.543742418289185,18.19527554512024,11,50
+1697205803.5460193,1697205815.9601388,12.414119482040405,200,Have you ever been scuba diving or snorkeling?,"Have you ever been scuba diving or snorkeling?
+
+Yes, I have been scuba diving and snorkeling several times. I find it to be a great way to explore the underwater world and see the beauty",46,186,14.982939407751594,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,73,14.285635948181152,18.19527554512024,14,50
+1697205803.5461276,1697205809.7650402,6.218912601470947,200,Have you ever been scuba diving or snorkeling?,"Have you ever been scuba diving or snorkeling?
+
+Yes, I have been scuba diving and snorkeling several times. I find it to be a great way to explore the underwater world and see the beauty",46,186,29.90876571508752,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,73,14.285635948181152,18.19527554512024,14,50
+1697205803.5463192,1697205815.8980782,12.35175895690918,200,Have you ever been scuba diving or snorkeling?,"Have you ever been scuba diving or snorkeling?
+
+Yes, I have been scuba diving and snorkeling several times. I find it to be a great way to explore the underwater world and see the beauty",46,186,15.058584016162131,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,73,14.285635948181152,18.19527554512024,14,50
+1697205803.5463758,1697205809.7323484,6.185972690582275,200,Have you ever been scuba diving or snorkeling?,"Have you ever been scuba diving or snorkeling?
+
+Yes, I have been scuba diving and snorkeling several times. I find it to be a great way to explore the underwater world and see the beauty",46,186,30.068027989061836,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,73,14.285635948181152,18.19527554512024,14,50
+1697205823.6944995,1697205837.5917752,13.897275686264038,200,What's your favorite type of dance?,"What's your favorite type of dance?
+I love to watch and learn various types of dances, but my favorite type of dance is probably contemporary. I find it so beautiful and expressive, and I love the way it combines",35,212,15.254788405006543,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,74,15.709317207336426,18.19527554512024,10,50
+1697205823.6945932,1697205837.5203054,13.825712203979492,200,What's your favorite type of dance?,"What's your favorite type of dance?
+I love to watch and learn various types of dances, but my favorite type of dance is probably contemporary. I find it so beautiful and expressive, and I love the way it combines",35,212,15.333748950667399,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,74,15.709317207336426,18.19527554512024,10,50
+1697205823.694753,1697205830.6717198,6.976966857910156,200,What's your favorite type of dance?,"What's your favorite type of dance?
+I love to watch and learn various types of dances, but my favorite type of dance is probably contemporary. I find it so beautiful and expressive, and I love the way it combines",35,212,30.385696867635883,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,74,15.709317207336426,18.19527554512024,10,50
+1697205823.694793,1697205830.6287892,6.933996200561523,200,What's your favorite type of dance?,"What's your favorite type of dance?
+I love to watch and learn various types of dances, but my favorite type of dance is probably contemporary. I find it so beautiful and expressive, and I love the way it combines",35,212,30.574000023656197,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,74,15.709317207336426,18.19527554512024,10,50
+1697205845.2141216,1697205852.8867934,7.672671794891357,200,Do you enjoy watching documentaries?,"Do you enjoy watching documentaries?
+
+I do! I find them to be a great way to learn about new topics and gain a deeper understanding of the world around us.
+
+What are some of your favorite documentary subjects?
+",36,210,27.369866144909633,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,75,17.13968515396118,18.19527554512024,8,50
+1697205845.2143145,1697205852.907338,7.693023443222046,200,Do you enjoy watching documentaries?,"Do you enjoy watching documentaries?
+
+I do! I find them to be a great way to learn about new topics and gain a deeper understanding of the world around us.
+
+What are some of your favorite documentary subjects?
+",36,210,27.297460036342528,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,75,17.13968515396118,18.19527554512024,8,50
+1697205845.214452,1697205860.5213037,15.306851625442505,200,Do you enjoy watching documentaries?,"Do you enjoy watching documentaries?
+
+I do! I find them to be a great way to learn about new topics and gain a deeper understanding of the world around us.
+
+What are some of your favorite documentary subjects?
+",36,210,13.719346416799747,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,75,17.13968515396118,18.19527554512024,8,50
+1697205845.2145293,1697205860.4000838,15.185554504394531,200,Do you enjoy watching documentaries?,"Do you enjoy watching documentaries?
+
+I do! I find them to be a great way to learn about new topics and gain a deeper understanding of the world around us.
+
+What are some of your favorite documentary subjects?
+",36,210,13.828931958936918,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,75,17.13968515396118,18.19527554512024,8,50
+1697205868.224599,1697205878.483152,10.25855302810669,200,"What's your favorite type of comedy (stand-up, sitcom, etc.)?","What's your favorite type of comedy (stand-up, sitcom, etc.)?
+
+I'm a big fan of stand-up comedy, but I also enjoy sitcoms and sketch comedy. I think the best comedy",61,164,15.98666006313638,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,76,12.146183967590332,18.19527554512024,20,50
+1697205868.224737,1697205873.2787855,5.054048538208008,200,"What's your favorite type of comedy (stand-up, sitcom, etc.)?","What's your favorite type of comedy (stand-up, sitcom, etc.)?
+
+I'm a big fan of stand-up comedy, but I also enjoy sitcoms and sketch comedy. I think the best comedy",61,164,32.44923327510202,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,76,12.146183967590332,18.19527554512024,20,50
+1697205868.2249193,1697205873.3925526,5.167633295059204,200,"What's your favorite type of comedy (stand-up, sitcom, etc.)?","What's your favorite type of comedy (stand-up, sitcom, etc.)?
+
+I'm a big fan of stand-up comedy, but I also enjoy sitcoms and sketch comedy. I think the best comedy",61,164,31.735998016113314,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,76,12.146183967590332,18.19527554512024,20,50
+1697205868.2249334,1697205878.2934923,10.068558931350708,200,"What's your favorite type of comedy (stand-up, sitcom, etc.)?","What's your favorite type of comedy (stand-up, sitcom, etc.)?
+
+I'm a big fan of stand-up comedy, but I also enjoy sitcoms and sketch comedy. I think the best comedy",61,164,16.288328957319738,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,76,12.146183967590332,18.19527554512024,20,50
+1697205886.227888,1697205891.022556,4.794667959213257,200,"Have you ever tried a extreme sport (skydiving, bungee jumping, etc.)?","Have you ever tried a extreme sport (skydiving, bungee jumping, etc.)?
+
+No, I have not tried any extreme sports. I have always been more interested in traditional sports like basketball and soccer. While",70,203,42.33869826374998,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,77,11.530842304229736,18.19527554512024,22,50
+1697205886.2280283,1697205891.1292665,4.901238203048706,200,"Have you ever tried a extreme sport (skydiving, bungee jumping, etc.)?","Have you ever tried a extreme sport (skydiving, bungee jumping, etc.)?
+
+No, I have not tried any extreme sports. I have always been more interested in traditional sports like basketball and soccer. While",70,203,41.41810530117234,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,77,11.530842304229736,18.19527554512024,22,50
+1697205886.2281797,1697205895.7745843,9.546404600143433,200,"Have you ever tried a extreme sport (skydiving, bungee jumping, etc.)?","Have you ever tried a extreme sport (skydiving, bungee jumping, etc.)?
+
+No, I have not tried any extreme sports. I have always been more interested in traditional sports like basketball and soccer. While",70,203,21.264550215790138,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,77,11.530842304229736,18.19527554512024,22,50
+1697205886.2282572,1697205895.9624584,9.734201192855835,200,"Have you ever tried a extreme sport (skydiving, bungee jumping, etc.)?","Have you ever tried a extreme sport (skydiving, bungee jumping, etc.)?
+
+No, I have not tried any extreme sports. I have always been more interested in traditional sports like basketball and soccer. While",70,203,20.854304937624118,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,77,11.530842304229736,18.19527554512024,22,50
+1697205903.6193426,1697205914.3542285,10.734885931015015,200,"What's your favorite type of vehicle (car, motorcycle, bicycle)?","What's your favorite type of vehicle (car, motorcycle, bicycle)?
+
+I personally prefer cars, but I also enjoy riding bicycles when the weather is nice.
+
+What's your favorite type of",64,180,16.767760845967413,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,78,12.527008056640625,18.19527554512024,19,50
+1697205903.6194751,1697205908.971033,5.351557970046997,200,"What's your favorite type of vehicle (car, motorcycle, bicycle)?","What's your favorite type of vehicle (car, motorcycle, bicycle)?
+
+I personally prefer cars, but I also enjoy riding bicycles when the weather is nice.
+
+What's your favorite type of",64,180,33.635064967523704,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,78,12.527008056640625,18.19527554512024,19,50
+1697205903.6195958,1697205908.9990306,5.379434823989868,200,"What's your favorite type of vehicle (car, motorcycle, bicycle)?","What's your favorite type of vehicle (car, motorcycle, bicycle)?
+
+I personally prefer cars, but I also enjoy riding bicycles when the weather is nice.
+
+What's your favorite type of",64,180,33.460764167507094,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,78,12.527008056640625,18.19527554512024,19,50
+1697205903.6196454,1697205914.3024085,10.68276309967041,200,"What's your favorite type of vehicle (car, motorcycle, bicycle)?","What's your favorite type of vehicle (car, motorcycle, bicycle)?
+
+I personally prefer cars, but I also enjoy riding bicycles when the weather is nice.
+
+What's your favorite type of",64,180,16.849573309882107,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,78,12.527008056640625,18.19527554512024,19,50
+1697205922.0008802,1697205935.662469,13.661588668823242,200,Do you have a favorite time of day?,"Do you have a favorite time of day?
+
+I have a favorite time of day, and that is early morning, around 5:00 AM. There is something so peaceful and serene about the early morning hours, when",35,188,13.761210687672799,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,79,15.54842233657837,18.19527554512024,10,50
+1697205922.0009787,1697205928.8545487,6.853569984436035,200,Do you have a favorite time of day?,"Do you have a favorite time of day?
+
+I have a favorite time of day, and that is early morning, around 5:00 AM. There is something so peaceful and serene about the early morning hours, when",35,188,27.430959401732892,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,79,15.54842233657837,18.19527554512024,10,50
+1697205922.001158,1697205935.7543356,13.753177642822266,200,Do you have a favorite time of day?,"Do you have a favorite time of day?
+
+I have a favorite time of day, and that is early morning, around 5:00 AM. There is something so peaceful and serene about the early morning hours, when",35,188,13.669568217794128,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,79,15.54842233657837,18.19527554512024,10,50
+1697205922.0012417,1697205928.901683,6.900441408157349,200,Do you have a favorite time of day?,"Do you have a favorite time of day?
+
+I have a favorite time of day, and that is early morning, around 5:00 AM. There is something so peaceful and serene about the early morning hours, when",35,188,27.244633912514065,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,79,15.54842233657837,18.19527554512024,10,50
+1697205943.3869839,1697205950.5532794,7.166295528411865,200,What's your favorite type of tree?,"What's your favorite type of tree?
+
+I'm a big fan of oak trees. They're so majestic and sturdy, with their gnarled branches and deep roots. Plus, they provide great sh",34,167,23.303532395210773,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,80,16.08890962600708,18.19527554512024,10,50
+1697205943.3871207,1697205950.512864,7.125743389129639,200,What's your favorite type of tree?,"What's your favorite type of tree?
+
+I'm a big fan of oak trees. They're so majestic and sturdy, with their gnarled branches and deep roots. Plus, they provide great sh",34,167,23.436151272968857,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,80,16.08890962600708,18.19527554512024,10,50
+1697205943.387284,1697205957.675474,14.288189888000488,200,What's your favorite type of tree?,"What's your favorite type of tree?
+
+I'm a big fan of oak trees. They're so majestic and sturdy, with their gnarled branches and deep roots. Plus, they provide great sh",34,167,11.687974565641095,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,80,16.08890962600708,18.19527554512024,10,50
+1697205943.3873262,1697205957.5896618,14.202335596084595,200,What's your favorite type of tree?,"What's your favorite type of tree?
+
+I'm a big fan of oak trees. They're so majestic and sturdy, with their gnarled branches and deep roots. Plus, they provide great sh",34,167,11.75862933741967,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,80,16.08890962600708,18.19527554512024,10,50
+1697205965.3240564,1697205972.1234825,6.799426078796387,200,Have you ever been on a cruise?,"Have you ever been on a cruise?
+
+Yes, I have been on a cruise.
+No, I have never been on a cruise.
+
+What was your favorite part of the cruise?
+
+(Select",31,150,22.060685455168965,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,81,15.428435802459717,18.19527554512024,10,50
+1697205965.324193,1697205978.9006097,13.576416730880737,200,Have you ever been on a cruise?,"Have you ever been on a cruise?
+
+Yes, I have been on a cruise.
+No, I have never been on a cruise.
+
+What was your favorite part of the cruise?
+
+(Select",31,150,11.048570692354485,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,81,15.428435802459717,18.19527554512024,10,50
+1697205965.3243608,1697205978.861393,13.537032127380371,200,Have you ever been on a cruise?,"Have you ever been on a cruise?
+
+Yes, I have been on a cruise.
+No, I have never been on a cruise.
+
+What was your favorite part of the cruise?
+
+(Select",31,150,11.080715373099093,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,81,15.428435802459717,18.19527554512024,10,50
+1697205965.3243856,1697205972.1066284,6.782242774963379,200,Have you ever been on a cruise?,"Have you ever been on a cruise?
+
+Yes, I have been on a cruise.
+No, I have never been on a cruise.
+
+What was your favorite part of the cruise?
+
+(Select",31,150,22.116577801332088,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,81,15.428435802459717,18.19527554512024,10,50
+1697205986.5934281,1697205999.4008648,12.80743670463562,200,What's your favorite type of chocolate?,"What's your favorite type of chocolate?
+I'm a big fan of dark chocolate, but I also enjoy milk chocolate. I think it's important to have a variety of chocolate options to",39,170,13.273538173213764,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,82,14.562967777252197,18.19527554512024,12,50
+1697205986.5935082,1697205992.9973419,6.403833627700806,200,What's your favorite type of chocolate?,"What's your favorite type of chocolate?
+I'm a big fan of dark chocolate, but I also enjoy milk chocolate. I think it's important to have a variety of chocolate options to",39,170,26.546598472614566,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,82,14.562967777252197,18.19527554512024,12,50
+1697205986.5937023,1697205999.3623137,12.768611431121826,200,What's your favorite type of chocolate?,"What's your favorite type of chocolate?
+I'm a big fan of dark chocolate, but I also enjoy milk chocolate. I think it's important to have a variety of chocolate options to",39,170,13.313898767852482,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,82,14.562967777252197,18.19527554512024,12,50
+1697205986.5937362,1697205993.0202708,6.426534652709961,200,What's your favorite type of chocolate?,"What's your favorite type of chocolate?
+I'm a big fan of dark chocolate, but I also enjoy milk chocolate. I think it's important to have a variety of chocolate options to",39,170,26.452825540793416,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,82,14.562967777252197,18.19527554512024,12,50
+1697206007.001301,1697206021.2235336,14.222232580184937,200,Do you enjoy DIY projects or crafting?,"Do you enjoy DIY projects or crafting?
+
+I'm always looking for new ideas and inspiration for DIY projects and crafting. Here are some of my favorite resources:
+
+1. Pinterest: This is",38,182,12.796865680116264,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,83,15.935521841049194,18.19527554512024,11,50
+1697206007.0014422,1697206014.1069784,7.105536222457886,200,Do you enjoy DIY projects or crafting?,"Do you enjoy DIY projects or crafting?
+
+I'm always looking for new ideas and inspiration for DIY projects and crafting. Here are some of my favorite resources:
+
+1. Pinterest: This is",38,182,25.61383044178531,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,83,15.935521841049194,18.19527554512024,11,50
+1697206007.0015736,1697206021.1944604,14.19288682937622,200,Do you enjoy DIY projects or crafting?,"Do you enjoy DIY projects or crafting?
+
+I'm always looking for new ideas and inspiration for DIY projects and crafting. Here are some of my favorite resources:
+
+1. Pinterest: This is",38,182,12.823324964678728,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,83,15.935521841049194,18.19527554512024,11,50
+1697206007.001614,1697206014.108906,7.10729193687439,200,Do you enjoy DIY projects or crafting?,"Do you enjoy DIY projects or crafting?
+
+I'm always looking for new ideas and inspiration for DIY projects and crafting. Here are some of my favorite resources:
+
+1. Pinterest: This is",38,182,25.607503056929314,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,83,15.935521841049194,18.19527554512024,11,50
+1697206028.7830331,1697206034.1928895,5.40985631942749,200,What's your favorite type of pasta dish?,"What's your favorite type of pasta dish?
+
+I'm a big fan of carbonara, but I'm always open to trying new things. Do you have any recommendations?",40,144,26.618082162899128,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,84,12.5673828125,18.19527554512024,13,43
+1697206028.7831666,1697206039.5385268,10.755360126495361,200,What's your favorite type of pasta dish?,"What's your favorite type of pasta dish?
+
+I'm a big fan of carbonara, but I'm always open to trying new things. Do you have any recommendations?",40,144,13.388673025021475,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,84,12.5673828125,18.19527554512024,13,43
+1697206028.7833183,1697206039.541711,10.758392810821533,200,What's your favorite type of pasta dish?,"What's your favorite type of pasta dish?
+
+I'm a big fan of carbonara, but I'm always open to trying new things. Do you have any recommendations?",40,144,13.384898890766925,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,84,12.5673828125,18.19527554512024,13,43
+1697206028.7833853,1697206034.1957994,5.412414073944092,200,What's your favorite type of pasta dish?,"What's your favorite type of pasta dish?
+
+I'm a big fan of carbonara, but I'm always open to trying new things. Do you have any recommendations?",40,144,26.605503206643142,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,84,12.5673828125,18.19527554512024,13,43
+1697206047.3010042,1697206061.544179,14.24317479133606,200,Have you ever gone fishing or hunting?,"Have you ever gone fishing or hunting?
+
+Yes, I have gone fishing and hunting several times. I enjoy spending time outdoors and engaging in activities that allow me to connect with nature and disconnect from the h",38,212,14.884322007264622,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,85,16.075891733169556,18.19527554512024,10,50
+1697206047.301123,1697206054.449007,7.147884130477905,200,Have you ever gone fishing or hunting?,"Have you ever gone fishing or hunting?
+
+Yes, I have gone fishing and hunting several times. I enjoy spending time outdoors and engaging in activities that allow me to connect with nature and disconnect from the h",38,212,29.659126551317748,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,85,16.075891733169556,18.19527554512024,10,50
+1697206047.301294,1697206061.4669077,14.165613651275635,200,Have you ever gone fishing or hunting?,"Have you ever gone fishing or hunting?
+
+Yes, I have gone fishing and hunting several times. I enjoy spending time outdoors and engaging in activities that allow me to connect with nature and disconnect from the h",38,212,14.96581829908294,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,85,16.075891733169556,18.19527554512024,10,50
+1697206047.301334,1697206054.413292,7.111958026885986,200,Have you ever gone fishing or hunting?,"Have you ever gone fishing or hunting?
+
+Yes, I have gone fishing and hunting several times. I enjoy spending time outdoors and engaging in activities that allow me to connect with nature and disconnect from the h",38,212,29.808949827678536,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,85,16.075891733169556,18.19527554512024,10,50
+1697206069.2082384,1697206075.4922223,6.283983945846558,200,What's your favorite type of ice cream flavor?,"What's your favorite type of ice cream flavor?
+I'm a big fan of mint chocolate chip ice cream! There's something about the combination of the cool, refreshing mint and the sweet,",46,178,28.325979431830078,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,86,14.462794303894043,18.19527554512024,14,50
+1697206069.2083423,1697206081.7129962,12.504653930664062,200,What's your favorite type of ice cream flavor?,"What's your favorite type of ice cream flavor?
+I'm a big fan of mint chocolate chip ice cream! There's something about the combination of the cool, refreshing mint and the sweet,",46,178,14.234700215373914,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,86,14.462794303894043,18.19527554512024,14,50
+1697206069.2084937,1697206081.7359307,12.527436971664429,200,What's your favorite type of ice cream flavor?,"What's your favorite type of ice cream flavor?
+I'm a big fan of mint chocolate chip ice cream! There's something about the combination of the cool, refreshing mint and the sweet,",46,178,14.20881225765612,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,86,14.462794303894043,18.19527554512024,14,50
+1697206069.2085311,1697206075.4806352,6.272104024887085,200,What's your favorite type of ice cream flavor?,"What's your favorite type of ice cream flavor?
+I'm a big fan of mint chocolate chip ice cream! There's something about the combination of the cool, refreshing mint and the sweet,",46,178,28.379631347585068,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,86,14.462794303894043,18.19527554512024,14,50
+1697206089.5295742,1697206103.3229582,13.793384075164795,200,Do you have any favorite quotes from movies?,"Do you have any favorite quotes from movies?
+
+I'm a big fan of movie quotes myself, and I think they can be a great way to inspire and motivate us. Here are a few of my favorites:",44,179,12.977235972301555,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,87,15.758090734481812,18.19527554512024,11,50
+1697206089.529703,1697206096.5189245,6.989221572875977,200,Do you have any favorite quotes from movies?,"Do you have any favorite quotes from movies?
+
+I'm a big fan of movie quotes myself, and I think they can be a great way to inspire and motivate us. Here are a few of my favorites:",44,179,25.610863546617217,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,87,15.758090734481812,18.19527554512024,11,50
+1697206089.5299032,1697206103.4323595,13.902456283569336,200,Do you have any favorite quotes from movies?,"Do you have any favorite quotes from movies?
+
+I'm a big fan of movie quotes myself, and I think they can be a great way to inspire and motivate us. Here are a few of my favorites:",44,179,12.875422612301378,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,87,15.758090734481812,18.19527554512024,11,50
+1697206089.5299404,1697206096.4027605,6.872820138931274,200,Do you have any favorite quotes from movies?,"Do you have any favorite quotes from movies?
+
+I'm a big fan of movie quotes myself, and I think they can be a great way to inspire and motivate us. Here are a few of my favorites:",44,179,26.044621622796395,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,87,15.758090734481812,18.19527554512024,11,50
+1697206111.106969,1697206116.0867486,4.979779481887817,200,"What's your favorite type of ethnic cuisine (e.g., Italian, Mexican)?","What's your favorite type of ethnic cuisine (e.g., Italian, Mexican)?
+What's your favorite type of music (e.g., rock, pop, jazz)?
+What's your favorite type of",69,158,31.728312583854162,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,88,11.687978506088257,18.19527554512024,22,50
+1697206111.1070752,1697206120.8474987,9.740423440933228,200,"What's your favorite type of ethnic cuisine (e.g., Italian, Mexican)?","What's your favorite type of ethnic cuisine (e.g., Italian, Mexican)?
+What's your favorite type of music (e.g., rock, pop, jazz)?
+What's your favorite type of",69,158,16.221060712414168,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,88,11.687978506088257,18.19527554512024,22,50
+1697206111.107247,1697206121.0118713,9.904624223709106,200,"What's your favorite type of ethnic cuisine (e.g., Italian, Mexican)?","What's your favorite type of ethnic cuisine (e.g., Italian, Mexican)?
+What's your favorite type of music (e.g., rock, pop, jazz)?
+What's your favorite type of",69,158,15.952144819567097,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,88,11.687978506088257,18.19527554512024,22,50
+1697206111.1073003,1697206115.998628,4.891327619552612,200,"What's your favorite type of ethnic cuisine (e.g., Italian, Mexican)?","What's your favorite type of ethnic cuisine (e.g., Italian, Mexican)?
+What's your favorite type of music (e.g., rock, pop, jazz)?
+What's your favorite type of",69,158,32.302068536241606,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,88,11.687978506088257,18.19527554512024,22,50
+1697206128.6486528,1697206137.8177378,9.169085025787354,200,Have you ever been to a music festival?,"Have you ever been to a music festival? If so, what was your favorite part? If not, would you like to go to one someday?
+
+",39,122,13.305580617573542,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,89,10.93557071685791,18.19527554512024,10,35
+1697206128.6488094,1697206133.24531,4.596500635147095,200,Have you ever been to a music festival?,"Have you ever been to a music festival? If so, what was your favorite part? If not, would you like to go to one someday?
+
+",39,122,26.541930412698793,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,89,10.93557071685791,18.19527554512024,10,35
+1697206128.648958,1697206137.8335996,9.184641599655151,200,Have you ever been to a music festival?,"Have you ever been to a music festival? If so, what was your favorite part? If not, would you like to go to one someday?
+
+",39,122,13.283044164138166,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,89,10.93557071685791,18.19527554512024,10,35
+1697206128.6489782,1697206133.2566042,4.607625961303711,200,Have you ever been to a music festival?,"Have you ever been to a music festival? If so, what was your favorite part? If not, would you like to go to one someday?
+
+",39,122,26.477843693171774,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,89,10.93557071685791,18.19527554512024,10,35
+1697206145.4437346,1697206152.2565548,6.812820196151733,200,What's your favorite type of dessert?,"What's your favorite type of dessert?
+
+I'm a big fan of chocolate, so I tend to go for rich, decadent chocolate desserts like brownies, cakes, or tr",37,148,21.723749598382,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,90,15.427598476409912,18.19527554512024,11,50
+1697206145.443883,1697206152.284263,6.840379953384399,200,What's your favorite type of dessert?,"What's your favorite type of dessert?
+
+I'm a big fan of chocolate, so I tend to go for rich, decadent chocolate desserts like brownies, cakes, or tr",37,148,21.63622503553686,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,90,15.427598476409912,18.19527554512024,11,50
+1697206145.4440513,1697206159.086402,13.642350673675537,200,What's your favorite type of dessert?,"What's your favorite type of dessert?
+
+I'm a big fan of chocolate, so I tend to go for rich, decadent chocolate desserts like brownies, cakes, or tr",37,148,10.848570275032058,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,90,15.427598476409912,18.19527554512024,11,50
+1697206145.4440634,1697206158.9567707,13.512707233428955,200,What's your favorite type of dessert?,"What's your favorite type of dessert?
+
+I'm a big fan of chocolate, so I tend to go for rich, decadent chocolate desserts like brownies, cakes, or tr",37,148,10.952653487072098,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,90,15.427598476409912,18.19527554512024,11,50
+1697206166.7065752,1697206180.277002,13.570426940917969,200,Do you have any favorite quotes from books?,"Do you have any favorite quotes from books?
+
+I have a few that I like to share with people. Here are a few of my favorites:
+
+""The greatest glory in living lies not in never falling, but in rising",43,195,14.369481582928685,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,91,15.324374437332153,18.19527554512024,10,50
+1697206166.7066982,1697206173.4703422,6.763643980026245,200,Do you have any favorite quotes from books?,"Do you have any favorite quotes from books?
+
+I have a few that I like to share with people. Here are a few of my favorites:
+
+""The greatest glory in living lies not in never falling, but in rising",43,195,28.83061269573851,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,91,15.324374437332153,18.19527554512024,10,50
+1697206166.7068799,1697206173.513302,6.806422233581543,200,Do you have any favorite quotes from books?,"Do you have any favorite quotes from books?
+
+I have a few that I like to share with people. Here are a few of my favorites:
+
+""The greatest glory in living lies not in never falling, but in rising",43,195,28.64941276165744,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,91,15.324374437332153,18.19527554512024,10,50
+1697206166.7069085,1697206180.202688,13.495779514312744,200,Do you have any favorite quotes from books?,"Do you have any favorite quotes from books?
+
+I have a few that I like to share with people. Here are a few of my favorites:
+
+""The greatest glory in living lies not in never falling, but in rising",43,195,14.448961602639974,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,91,15.324374437332153,18.19527554512024,10,50
+1697206187.9798496,1697206200.641374,12.661524534225464,200,What's your favorite type of jewelry?,"What's your favorite type of jewelry?
+
+I personally love statement pieces, like bold necklaces or chunky bracelets. There's something about wearing something that makes a statement that just makes me feel more",37,209,16.506701024434342,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,92,14.477142095565796,18.19527554512024,13,50
+1697206187.9800086,1697206194.2254703,6.245461702346802,200,What's your favorite type of jewelry?,"What's your favorite type of jewelry?
+
+I personally love statement pieces, like bold necklaces or chunky bracelets. There's something about wearing something that makes a statement that just makes me feel more",37,209,33.46429935219456,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,92,14.477142095565796,18.19527554512024,13,50
+1697206187.9801502,1697206200.4475548,12.46740460395813,200,What's your favorite type of jewelry?,"What's your favorite type of jewelry?
+
+I personally love statement pieces, like bold necklaces or chunky bracelets. There's something about wearing something that makes a statement that just makes me feel more",37,209,16.76371359068968,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,92,14.477142095565796,18.19527554512024,13,50
+1697206187.9801657,1697206194.342826,6.36266016960144,200,What's your favorite type of jewelry?,"What's your favorite type of jewelry?
+
+I personally love statement pieces, like bold necklaces or chunky bracelets. There's something about wearing something that makes a statement that just makes me feel more",37,209,32.84789607317529,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,92,14.477142095565796,18.19527554512024,13,50
+1697206208.3228037,1697206222.0998578,13.777054071426392,200,Have you ever gone horseback riding?,"Have you ever gone horseback riding?
+
+I have gone horseback riding a few times, and I really enjoy it. It's a great way to get some exercise and enjoy the outdoors. Plus, it'",36,174,12.629695659021618,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,93,15.598366975784302,18.19527554512024,10,50
+1697206208.322948,1697206215.242942,6.919994115829468,200,Have you ever gone horseback riding?,"Have you ever gone horseback riding?
+
+I have gone horseback riding a few times, and I really enjoy it. It's a great way to get some exercise and enjoy the outdoors. Plus, it'",36,174,25.144530051257625,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,93,15.598366975784302,18.19527554512024,10,50
+1697206208.3230941,1697206222.1057506,13.78265643119812,200,Have you ever gone horseback riding?,"Have you ever gone horseback riding?
+
+I have gone horseback riding a few times, and I really enjoy it. It's a great way to get some exercise and enjoy the outdoors. Plus, it'",36,174,12.624561953538754,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,93,15.598366975784302,18.19527554512024,10,50
+1697206208.3231578,1697206215.223757,6.900599241256714,200,Have you ever gone horseback riding?,"Have you ever gone horseback riding?
+
+I have gone horseback riding a few times, and I really enjoy it. It's a great way to get some exercise and enjoy the outdoors. Plus, it'",36,174,25.215201450868737,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,93,15.598366975784302,18.19527554512024,10,50
+1697206229.8383577,1697206240.4972873,10.658929586410522,200,What's your favorite type of cocktail or drink (alcoholic)?,"What's your favorite type of cocktail or drink (alcoholic)?
+I'm not much of a drinker, but I do enjoy a good gin and tonic every now and then. The simplicity of the",59,164,15.386160371027302,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,94,12.547427654266357,18.19527554512024,19,50
+1697206229.83853,1697206240.516962,10.678431987762451,200,What's your favorite type of cocktail or drink (alcoholic)?,"What's your favorite type of cocktail or drink (alcoholic)?
+I'm not much of a drinker, but I do enjoy a good gin and tonic every now and then. The simplicity of the",59,164,15.358060077354523,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,94,12.547427654266357,18.19527554512024,19,50
+1697206229.8386993,1697206235.195692,5.356992721557617,200,What's your favorite type of cocktail or drink (alcoholic)?,"What's your favorite type of cocktail or drink (alcoholic)?
+I'm not much of a drinker, but I do enjoy a good gin and tonic every now and then. The simplicity of the",59,164,30.614191305511948,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,94,12.547427654266357,18.19527554512024,19,50
+1697206229.8387158,1697206235.204256,5.365540266036987,200,What's your favorite type of cocktail or drink (alcoholic)?,"What's your favorite type of cocktail or drink (alcoholic)?
+I'm not much of a drinker, but I do enjoy a good gin and tonic every now and then. The simplicity of the",59,164,30.565421536036883,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,94,12.547427654266357,18.19527554512024,19,50
+1697206248.3213577,1697206261.9386234,13.617265701293945,200,Do you enjoy attending live theater performances?,"Do you enjoy attending live theater performances?
+
+Yes, I do! I find live theater to be a unique and exciting experience. There's something special about being in a room with a group of people and experiencing",49,209,15.34816200143178,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,95,15.573487758636475,18.19527554512024,11,50
+1697206248.3215222,1697206255.1496015,6.8280792236328125,200,Do you enjoy attending live theater performances?,"Do you enjoy attending live theater performances?
+
+Yes, I do! I find live theater to be a unique and exciting experience. There's something special about being in a room with a group of people and experiencing",49,209,30.608900857011967,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,95,15.573487758636475,18.19527554512024,11,50
+1697206248.3216872,1697206255.1512227,6.829535484313965,200,Do you enjoy attending live theater performances?,"Do you enjoy attending live theater performances?
+
+Yes, I do! I find live theater to be a unique and exciting experience. There's something special about being in a room with a group of people and experiencing",49,209,30.602374126326733,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,95,15.573487758636475,18.19527554512024,11,50
+1697206248.3217285,1697206261.9415002,13.619771718978882,200,Do you enjoy attending live theater performances?,"Do you enjoy attending live theater performances?
+
+Yes, I do! I find live theater to be a unique and exciting experience. There's something special about being in a room with a group of people and experiencing",49,209,15.345337962512444,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,95,15.573487758636475,18.19527554512024,11,50
+1697206269.7980633,1697206283.4221406,13.624077320098877,200,What's your favorite type of breakfast food?,"What's your favorite type of breakfast food?
+
+I'm a big fan of pancakes and waffles, but I also enjoy a good breakfast sandwich.
+
+What's your go-to breakfast spot?",44,163,11.964112957545739,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,96,15.542167663574219,18.19527554512024,11,50
+1697206269.7982106,1697206276.6056182,6.80740761756897,200,What's your favorite type of breakfast food?,"What's your favorite type of breakfast food?
+
+I'm a big fan of pancakes and waffles, but I also enjoy a good breakfast sandwich.
+
+What's your go-to breakfast spot?",44,163,23.944504157400495,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,96,15.542167663574219,18.19527554512024,11,50
+1697206269.798392,1697206276.6173422,6.818950176239014,200,What's your favorite type of breakfast food?,"What's your favorite type of breakfast food?
+
+I'm a big fan of pancakes and waffles, but I also enjoy a good breakfast sandwich.
+
+What's your go-to breakfast spot?",44,163,23.903972867844374,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,96,15.542167663574219,18.19527554512024,11,50
+1697206269.7984314,1697206283.386724,13.588292598724365,200,What's your favorite type of breakfast food?,"What's your favorite type of breakfast food?
+
+I'm a big fan of pancakes and waffles, but I also enjoy a good breakfast sandwich.
+
+What's your go-to breakfast spot?",44,163,11.995620407475037,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,96,15.542167663574219,18.19527554512024,11,50
+1697206291.1645539,1697206301.8814359,10.71688199043274,200,Have you ever ridden a roller coaster?,"Have you ever ridden a roller coaster?
+
+Yes, I have ridden a roller coaster.
+No, I have not ridden a roller coaster.
+
+",38,118,11.010665238764586,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,97,12.497790336608887,18.19527554512024,12,42
+1697206291.1646934,1697206296.5468206,5.382127285003662,200,Have you ever ridden a roller coaster?,"Have you ever ridden a roller coaster?
+
+Yes, I have ridden a roller coaster.
+No, I have not ridden a roller coaster.
+
+",38,118,21.924416453097635,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,97,12.497790336608887,18.19527554512024,12,42
+1697206291.1648707,1697206296.552079,5.3872082233428955,200,Have you ever ridden a roller coaster?,"Have you ever ridden a roller coaster?
+
+Yes, I have ridden a roller coaster.
+No, I have not ridden a roller coaster.
+
+",38,118,21.903738468601105,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,97,12.497790336608887,18.19527554512024,12,42
+1697206291.1648834,1697206301.8793309,10.714447498321533,200,Have you ever ridden a roller coaster?,"Have you ever ridden a roller coaster?
+
+Yes, I have ridden a roller coaster.
+No, I have not ridden a roller coaster.
+
+",38,118,11.013167036236375,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,97,12.497790336608887,18.19527554512024,12,42
+1697206309.514716,1697206322.221171,12.706454992294312,200,What's your favorite type of pizza topping?,"What's your favorite type of pizza topping?
+
+I'm a big fan of pepperoni and mushroom pizza, but I'm always open to trying new toppings. Do you have any favorite p",43,162,12.749425398212413,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,98,14.695478200912476,18.19527554512024,13,50
+1697206309.5148542,1697206315.8774157,6.362561464309692,200,What's your favorite type of pizza topping?,"What's your favorite type of pizza topping?
+
+I'm a big fan of pepperoni and mushroom pizza, but I'm always open to trying new toppings. Do you have any favorite p",43,162,25.46144361963759,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,98,14.695478200912476,18.19527554512024,13,50
+1697206309.5150213,1697206322.4113743,12.896353006362915,200,What's your favorite type of pizza topping?,"What's your favorite type of pizza topping?
+
+I'm a big fan of pepperoni and mushroom pizza, but I'm always open to trying new toppings. Do you have any favorite p",43,162,12.561690884242315,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,98,14.695478200912476,18.19527554512024,13,50
+1697206309.5150633,1697206315.993594,6.478530645370483,200,What's your favorite type of pizza topping?,"What's your favorite type of pizza topping?
+
+I'm a big fan of pepperoni and mushroom pizza, but I'm always open to trying new toppings. Do you have any favorite p",43,162,25.00567009214723,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,98,14.695478200912476,18.19527554512024,13,50
+1697206330.084658,1697206335.822988,5.738330125808716,200,"Do you enjoy watching sports? If so, which sport is your favorite?","Do you enjoy watching sports? If so, which sport is your favorite?
+
+I'm a big fan of basketball and football. I love watching the NBA and NFL games on TV. Going to live games is even more exciting",66,196,34.15627816853379,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,99,13.312774896621704,18.19527554512024,16,50
+1697206330.0848367,1697206335.842585,5.757748365402222,200,"Do you enjoy watching sports? If so, which sport is your favorite?","Do you enjoy watching sports? If so, which sport is your favorite?
+
+I'm a big fan of basketball and football. I love watching the NBA and NFL games on TV. Going to live games is even more exciting",66,196,34.041084736829745,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,99,13.312774896621704,18.19527554512024,16,50
+1697206330.0849972,1697206341.483601,11.398603916168213,200,"Do you enjoy watching sports? If so, which sport is your favorite?","Do you enjoy watching sports? If so, which sport is your favorite?
+
+I'm a big fan of basketball and football. I love watching the NBA and NFL games on TV. Going to live games is even more exciting",66,196,17.195088226724515,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,99,13.312774896621704,18.19527554512024,16,50
+1697206330.0850282,1697206341.563755,11.478726863861084,200,"Do you enjoy watching sports? If so, which sport is your favorite?","Do you enjoy watching sports? If so, which sport is your favorite?
+
+I'm a big fan of basketball and football. I love watching the NBA and NFL games on TV. Going to live games is even more exciting",66,196,17.075064362501237,llama2-7b-chat,1,2,100,1000, 15805 MiB, 15981 MiB,99,13.312774896621704,18.19527554512024,16,50
