@@ -50,8 +50,7 @@ class TransformersGpt2Handler(BaseHandler):
             ):
                 outputs = outputs[:, input_length:]
                 batch_out_sentence = self.tokenizer.batch_decode(outputs)
-                send_intermediate_predict_response(batch_out_sentence, self.context.request_ids,
-                                                   "Intermediate Prediction success", 200, self.context)
+                # send_intermediate_predict_response(batch_out_sentence, self.context.request_ids, "Intermediate Prediction success", 200, self.context)
 
             return batch_out_sentence
 
